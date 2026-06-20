@@ -1,0 +1,30 @@
+{
+    "random_forest": {
+        "Density_g_cm3": 0.07642809868992775,
+        "Yield_Strength_MPa": 0.06456249381047012,
+        "Tensile_Strength_MPa": 0.09403842933745817,
+        "Hardness_HB": 0.06137874371360401,
+        "Corrosion_Resistance_0_10": 0.08365055792467697,
+        "Thermal_Conductivity_W_mK": 0.13394402827624524,
+        "Cost_Index_1_10": 0.07071922149108938,
+        "Melting_Point_C": 0.10007041255415824,
+        "Machinability": 0.055792494000873015,
+        "strength_weight": 0.09169212445318718,
+        "cost_perf": 0.06662876726038754,
+        "thermal_strength_ratio": 0.10109462848792233
+    },
+    "gradient_boosting": {
+        "Density_g_cm3": 0.17731684132871256,
+        "Yield_Strength_MPa": 0.0007492470041955729,
+        "Tensile_Strength_MPa": 0.23666537563708923,
+        "Hardness_HB": 0.0020717680840103762,
+        "Corrosion_Resistance_0_10": 0.02501366551799932,
+        "Thermal_Conductivity_W_mK": 0.3438650237665665,
+        "Cost_Index_1_10": 0.07106033914112617,
+        "Melting_Point_C": 0.027335417353991486,
+        "Machinability": 0.017340568107585254,
+        "strength_weight": 0.056264764398325846,
+        "cost_perf": 0.01079121059147414,
+        "thermal_strength_ratio": 0.031525779068923544
+    }
+}

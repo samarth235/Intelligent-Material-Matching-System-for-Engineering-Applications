@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Model files (optional, but good practice if they are large - here they are small enough, but let's keep them tracked or ignore them? The user said "push all files to this", so we should keep models tracked unless they are too big. 3.8MB is fine.)
