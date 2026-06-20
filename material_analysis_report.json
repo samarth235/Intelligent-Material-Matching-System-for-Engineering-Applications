@@ -1,0 +1,4255 @@
+{
+    "summary": {
+        "total_materials": 1493,
+        "alloy_types": 13,
+        "applications": 23,
+        "properties_tracked": 11
+    },
+    "alloy_distribution": {
+        "Carbon Steel": 891,
+        "Aluminum": 273,
+        "Copper Alloy": 153,
+        "Stainless Steel": 101,
+        "Magnesium": 40,
+        "Tool Steel": 15,
+        "Nickel Alloy": 6,
+        "Titanium": 5,
+        "Refractory": 3,
+        "Cobalt Alloy": 2,
+        "Duplex Stainless": 2,
+        "Copper": 1,
+        "Nickel": 1
+    },
+    "application_distribution": {
+        "General Purpose": 882,
+        "Structural": 248,
+        "Marine": 145,
+        "Aircraft": 39,
+        "Cutting Tools": 32,
+        "Springs": 21,
+        "Aerospace": 19,
+        "Automotive": 18,
+        "Valve Parts": 18,
+        "Casting": 16,
+        "Die Casting": 15,
+        "Aircraft Structures": 12,
+        "Aerospace Structures": 8,
+        "Castings": 6,
+        "High Temperature": 4,
+        "Chemical Processing": 3,
+        "Marine/Chemical": 1,
+        "Electrical": 1,
+        "Turbine Blades": 1,
+        "Subsea": 1,
+        "Turbine": 1,
+        "Jet Engines": 1,
+        "Medical Implants": 1
+    },
+    "property_statistics": {
+        "Density_g_cm3": {
+            "min": 1.75,
+            "max": 19.3,
+            "mean": 6.891085063630274,
+            "median": 7.86,
+            "std": 2.2312939480125906,
+            "q25": 7.16,
+            "q75": 7.86
+        },
+        "Yield_Strength_MPa": {
+            "min": 28.0,
+            "max": 2048.0,
+            "mean": 389.9421969189551,
+            "median": 303.0,
+            "std": 297.96219075418094,
+            "q25": 200.0,
+            "q75": 483.0
+        },
+        "Tensile_Strength_MPa": {
+            "min": 69.0,
+            "max": 2220.0,
+            "mean": 573.8713998660415,
+            "median": 500.0,
+            "std": 334.0706360715312,
+            "q25": 340.0,
+            "q75": 703.0
+        },
+        "Hardness_HB": {
+            "min": 19.0,
+            "max": 627.0,
+            "mean": 168.0683858004019,
+            "median": 149.7,
+            "std": 97.8477228580472,
+            "q25": 95.0,
+            "q75": 217.0
+        },
+        "Corrosion_Resistance_0_10": {
+            "min": 2.0,
+            "max": 10.0,
+            "mean": 4.616878767582049,
+            "median": 3.0,
+            "std": 2.209359607679003,
+            "q25": 3.0,
+            "q75": 7.0
+        },
+        "Thermal_Conductivity_W_mK": {
+            "min": 7.4,
+            "max": 397.0,
+            "mean": 66.93214333556598,
+            "median": 49.38,
+            "std": 48.64736709245114,
+            "q25": 42.57,
+            "q75": 55.24
+        },
+        "Cost_Index_1_10": {
+            "min": 1.0,
+            "max": 10.0,
+            "mean": 3.0247823174815807,
+            "median": 3.0,
+            "std": 1.6101394237694646,
+            "q25": 2.0,
+            "q75": 4.0
+        },
+        "Melting_Point_C": {
+            "min": 435.4,
+            "max": 3422.0,
+            "mean": 1282.9933020763563,
+            "median": 1506.0,
+            "std": 372.88463466976236,
+            "q25": 1036.5,
+            "q75": 1526.4
+        },
+        "Machinability": {
+            "min": 2.0,
+            "max": 10.0,
+            "mean": 7.0127260549229735,
+            "median": 7.0,
+            "std": 1.1551139948609552,
+            "q25": 6.0,
+            "q75": 8.0
+        }
+    },
+    "strength_to_weight": [
+        {
+            "Material": "Titanium Ti-10V-2Fe-3Al",
+            "Tensile_Strength_MPa": 1379.0,
+            "Density_g_cm3": 4.54,
+            "Strength_to_Weight_Ratio": 303.74449339207047
+        },
+        {
+            "Material": "Steel SAE 5160 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 2220.0,
+            "Density_g_cm3": 7.86,
+            "Strength_to_Weight_Ratio": 282.44274809160305
+        },
+        {
+            "Material": "Steel SAE 9255 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 2103.0,
+            "Density_g_cm3": 7.86,
+            "Strength_to_Weight_Ratio": 267.55725190839695
+        },
+        {
+            "Material": "Titanium Ti-5Al-5V-5Fe",
+            "Tensile_Strength_MPa": 1260.0,
+            "Density_g_cm3": 4.81,
+            "Strength_to_Weight_Ratio": 261.954261954262
+        },
+        {
+            "Material": "Steel SAE 8740 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1999.0,
+            "Density_g_cm3": 7.86,
+            "Strength_to_Weight_Ratio": 254.32569974554707
+        },
+        {
+            "Material": "Steel SAE 5150 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1944.0,
+            "Density_g_cm3": 7.86,
+            "Strength_to_Weight_Ratio": 247.32824427480915
+        },
+        {
+            "Material": "Steel SAE 8650 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1937.0,
+            "Density_g_cm3": 7.86,
+            "Strength_to_Weight_Ratio": 246.43765903307886
+        },
+        {
+            "Material": "Steel SAE 4150 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1931.0,
+            "Density_g_cm3": 7.86,
+            "Strength_to_Weight_Ratio": 245.67430025445293
+        },
+        {
+            "Material": "Steel SAE 6150 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1931.0,
+            "Density_g_cm3": 7.86,
+            "Strength_to_Weight_Ratio": 245.67430025445293
+        },
+        {
+            "Material": "Steel SAE 51440C (tempered at 600 F)",
+            "Tensile_Strength_MPa": 1965.0,
+            "Density_g_cm3": 8.03,
+            "Strength_to_Weight_Ratio": 244.7073474470735
+        }
+    ],
+    "cost_effectiveness": [
+        {
+            "Material": "Steel SAE 9255 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 2103.0,
+            "Cost_Index_1_10": 2,
+            "Performance_per_Cost": 1051.5
+        },
+        {
+            "Material": "Steel SAE 6150 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1931.0,
+            "Cost_Index_1_10": 2,
+            "Performance_per_Cost": 965.5
+        },
+        {
+            "Material": "Steel SAE 8640 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1862.0,
+            "Cost_Index_1_10": 2,
+            "Performance_per_Cost": 931.0
+        },
+        {
+            "Material": "Steel SAE 5130 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1613.0,
+            "Cost_Index_1_10": 2,
+            "Performance_per_Cost": 806.5
+        },
+        {
+            "Material": "DIN Ck60 (nitro-carburized)",
+            "Tensile_Strength_MPa": 800.0,
+            "Cost_Index_1_10": 1,
+            "Performance_per_Cost": 800.0
+        },
+        {
+            "Material": "Steel 38Ch210 GOST 4543-71 (Quenching and cooling in the oil)",
+            "Tensile_Strength_MPa": 800.0,
+            "Cost_Index_1_10": 1,
+            "Performance_per_Cost": 800.0
+        },
+        {
+            "Material": "Steel SAE 4320 (normalized)",
+            "Tensile_Strength_MPa": 793.0,
+            "Cost_Index_1_10": 1,
+            "Performance_per_Cost": 793.0
+        },
+        {
+            "Material": "CSN 13180 (heat treated)",
+            "Tensile_Strength_MPa": 1570.0,
+            "Cost_Index_1_10": 2,
+            "Performance_per_Cost": 785.0
+        },
+        {
+            "Material": "CSN 15230 (Heat-treatment nitrided steel)",
+            "Tensile_Strength_MPa": 780.0,
+            "Cost_Index_1_10": 1,
+            "Performance_per_Cost": 780.0
+        },
+        {
+            "Material": "Steel 20ChGSA GOST 4543-71",
+            "Tensile_Strength_MPa": 780.0,
+            "Cost_Index_1_10": 1,
+            "Performance_per_Cost": 780.0
+        }
+    ],
+    "corrosion_resistant": [
+        {
+            "Material": "Aluminum Alloy 2011-T3 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T31 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Titanium Grade 2",
+            "Alloy_Type": "Titanium",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 9
+        },
+        {
+            "Material": "Titanium Ti-6Al-4V",
+            "Alloy_Type": "Titanium",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 9
+        },
+        {
+            "Material": "Steel SAE 51440C (tempered at 600 F)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 6
+        },
+        {
+            "Material": "Inconel 718",
+            "Alloy_Type": "Nickel Alloy",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 10
+        },
+        {
+            "Material": "Inconel 625",
+            "Alloy_Type": "Nickel Alloy",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 10
+        },
+        {
+            "Material": "Hastelloy C-276",
+            "Alloy_Type": "Nickel Alloy",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 10
+        },
+        {
+            "Material": "Nickel 200",
+            "Alloy_Type": "Nickel",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 8
+        },
+        {
+            "Material": "Cobalt MP35N",
+            "Alloy_Type": "Cobalt Alloy",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 9
+        },
+        {
+            "Material": "Tantalum",
+            "Alloy_Type": "Refractory",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 10
+        },
+        {
+            "Material": "Aluminum Alloy 771.0 (Cast (T71))",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 4
+        },
+        {
+            "Material": "Aluminum Alloy 6066-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Steel SAE 51420 (tempered at 600 F)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "Super Duplex 2507",
+            "Alloy_Type": "Duplex Stainless",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 7
+        },
+        {
+            "Material": "Aluminum Alloy 5456-H321 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 10,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Stainless Steel 316",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "Aluminum Alloy 5456-H116 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Aluminum Alloy 5083-H116 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 4
+        },
+        {
+            "Material": "Aluminum Alloy 5254-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Aluminum Alloy 5154-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Aluminum Alloy 5086-H34 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Aluminum Alloy 5083-H321 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Aluminum Alloy 6066-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 4
+        },
+        {
+            "Material": "Aluminum Alloy 4032-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 2
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T37 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Aluminum Alloy 6066-T451 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "BS 304S11",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "Aluminum Alloy 6066-T651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Aluminum Alloy 6070-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "BS 304S15",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "BS 316S11",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "CSN 17021 (normalized)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 2
+        },
+        {
+            "Material": "CSN 17115 (normalized)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 2
+        },
+        {
+            "Material": "CSN 17125 (normalized)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "CSN 17240 (normalized)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "CSN 17241 (normalized)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 4
+        },
+        {
+            "Material": "CSN 17247 (normalized)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 4
+        },
+        {
+            "Material": "CSN 17253 (normalized)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "CSN 424250",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "JIS SMnC420",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 6
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T351 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Copper Alloy C68700",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T42 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 4
+        },
+        {
+            "Material": "Steel SAE 51430F (annealed)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 4
+        },
+        {
+            "Material": "Titanium Ti-5Al-5V-5Fe",
+            "Alloy_Type": "Titanium",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 8
+        },
+        {
+            "Material": "Tungsten",
+            "Alloy_Type": "Refractory",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 9
+        },
+        {
+            "Material": "Cobalt L-605",
+            "Alloy_Type": "Cobalt Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 9
+        },
+        {
+            "Material": "Aluminum 5083",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Duplex Steel 2205",
+            "Alloy_Type": "Duplex Stainless",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 6
+        },
+        {
+            "Material": "Titanium Ti-5Al-2.5Sn",
+            "Alloy_Type": "Titanium",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 8
+        },
+        {
+            "Material": "Inconel X-750",
+            "Alloy_Type": "Nickel Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 9
+        },
+        {
+            "Material": "Rene 41",
+            "Alloy_Type": "Nickel Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 9
+        },
+        {
+            "Material": "Nickel Alloy 263",
+            "Alloy_Type": "Nickel Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 8
+        },
+        {
+            "Material": "Titanium Ti-10V-2Fe-3Al",
+            "Alloy_Type": "Titanium",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 9
+        },
+        {
+            "Material": "Steel SAE 8630 (tempered at 400 F)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 6
+        },
+        {
+            "Material": "Steel SAE 30316 (annealed)",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Manganese Bronze C86700",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 8
+        },
+        {
+            "Material": "Aluminum Alloy 2218-T72 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Leaded Tin Bronze C92200",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "High Leaded Tin Bronze C93400",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "High Leaded Tin Bronze C93700",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "High Leaded Tin Bronze C93800",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "High Leaded Tin Bronze C93900",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "Nickel-Tin Bronze C94800",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "Yellow brass C26800",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "Copper Alloy C51000",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "Copper Alloy C61000",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 5
+        },
+        {
+            "Material": "Stainless Steel 440C",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 6
+        },
+        {
+            "Material": "Copper Alloy C75200",
+            "Alloy_Type": "Copper Alloy",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 6
+        },
+        {
+            "Material": "Aluminum Alloy 2036-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "JIS SUS316L",
+            "Alloy_Type": "Stainless Steel",
+            "Corrosion_Resistance_0_10": 9,
+            "Cost_Index_1_10": 6
+        }
+    ],
+    "thermal_conductors": [
+        {
+            "Material": "Copper C110",
+            "Alloy_Type": "Copper",
+            "Thermal_Conductivity_W_mK": 397.0,
+            "Density_g_cm3": 8.94
+        },
+        {
+            "Material": "Aluminum Alloy 5005-H18 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 195.56,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3105-H14 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 195.19,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1100-H14 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 194.7,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2219-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 194.68,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 6061-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 193.45,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 771.0 (Cast (T51))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 193.4,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5052-H32 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 193.39,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 3003-H14 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 193.3,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5254-H112 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 193.15,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 512.0 (Cast (F))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 192.95,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 319.0 (Cast (F))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 192.94,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2024-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 192.76,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5005-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 192.43,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 712.0 (Cast (F or T5))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 191.94,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5050-H36 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 191.89,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 7075-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 191.52,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 6061-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 191.51,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3004-H32 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 191.28,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2024-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 190.65,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 707.0 (Cast (T5))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 189.62,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 3003-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 189.42,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5657-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 189.19,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 356.0 (Cast (T71))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 188.77,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1100-H12 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 188.71,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 852.0 (Cast (T5))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 188.57,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 3003-H16 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 187.86,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5652-H36 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 187.12,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1060-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 186.73,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6066-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 186.69,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5457-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 186.68,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6063-T831 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 186.19,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 356.0 (Cast (T51))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 186.14,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1350-H16 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 186.12,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1060-H16 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 186.03,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3105-H16 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 186.02,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 3004-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 185.85,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6061-T451 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 185.71,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 6061-T451 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 185.44,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 355.0 (Cast (T71))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 184.71,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 713.0 (Cast (F or T5))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 184.61,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 242.0 (Cast (T61))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 184.52,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3003-H18 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 184.35,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3105-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 184.34,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1060-H12 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 184.21,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6063-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 184.19,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3004-H34 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 183.76,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5050-H34 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 183.52,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 356.0 (Cast (T6))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 183.24,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Commercial bronze C22000",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 183.17,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy 5154-H36 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 183.02,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 3004-H36 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 182.92,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6463-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 182.54,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 3004-H34 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 182.42,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3004-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 182.2,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3105-H25 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 181.8,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy B443.0 (Cast (F))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 181.64,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5005-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 181.5,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3003-H16 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 181.49,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5005-H12 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 181.42,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1100-H16 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 181.29,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5154-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 181.26,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 295.0 (Cast (T7))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 181.17,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 705.0 (Cast (F or T5))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 180.98,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 7178-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 180.97,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 328.0 (Cast (T6))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 180.92,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5252-H28 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 180.73,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5050-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 180.45,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2014-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 180.09,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum 3003",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 180.0,
+            "Density_g_cm3": 2.73
+        },
+        {
+            "Material": "Aluminum Alloy 6061-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 179.99,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6463-T1 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 179.94,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5652-H32 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 179.86,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3105-H12 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 179.68,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5254-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 179.48,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3003-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 178.51,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 242.0 (Cast (T77))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 178.39,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 3003-H12 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 178.32,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 356.0 (Cast (T7))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 178.08,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5005-H14 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 178.05,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 7178-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 178.01,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1350-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 177.8,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5005-H32 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 177.69,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5154-H112 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 177.44,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 535.0 (Cast (F or T5))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 177.23,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1350-H12 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 177.21,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 295.0 (Cast (T6))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 177.02,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5252-H25 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 177.01,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5005-H34 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 176.73,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 8176-H24 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 176.65,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5005-H36 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 176.64,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "CSN 424413",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 176.55,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1350-H14 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 176.51,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5050-H32 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 176.31,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5657-H28 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 175.89,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5086-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 175.83,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 771.0 (Cast (T53))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 175.82,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5652-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 175.7,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1100-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 175.49,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 355.0 (Cast (T51))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 175.47,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5457-H25 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 175.38,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 3003-H18 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 175.2,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6101-H111 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 175.13,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6063-T1 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 175.06,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2117-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 175.03,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5083-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 174.84,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 443.0 (Cast (F))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 174.62,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5457-H28 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 174.42,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3105-H18 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 174.28,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5086-H112 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 173.84,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 328.0 (Cast (F))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 173.55,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5005-H16 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 173.54,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5454-H32 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 173.5,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Leaded commercial bronze C31400",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 173.22,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy 710.0 (Cast (F or T5))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 173.21,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6063-T5 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 172.96,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6061-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 172.51,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3004-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 172.13,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5657-H25 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 172.08,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy A356.0 (Cast (T6))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 172.06,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 355.0 (Cast (T6))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 171.71,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5154-H32 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 171.6,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5454-H34 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 171.26,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5050-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 171.11,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6351-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 171.06,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6063-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 171.02,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6351-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 170.98,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1060-H14 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 170.9,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6463-T5 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 170.83,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2014-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 170.45,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 771.0 (Cast (T52))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 170.44,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 771.0 (Cast (T5))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 170.29,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5254-H36 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 170.25,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6063-T832 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 169.6,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5086-H116 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 169.02,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1350-H19 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 168.32,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 707.0 (Cast (T7))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 167.99,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 6061-T651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 167.63,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2017-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 167.61,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5456-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 167.61,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 295.0 (Cast (T4))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 167.35,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 771.0 (Cast (T6))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 167.16,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum 6061",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 167.0,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6101-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 166.76,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5056-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 166.46,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5454-H111 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 166.26,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1100-H18 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 166.08,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 1060-H18 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 165.94,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 3004-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 165.93,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5052-H36 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 165.66,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5454-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 165.6,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3003-H14 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 165.27,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5652-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 164.9,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 3004-H32 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 164.28,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3004-H36 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 164.22,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 204.0 (Cast (T4))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 164.02,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5457-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 163.99,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6061-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 163.68,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "CSN 424401",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 163.46,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 208.0 (Cast (F))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 163.22,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 3003-H12 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 163.22,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 295.0 (Cast (T62))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 163.16,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Tungsten",
+            "Alloy_Type": "Refractory",
+            "Thermal_Conductivity_W_mK": 163.0,
+            "Density_g_cm3": 19.3
+        },
+        {
+            "Material": "Aluminum Alloy 5052-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 162.68,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5456-H112 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 162.44,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "CSN 424415",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 161.49,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 514.0 (Cast (F))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 161.15,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 6061-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 161.08,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5652-H34 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 160.14,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5252-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 160.11,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 319.0 (Cast (T6))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 159.25,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5254-H32 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 158.73,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 520.0 (Cast (T4))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 158.35,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 7075-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 157.9,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5454-H112 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 157.63,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5254-H34 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 157.41,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6061-T651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 156.67,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6063-T83 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 156.11,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5086-H32 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 155.34,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy C355.0 (Cast (T6))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 154.15,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5154-H34 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 152.41,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6063-O (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 149.17,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5052-H34 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 146.07,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Bronze C95200",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 142.74,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Molybdenum",
+            "Alloy_Type": "Refractory",
+            "Thermal_Conductivity_W_mK": 142.0,
+            "Density_g_cm3": 10.28
+        },
+        {
+            "Material": "Aluminum Alloy 5052-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 137.63,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 7050-T7651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 135.52,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Manganese Bronze C86700",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 134.6,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Yellow Brass C85500",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 132.76,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2014-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 132.4,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Manganese Bronze C86200",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 132.05,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy 2017-T451 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 132.03,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Semi-red Brass C84400",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 131.54,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 5086-H34 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 131.48,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Copper Alloy C61800",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 130.92,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 7178-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 130.3,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Copper Alloy C76390",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 130.02,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum 7075",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 130.0,
+            "Density_g_cm3": 2.81
+        },
+        {
+            "Material": "Copper Alloy C68800",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 129.86,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy 2014-T451 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 129.25,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2024-T3 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 129.2,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 7075-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 129.15,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2024-T861 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 129.09,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Copper Alloy C69400",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 128.49,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy 2025-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 128.44,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "CSN 423256",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 128.39,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 5056-H18 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 128.26,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Copper Alloy C63800",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 128.05,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy 6066-T651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 127.98,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Copper Alloy C61900",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 127.73,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Manganese Bronze C86800",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 127.07,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Yellow Brass C85400",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 127.02,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 2011-T3 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 127.0,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2024-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 126.91,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 7178-T7651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 126.87,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "CSN 12024",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 126.62,
+            "Density_g_cm3": 7.86
+        },
+        {
+            "Material": "CSN 423214",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 126.53,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T851 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 126.5,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Bronze C95400",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 125.85,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Special Alloy C99400",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 125.77,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Leaded Muntz metal C36500 (As hot rolled)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 125.7,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "High-Copper Alloy C81700",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 125.08,
+            "Density_g_cm3": 8.93
+        },
+        {
+            "Material": "Aluminum Alloy 5083-H116 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 125.01,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Copper Beryllium C17000",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 125.0,
+            "Density_g_cm3": 8.26
+        },
+        {
+            "Material": "Copper Alloy C62400",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 124.99,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy 6070-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 124.72,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2024-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 124.57,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Semi-red Brass C84500",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 124.39,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 2024-T351 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 124.34,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5083-H321 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 124.29,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Bronze C95300",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 124.23,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy 2218-T72 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 124.23,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2014-T451 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 124.11,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5154-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 123.92,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 7075-T651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 123.72,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "CSN 423311",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 123.55,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T42 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 123.33,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Silicon Bronze C87800",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 123.23,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Special Alloy C99700",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 123.11,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 7050-T73510 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 123.01,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2011-T8 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 122.77,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Copper-Nickel C96400",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 122.7,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 2014-T651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 122.54,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Yellow Brass C85200",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 122.28,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 2018-T61 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.98,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 7049-T73 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.97,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 7178-T76 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.9,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T351 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.61,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "CSN 424250",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.45,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Copper Alloy C19500",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 121.44,
+            "Density_g_cm3": 8.93
+        },
+        {
+            "Material": "Aluminum Alloy 7178-T651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.4,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Special Alloy C99750",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.3,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 7075-T651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.07,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum 2014",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.0,
+            "Density_g_cm3": 2.8
+        },
+        {
+            "Material": "Aluminum 2024",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.0,
+            "Density_g_cm3": 2.78
+        },
+        {
+            "Material": "Aluminum 5083",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.0,
+            "Density_g_cm3": 2.66
+        },
+        {
+            "Material": "Aluminum 7178",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 121.0,
+            "Density_g_cm3": 2.84
+        },
+        {
+            "Material": "Brass C36000",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 121.0,
+            "Density_g_cm3": 8.53
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2024-T81 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 120.98,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6066-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 120.59,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 7075-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 120.21,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2024-T851 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 120.18,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5056-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 120.16,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Special Alloy C99500",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 120.07,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Beryllium Copper C17200",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 120.0,
+            "Density_g_cm3": 8.26
+        },
+        {
+            "Material": "Yellow Brass C85800",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 119.95,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Architectural bronze C38500 (As extruded)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 119.74,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "CSN 423210",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 119.51,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T31 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 119.34,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 7050-T7451f (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 119.1,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T62 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 119.04,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2024-T361 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 119.0,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Muntz metal C28000",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 118.97,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2024-T351 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 118.92,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Copper Alloy C69000",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 118.66,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy 6066-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 118.6,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2036-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 118.53,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2014-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 118.43,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 201.0 (Cast (T7))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 118.2,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Bronze C95500",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 118.1,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy 6262-T9 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 117.96,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2014-T3 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 117.8,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Semi-red Brass C84800",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 117.66,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Red brass C83800",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 117.36,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 2014-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 117.29,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 6066-T451 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 117.05,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5456-H116 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 117.03,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Copper-Nickel C96600",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 116.55,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Copper Alloy C63200",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 116.23,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Yellow Brass C85700",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 116.09,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T81 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 116.03,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Red brass C83300",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 115.78,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "CSN 423213",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 115.61,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Special Alloy C99300",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 115.48,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T87 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 115.47,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "CSN 423212",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 115.34,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 7178-T651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 115.28,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 771.0 (Cast (T71))",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 114.9,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 4032-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 114.8,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2024-T3 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 114.75,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Copper-Nickel C96200",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 114.42,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Manganese Bronze C86100",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 114.28,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Bronze C95600",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 113.57,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Bronze C95700",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 113.17,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2014-T651 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 113.16,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5254-H38 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 113.08,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 5456-H321 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 112.54,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Red brass C83600",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 112.44,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Aluminum Alloy 7178-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 112.35,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Red brass C83400",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 112.14,
+            "Density_g_cm3": 8.5
+        },
+        {
+            "Material": "Copper Alloy C62500 (As extruded)",
+            "Alloy_Type": "Copper Alloy",
+            "Thermal_Conductivity_W_mK": 112.11,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Bronze C95800",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 111.87,
+            "Density_g_cm3": 8.8
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 202024-T361 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 111.3,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy Alclad 2014-T6 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 109.48,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 7049-T7352 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 109.04,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2017-T4 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 107.94,
+            "Density_g_cm3": 2.7
+        },
+        {
+            "Material": "Aluminum Alloy 2219-T37 (Wrought)",
+            "Alloy_Type": "Aluminum",
+            "Thermal_Conductivity_W_mK": 107.36,
+            "Density_g_cm3": 2.7
+        }
+    ],
+    "strength_ranking": [
+        {
+            "Material": "Steel SAE 5160 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 2220.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 4
+        },
+        {
+            "Material": "Steel SAE 9255 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 2103.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 2
+        },
+        {
+            "Material": "Steel SAE 8740 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1999.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 4
+        },
+        {
+            "Material": "Steel SAE 51440C (tempered at 600 F)",
+            "Tensile_Strength_MPa": 1965.0,
+            "Density_g_cm3": 8.03,
+            "Cost_Index_1_10": 6
+        },
+        {
+            "Material": "Steel SAE 5150 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1944.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Steel SAE 8650 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1937.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Steel SAE 6150 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1931.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 2
+        },
+        {
+            "Material": "Steel SAE 4150 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1931.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Steel SAE 4340 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1875.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Steel SAE 8640 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1862.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 2
+        },
+        {
+            "Material": "Stainless Steel 440C",
+            "Tensile_Strength_MPa": 1860.0,
+            "Density_g_cm3": 7.75,
+            "Cost_Index_1_10": 6
+        },
+        {
+            "Material": "Steel SAE 1340 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1806.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Steel SAE 4042 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1800.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 4
+        },
+        {
+            "Material": "Steel SAE 51440A (tempered at 600 F)",
+            "Tensile_Strength_MPa": 1793.0,
+            "Density_g_cm3": 8.03,
+            "Cost_Index_1_10": 3
+        },
+        {
+            "Material": "Steel SAE 5140 (tempered at 400 F)",
+            "Tensile_Strength_MPa": 1793.0,
+            "Density_g_cm3": 7.86,
+            "Cost_Index_1_10": 3
+        }
+    ],
+    "density_categories": {
+        "Ultra-Light (<3.0 g/cm\u00b3)": [
+            "Aluminum 6061",
+            "Aluminum 7075",
+            "Aluminum 2024",
+            "Magnesium AZ31",
+            "Magnesium AZ91D",
+            "Aluminum 5083",
+            "Aluminum 2014",
+            "Aluminum 7178",
+            "Aluminum 3003",
+            "Magnesium ZE63",
+            "Aluminum Alloy 201.0 (Cast (T7))",
+            "Aluminum Alloy 204.0 (Cast (T4))",
+            "Aluminum Alloy 208.0 (Cast (F))",
+            "Aluminum Alloy 242.0 (Cast (T61))",
+            "Aluminum Alloy 242.0 (Cast (T77))",
+            "Aluminum Alloy 295.0 (Cast (T4))",
+            "Aluminum Alloy 295.0 (Cast (T6))",
+            "Aluminum Alloy 295.0 (Cast (T62))",
+            "Aluminum Alloy 295.0 (Cast (T7))",
+            "Aluminum Alloy 319.0 (Cast (F))",
+            "Aluminum Alloy 319.0 (Cast (T6))",
+            "Aluminum Alloy 328.0 (Cast (F))",
+            "Aluminum Alloy 328.0 (Cast (T6))",
+            "Aluminum Alloy 355.0 (Cast (T51))",
+            "Aluminum Alloy 355.0 (Cast (T6))",
+            "Aluminum Alloy 355.0 (Cast (T71))",
+            "Aluminum Alloy C355.0 (Cast (T6))",
+            "Aluminum Alloy 356.0 (Cast (T51))",
+            "Aluminum Alloy 356.0 (Cast (T6))",
+            "Aluminum Alloy 356.0 (Cast (T7))",
+            "Aluminum Alloy 356.0 (Cast (T71))",
+            "Aluminum Alloy A356.0 (Cast (T6))",
+            "Aluminum Alloy 443.0 (Cast (F))",
+            "Aluminum Alloy B443.0 (Cast (F))",
+            "Aluminum Alloy 512.0 (Cast (F))",
+            "Aluminum Alloy 514.0 (Cast (F))",
+            "Aluminum Alloy 520.0 (Cast (T4))",
+            "Aluminum Alloy 535.0 (Cast (F or T5))",
+            "Aluminum Alloy 705.0 (Cast (F or T5))",
+            "Aluminum Alloy 707.0 (Cast (T5))",
+            "Aluminum Alloy 707.0 (Cast (T7))",
+            "Aluminum Alloy 710.0 (Cast (F or T5))",
+            "Aluminum Alloy 712.0 (Cast (F or T5))",
+            "Aluminum Alloy 713.0 (Cast (F or T5))",
+            "Aluminum Alloy 771.0 (Cast (T5))",
+            "Aluminum Alloy 771.0 (Cast (T51))",
+            "Aluminum Alloy 771.0 (Cast (T52))",
+            "Aluminum Alloy 771.0 (Cast (T53))",
+            "Aluminum Alloy 771.0 (Cast (T6))",
+            "Aluminum Alloy 771.0 (Cast (T71))",
+            "Aluminum Alloy 852.0 (Cast (T5))",
+            "Aluminum Alloy 1060-O (Wrought)",
+            "Aluminum Alloy 1060-H12 (Wrought)",
+            "Aluminum Alloy 1060-H14 (Wrought)",
+            "Aluminum Alloy 1060-H16 (Wrought)",
+            "Aluminum Alloy 1060-H18 (Wrought)",
+            "Aluminum Alloy 1100-O (Wrought)",
+            "Aluminum Alloy 1100-H12 (Wrought)",
+            "Aluminum Alloy 1100-H14 (Wrought)",
+            "Aluminum Alloy 1100-H16 (Wrought)",
+            "Aluminum Alloy 1100-H18 (Wrought)",
+            "Aluminum Alloy 1350-O (Wrought)",
+            "Aluminum Alloy 1350-H12 (Wrought)",
+            "Aluminum Alloy 1350-H14 (Wrought)",
+            "Aluminum Alloy 1350-H16 (Wrought)",
+            "Aluminum Alloy 1350-H19 (Wrought)",
+            "Aluminum Alloy 2011-T3 (Wrought)",
+            "Aluminum Alloy 2011-T8 (Wrought)",
+            "Aluminum Alloy 2014-O (Wrought)",
+            "Aluminum Alloy 2014-T4 (Wrought)",
+            "Aluminum Alloy 2014-T451 (Wrought)",
+            "Aluminum Alloy 2014-T6 (Wrought)",
+            "Aluminum Alloy 2014-T651 (Wrought)",
+            "Aluminum Alloy Alclad 2014-O (Wrought)",
+            "Aluminum Alloy Alclad 2014-T3 (Wrought)",
+            "Aluminum Alloy Alclad 2014-T4 (Wrought)",
+            "Aluminum Alloy Alclad 2014-T451 (Wrought)",
+            "Aluminum Alloy Alclad 2014-T6 (Wrought)",
+            "Aluminum Alloy Alclad 2014-T651 (Wrought)",
+            "Aluminum Alloy 2017-O (Wrought)",
+            "Aluminum Alloy 2017-T4 (Wrought)",
+            "Aluminum Alloy 2017-T451 (Wrought)",
+            "Aluminum Alloy 2018-T61 (Wrought)",
+            "Aluminum Alloy 2024-O (Wrought)",
+            "Aluminum Alloy 2024-T3 (Wrought)",
+            "Aluminum Alloy 2024-T351 (Wrought)",
+            "Aluminum Alloy 2024-T4 (Wrought)",
+            "Aluminum Alloy 2024-T361 (Wrought)",
+            "Aluminum Alloy Alclad 2024-O (Wrought)",
+            "Aluminum Alloy Alclad 2024-T3 (Wrought)",
+            "Aluminum Alloy Alclad 2024-T351 (Wrought)",
+            "Aluminum Alloy Alclad 2024-T4 (Wrought)",
+            "Aluminum Alloy Alclad 202024-T361 (Wrought)",
+            "Aluminum Alloy Alclad 2024-T81 (Wrought)",
+            "Aluminum Alloy Alclad 2024-T851 (Wrought)",
+            "Aluminum Alloy Alclad 2024-T861 (Wrought)",
+            "Aluminum Alloy 2025-T6 (Wrought)",
+            "Aluminum Alloy 2036-T4 (Wrought)",
+            "Aluminum Alloy 2117-T4 (Wrought)",
+            "Aluminum Alloy 2218-T72 (Wrought)",
+            "Aluminum Alloy 2219-O (Wrought)",
+            "Aluminum Alloy 2219-T42 (Wrought)",
+            "Aluminum Alloy 2219-T31 (Wrought)",
+            "Aluminum Alloy 2219-T351 (Wrought)",
+            "Aluminum Alloy 2219-T37 (Wrought)",
+            "Aluminum Alloy 2219-T62 (Wrought)",
+            "Aluminum Alloy 2219-T81 (Wrought)",
+            "Aluminum Alloy 2219-T851 (Wrought)",
+            "Aluminum Alloy 2219-T87 (Wrought)",
+            "Aluminum Alloy 3003-O (Wrought)",
+            "Aluminum Alloy 3003-H12 (Wrought)",
+            "Aluminum Alloy 3003-H14 (Wrought)",
+            "Aluminum Alloy 3003-H16 (Wrought)",
+            "Aluminum Alloy 3003-H18 (Wrought)",
+            "Aluminum Alloy Alclad 3003-O (Wrought)",
+            "Aluminum Alloy Alclad 3003-H12 (Wrought)",
+            "Aluminum Alloy Alclad 3003-H14 (Wrought)",
+            "Aluminum Alloy Alclad 3003-H16 (Wrought)",
+            "Aluminum Alloy Alclad 3003-H18 (Wrought)",
+            "Aluminum Alloy 3004-O (Wrought)",
+            "Aluminum Alloy 3004-H32 (Wrought)",
+            "Aluminum Alloy 3004-H34 (Wrought)",
+            "Aluminum Alloy 3004-H36 (Wrought)",
+            "Aluminum Alloy 3004-H38 (Wrought)",
+            "Aluminum Alloy Alclad 3004-O (Wrought)",
+            "Aluminum Alloy Alclad 3004-H32 (Wrought)",
+            "Aluminum Alloy Alclad 3004-H34 (Wrought)",
+            "Aluminum Alloy Alclad 3004-H36 (Wrought)",
+            "Aluminum Alloy Alclad 3004-H38 (Wrought)",
+            "Aluminum Alloy 3105-O (Wrought)",
+            "Aluminum Alloy 3105-H12 (Wrought)",
+            "Aluminum Alloy 3105-H14 (Wrought)",
+            "Aluminum Alloy 3105-H16 (Wrought)",
+            "Aluminum Alloy 3105-H18 (Wrought)",
+            "Aluminum Alloy 3105-H25 (Wrought)",
+            "Aluminum Alloy 4032-T6 (Wrought)",
+            "Aluminum Alloy 5005-O (Wrought)",
+            "Aluminum Alloy 5005-H12 (Wrought)",
+            "Aluminum Alloy 5005-H14 (Wrought)",
+            "Aluminum Alloy 5005-H16 (Wrought)",
+            "Aluminum Alloy 5005-H18 (Wrought)",
+            "Aluminum Alloy 5005-H32 (Wrought)",
+            "Aluminum Alloy 5005-H34 (Wrought)",
+            "Aluminum Alloy 5005-H36 (Wrought)",
+            "Aluminum Alloy 5005-H38 (Wrought)",
+            "Aluminum Alloy 5050-O (Wrought)",
+            "Aluminum Alloy 5050-H32 (Wrought)",
+            "Aluminum Alloy 5050-H34 (Wrought)",
+            "Aluminum Alloy 5050-H36 (Wrought)",
+            "Aluminum Alloy 5050-H38 (Wrought)",
+            "Aluminum Alloy 5052-O (Wrought)",
+            "Aluminum Alloy 5052-H32 (Wrought)",
+            "Aluminum Alloy 5052-H34 (Wrought)",
+            "Aluminum Alloy 5052-H36 (Wrought)",
+            "Aluminum Alloy 5052-H38 (Wrought)",
+            "Aluminum Alloy 5056-O (Wrought)",
+            "Aluminum Alloy 5056-H18 (Wrought)",
+            "Aluminum Alloy 5056-H38 (Wrought)",
+            "Aluminum Alloy 5083-O (Wrought)",
+            "Aluminum Alloy 5083-H116 (Wrought)",
+            "Aluminum Alloy 5083-H321 (Wrought)",
+            "Aluminum Alloy 5086-O (Wrought)",
+            "Aluminum Alloy 5086-H32 (Wrought)",
+            "Aluminum Alloy 5086-H34 (Wrought)",
+            "Aluminum Alloy 5086-H112 (Wrought)",
+            "Aluminum Alloy 5086-H116 (Wrought)",
+            "Aluminum Alloy 5154-O (Wrought)",
+            "Aluminum Alloy 5154-H32 (Wrought)",
+            "Aluminum Alloy 5154-H34 (Wrought)",
+            "Aluminum Alloy 5154-H36 (Wrought)",
+            "Aluminum Alloy 5154-H38 (Wrought)",
+            "Aluminum Alloy 5154-H112 (Wrought)",
+            "Aluminum Alloy 5252-H25 (Wrought)",
+            "Aluminum Alloy 5252-H28 (Wrought)",
+            "Aluminum Alloy 5252-H38 (Wrought)",
+            "Aluminum Alloy 5254-O (Wrought)",
+            "Aluminum Alloy 5254-H32 (Wrought)",
+            "Aluminum Alloy 5254-H34 (Wrought)",
+            "Aluminum Alloy 5254-H36 (Wrought)",
+            "Aluminum Alloy 5254-H38 (Wrought)",
+            "Aluminum Alloy 5254-H112 (Wrought)",
+            "Aluminum Alloy 5454-O (Wrought)",
+            "Aluminum Alloy 5454-H32 (Wrought)",
+            "Aluminum Alloy 5454-H34 (Wrought)",
+            "Aluminum Alloy 5454-H111 (Wrought)",
+            "Aluminum Alloy 5454-H112 (Wrought)",
+            "Aluminum Alloy 5456-O (Wrought)",
+            "Aluminum Alloy 5456-H112 (Wrought)",
+            "Aluminum Alloy 5456-H116 (Wrought)",
+            "Aluminum Alloy 5456-H321 (Wrought)",
+            "Aluminum Alloy 5457-O (Wrought)",
+            "Aluminum Alloy 5457-H25 (Wrought)",
+            "Aluminum Alloy 5457-H28 (Wrought)",
+            "Aluminum Alloy 5457-H38 (Wrought)",
+            "Aluminum Alloy 5652-O (Wrought)",
+            "Aluminum Alloy 5652-H32 (Wrought)",
+            "Aluminum Alloy 5652-H34 (Wrought)",
+            "Aluminum Alloy 5652-H36 (Wrought)",
+            "Aluminum Alloy 5652-H38 (Wrought)",
+            "Aluminum Alloy 5657-H25 (Wrought)",
+            "Aluminum Alloy 5657-H28 (Wrought)",
+            "Aluminum Alloy 5657-H38 (Wrought)",
+            "Aluminum Alloy 6061-O (Wrought)",
+            "Aluminum Alloy 6061-T4 (Wrought)",
+            "Aluminum Alloy 6061-T451 (Wrought)",
+            "Aluminum Alloy 6061-T6 (Wrought)",
+            "Aluminum Alloy 6061-T651 (Wrought)",
+            "Aluminum Alloy Alclad 6061-O (Wrought)",
+            "Aluminum Alloy Alclad 6061-T4 (Wrought)",
+            "Aluminum Alloy Alclad 6061-T451 (Wrought)",
+            "Aluminum Alloy Alclad 6061-T6 (Wrought)",
+            "Aluminum Alloy Alclad 6061-T651 (Wrought)",
+            "Aluminum Alloy 6063-O (Wrought)",
+            "Aluminum Alloy 6063-T1 (Wrought)",
+            "Aluminum Alloy 6063-T4 (Wrought)",
+            "Aluminum Alloy 6063-T5 (Wrought)",
+            "Aluminum Alloy 6063-T6 (Wrought)",
+            "Aluminum Alloy 6063-T83 (Wrought)",
+            "Aluminum Alloy 6063-T831 (Wrought)",
+            "Aluminum Alloy 6063-T832 (Wrought)",
+            "Aluminum Alloy 6066-O (Wrought)",
+            "Aluminum Alloy 6066-T4 (Wrought)",
+            "Aluminum Alloy 6066-T451 (Wrought)",
+            "Aluminum Alloy 6066-T6 (Wrought)",
+            "Aluminum Alloy 6066-T651 (Wrought)",
+            "Aluminum Alloy 6070-T6 (Wrought)",
+            "Aluminum Alloy 6101-H111 (Wrought)",
+            "Aluminum Alloy 6101-T6 (Wrought)",
+            "Aluminum Alloy 6262-T9 (Wrought)",
+            "Aluminum Alloy 6351-T4 (Wrought)",
+            "Aluminum Alloy 6351-T6 (Wrought)",
+            "Aluminum Alloy 6463-T1 (Wrought)",
+            "Aluminum Alloy 6463-T5 (Wrought)",
+            "Aluminum Alloy 6463-T6 (Wrought)",
+            "Aluminum Alloy 7049-T73 (Wrought)",
+            "Aluminum Alloy 7049-T7352 (Wrought)",
+            "Aluminum Alloy 7050-T73510 (Wrought)",
+            "Aluminum Alloy 7050-T7451f (Wrought)",
+            "Aluminum Alloy 7050-T7651 (Wrought)",
+            "Aluminum Alloy 7075-O (Wrought)",
+            "Aluminum Alloy 7075-T6 (Wrought)",
+            "Aluminum Alloy 7075-T651 (Wrought)",
+            "Aluminum Alloy Alclad 7075-O (Wrought)",
+            "Aluminum Alloy Alclad 7075-T6 (Wrought)",
+            "Aluminum Alloy Alclad 7075-T651 (Wrought)",
+            "Aluminum Alloy 7178-O (Wrought)",
+            "Aluminum Alloy 7178-T6 (Wrought)",
+            "Aluminum Alloy 7178-T651 (Wrought)",
+            "Aluminum Alloy 7178-T76 (Wrought)",
+            "Aluminum Alloy 7178-T7651 (Wrought)",
+            "Aluminum Alloy Alclad 7178-O (Wrought)",
+            "Aluminum Alloy Alclad 7178-T6 (Wrought)",
+            "Aluminum Alloy Alclad 7178-T651 (Wrought)",
+            "Aluminum Alloy 8176-H24 (Wrought)",
+            "Magnesium Alloy AM100A-T61 (sand casting)",
+            "Magnesium Alloy AZ63A-T6 (sand casting)",
+            "Magnesium Alloy AZ81A-T4 (sand casting)",
+            "Magnesium Alloy AZ91C-T6 (sand casting)",
+            "Magnesium Alloy AZ91E-T6 (sand casting)",
+            "Magnesium Alloy AZ92A-T6 (sand casting)",
+            "Magnesium Alloy EZ33A-T5 (sand casting)",
+            "Magnesium Alloy HK31A-T6 (sand casting)",
+            "Magnesium Alloy HZ32A-T6 (sand casting)",
+            "Magnesium Alloy K1A-F (sand casting)",
+            "Magnesium Alloy QE22A-T6 (sand casting)",
+            "Magnesium Alloy QH21A-T6 (sand casting)",
+            "Magnesium Alloy ZE41A-T5 (sand casting)",
+            "Magnesium Alloy ZE63A-T6 (sand casting)",
+            "Magnesium Alloy ZH62A-T5 (sand casting)",
+            "Magnesium Alloy ZK51A-T5 (sand casting)",
+            "Magnesium Alloy ZK61A-T6 (sand casting)",
+            "Magnesium Alloy WE54A-F (sand casting)",
+            "Magnesium Alloy AZ91A-F (pressure die casting)",
+            "Magnesium Alloy AZ91B-FAZ91B-F (pressure die casting)",
+            "Magnesium Alloy AZ91D-F (pressure die casting)",
+            "Magnesium Alloy AM60A-F (pressure die casting)",
+            "Magnesium Alloy AM60B-F (pressure die casting)",
+            "Magnesium Alloy AS41A-F (pressure die casting)",
+            "Magnesium Alloy AZ10A-F (As extruded)",
+            "Magnesium Alloy AZ31B-F (As extruded)",
+            "Magnesium Alloy AZ31C-F (As extruded)",
+            "Magnesium Alloy AZ61A-F (As extruded)",
+            "Magnesium Alloy AZ80A-T5 (As extruded)",
+            "Magnesium Alloy HM31A-F (As extruded)",
+            "Magnesium Alloy M1A-F (As extruded)",
+            "Magnesium Alloy ZK40A-T5 (As extruded)",
+            "Magnesium Alloy ZK60A-F (As extruded)",
+            "Magnesium Alloy AZ31B-H24",
+            "Magnesium Alloy AZ31C-H24",
+            "Magnesium Alloy HK31A-H24",
+            "Magnesium Alloy HM21A-T8",
+            "CSN 424201",
+            "CSN 424203",
+            "CSN 424204",
+            "CSN 424250",
+            "CSN 424401",
+            "CSN 424413",
+            "CSN 424415"
+        ],
+        "Light (3.0-5.0 g/cm\u00b3)": [
+            "Titanium Grade 2",
+            "Titanium Ti-6Al-4V",
+            "Titanium Ti-5Al-5V-5Fe",
+            "Titanium Ti-5Al-2.5Sn",
+            "Titanium Ti-10V-2Fe-3Al"
+        ],
+        "Medium (5.0-10.0 g/cm\u00b3)": [
+            "Stainless Steel 304",
+            "Stainless Steel 316",
+            "Stainless Steel 440C",
+            "Carbon Steel AISI 1045",
+            "Carbon Steel AISI 4140",
+            "Tool Steel H13",
+            "Inconel 718",
+            "Inconel 625",
+            "Hastelloy C-276",
+            "Copper C110",
+            "Brass C36000",
+            "Bronze C95400",
+            "Beryllium Copper C17200",
+            "Nickel 200",
+            "Cobalt L-605",
+            "Stainless Steel 410",
+            "Stainless Steel 630",
+            "Duplex Steel 2205",
+            "Super Duplex 2507",
+            "Ferritic Steel 430",
+            "Martensitic Steel 420",
+            "Inconel X-750",
+            "Rene 41",
+            "Copper Beryllium C17000",
+            "Nickel Alloy 263",
+            "Cobalt MP35N",
+            "Steel SAE 1015 (as-rolled)",
+            "Steel SAE 1015 (normalized)",
+            "Steel SAE 1015 (annealed)",
+            "Steel SAE 1020 (as-rolled)",
+            "Steel SAE 1020 (normalized)",
+            "Steel SAE 1020 (annealed)",
+            "Steel SAE 1022 (as-rolled)",
+            "Steel SAE 1022 (normalized)",
+            "Steel SAE 1022 (annealed)",
+            "Steel SAE 1030 (as-rolled)",
+            "Steel SAE 1030 (normalized)",
+            "Steel SAE 1030 (annealed)",
+            "Steel SAE 1030 (tempered at 400 F)",
+            "Steel SAE 1040 (as-rolled)",
+            "Steel SAE 1040 (normalized)",
+            "Steel SAE 1040 (annealed)",
+            "Steel SAE 1040 (tempered at 400 F)",
+            "Steel SAE 1050 (as-rolled)",
+            "Steel SAE 1050 (normalized)",
+            "Steel SAE 1050 (annealed)",
+            "Steel SAE 1050 (tempered at 600 F)",
+            "Steel SAE 1060 (as-rolled)",
+            "Steel SAE 1060 (normalized)",
+            "Steel SAE 1060 (annealed)",
+            "Steel SAE 1060 (tempered at 600 F)",
+            "Steel SAE 1080 (as-rolled)",
+            "Steel SAE 1080 (normalized)",
+            "Steel SAE 1080 (annealed)",
+            "Steel SAE 1080 (tempered at 600 F)",
+            "Steel SAE 1095 (as-rolled)",
+            "Steel SAE 1095 (normalized)",
+            "Steel SAE 1095 (annealed)",
+            "Steel SAE 1095 (tempered at 400 F)",
+            "Steel SAE 1117 (as-rolled)",
+            "Steel SAE 1117 (normalized)",
+            "Steel SAE 1117 (annealed)",
+            "Steel SAE 1118 (as-rolled)",
+            "Steel SAE 1118 (normalized)",
+            "Steel SAE 1118 (annealed)",
+            "Steel SAE 1137 (as-rolled)",
+            "Steel SAE 1137 (normalized)",
+            "Steel SAE 1137 (annealed)",
+            "Steel SAE 1137 (tempered at 400 F)",
+            "Steel SAE 1141 (as-rolled)",
+            "Steel SAE 1141 (normalized)",
+            "Steel SAE 1141 (annealed)",
+            "Steel SAE 1141 (tempered at 400 F)",
+            "Steel SAE 1144 (as-rolled)",
+            "Steel SAE 1144 (normalized)",
+            "Steel SAE 1144 (annealed)",
+            "Steel SAE 1144 (tempered at 400 F)",
+            "Steel SAE 1340 (normalized)",
+            "Steel SAE 1340 (annealed)",
+            "Steel SAE 1340 (tempered at 400 F)",
+            "Steel SAE 3140 (normalized)",
+            "Steel SAE 3140 (annealed)",
+            "Steel SAE 4037 (tempered at 400 F)",
+            "Steel SAE 4042 (tempered at 400 F)",
+            "Steel SAE 4130 (normalized)",
+            "Steel SAE 4130 (annealed)",
+            "Steel SAE 4130 (tempered at 400 F)",
+            "Steel SAE 4140 (normalized)",
+            "Steel SAE 4140 (annealed)",
+            "Steel SAE 4140 (tempered at 400 F)",
+            "Steel SAE 4150 (normalized)",
+            "Steel SAE 4150 (annealed)",
+            "Steel SAE 4150 (tempered at 400 F)",
+            "Steel SAE 4320 (normalized)",
+            "Steel SAE 4320 (annealed)",
+            "Steel SAE 4340 (normalized)",
+            "Steel SAE 4340 (annealed)",
+            "Steel SAE 4340 (tempered at 400 F)",
+            "Steel SAE 4620 (normalized)",
+            "Steel SAE 4620 (annealed)",
+            "Steel SAE 4820 (normalized)",
+            "Steel SAE 4820 (annealed)",
+            "Steel SAE 5046 (tempered at 400 F)",
+            "Steel SAE 5130 (tempered at 400 F)",
+            "Steel SAE 5140 (normalized)",
+            "Steel SAE 5140 (annealed)",
+            "Steel SAE 5140 (tempered at 400 F)",
+            "Steel SAE 5150 (normalized)",
+            "Steel SAE 5150 (annealed)",
+            "Steel SAE 5150 (tempered at 400 F)",
+            "Steel SAE 5160 (normalized)",
+            "Steel SAE 5160 (annealed)",
+            "Steel SAE 5160 (tempered at 400 F)",
+            "Steel SAE 6150 (normalized)",
+            "Steel SAE 6150 (annealed)",
+            "Steel SAE 6150 (tempered at 400 F)",
+            "Steel SAE 8620 (normalized)",
+            "Steel SAE 8620 (annealed)",
+            "Steel SAE 8630 (normalized)",
+            "Steel SAE 8630 (annealed)",
+            "Steel SAE 8630 (tempered at 400 F)",
+            "Steel SAE 8640 (tempered at 400 F)",
+            "Steel SAE 8650 (normalized)",
+            "Steel SAE 8650 (annealed)",
+            "Steel SAE 8650 (tempered at 400 F)",
+            "Steel SAE 8660 (tempered at 800 F)",
+            "Steel SAE 8740 (normalized)",
+            "Steel SAE 8740 (annealed)",
+            "Steel SAE 8740 (tempered at 400 F)",
+            "Steel SAE 9255 (normalized)",
+            "Steel SAE 9255 (annealed)",
+            "Steel SAE 9255 (tempered at 400 F)",
+            "Steel SAE 9260 (tempered at 800 F)",
+            "Steel SAE 9310 (normalized)",
+            "Steel SAE 9310 (annealed)",
+            "Steel SAE 30201 (annealed)",
+            "Steel SAE 30201 (1/4-hard)",
+            "Steel SAE 30201 (1/2-hard)",
+            "Steel SAE 30201 (3/4-hard)",
+            "Steel SAE 30201 (Full-hard)",
+            "Steel SAE 30202 (annealed)",
+            "Steel SAE 30202 (1/4-hard)",
+            "Steel SAE 30301 (annealed)",
+            "Steel SAE 30301 (1/4-hard)",
+            "Steel SAE 30301 (1/2-hard)",
+            "Steel SAE 30301 (3/4-hard)",
+            "Steel SAE 30301 (Full-hard)",
+            "Steel SAE 30302 (annealed)",
+            "Steel SAE 30302 (1/4-hard)",
+            "Steel SAE 30302B (annealed)",
+            "Steel SAE 30303 (annealed)",
+            "Steel SAE 30304 (annealed)",
+            "Steel SAE 30304L (annealed)",
+            "Steel SAE 30305 (annealed)",
+            "Steel SAE 30308 (annealed)",
+            "Steel SAE 30309 (annealed)",
+            "Steel SAE 30310 (annealed)",
+            "Steel SAE 30314 (annealed)",
+            "Steel SAE 30316 (annealed)",
+            "Steel SAE 30316L (annealed)",
+            "Steel SAE 30317 (annealed)",
+            "Steel SAE 30321 (annealed)",
+            "Steel SAE 30347 (annealed)",
+            "Steel SAE 30348 (annealed)",
+            "Steel SAE 51403 (annealed)",
+            "Steel SAE 51403 (tempered at 400 F)",
+            "Steel SAE 51405 (annealed)",
+            "Steel SAE 51410 (annealed)",
+            "Steel SAE 51410 (tempered at 400 F)",
+            "Steel SAE 51414 (annealed)",
+            "Steel SAE 51414 (tempered at 400 F)",
+            "Steel SAE 51416 (annealed)",
+            "Steel SAE 51416 (tempered at 400 F)",
+            "Steel SAE 51420 (annealed)",
+            "Steel SAE 51420 (tempered at 600 F)",
+            "Steel SAE 51430 (annealed)",
+            "Steel SAE 51430F (annealed)",
+            "Steel SAE 51431 (annealed)",
+            "Steel SAE 51431 (tempered at 400 F)",
+            "Steel SAE 51440A (annealed)",
+            "Steel SAE 51440A (tempered at 600 F)",
+            "Steel SAE 51440C (annealed)",
+            "Steel SAE 51440C (tempered at 600 F)",
+            "Steel SAE 51446 (annealed)",
+            "Steel SAE 51501 (annealed)",
+            "Steel SAE 51502 (annealed)",
+            "Grey cast iron class 20",
+            "Grey cast iron class 25",
+            "Grey cast iron class 30",
+            "Grey cast iron class 35",
+            "Grey cast iron class 40",
+            "Grey cast iron class 50",
+            "Grey cast iron class 60",
+            "Malleable cast iron",
+            "Nodular cast iron",
+            "Copper Alloy C80100",
+            "High-Copper Alloy C81300",
+            "High-Copper Alloy C81500",
+            "High-Copper Alloy C81700",
+            "Red brass C83300",
+            "Red brass C83400",
+            "Red brass C83600",
+            "Red brass C83800",
+            "Semi-red Brass C84200",
+            "Semi-red Brass C84400",
+            "Semi-red Brass C84500",
+            "Semi-red Brass C84800",
+            "Yellow Brass C85200",
+            "Yellow Brass C85400",
+            "Yellow Brass C85500",
+            "Yellow Brass C85700",
+            "Yellow Brass C85800",
+            "Manganese Bronze C86100",
+            "Manganese Bronze C86200",
+            "Manganese Bronze C86300",
+            "Manganese Bronze C86400",
+            "Manganese Bronze C86500",
+            "Manganese Bronze C86700",
+            "Manganese Bronze C86800",
+            "Silicon Brass C87200",
+            "Silicon Bronze C87400",
+            "Silicon Bronze C87500",
+            "Silicon Bronze C87600",
+            "Silicon Bronze C87800",
+            "Silicon Bronze C87900",
+            "Tin Bronze C90200",
+            "Tin Bronze C90300",
+            "Tin Bronze C90500",
+            "Tin Bronze C90700",
+            "Tin Bronze C90900",
+            "Tin Bronze C91000",
+            "Tin Bronze C91100",
+            "Tin Bronze C91300",
+            "Tin Bronze C91600",
+            "Tin Bronze C91700",
+            "Leaded Tin Bronze C92200",
+            "Leaded Tin Bronze C92300",
+            "Leaded Tin Bronze C92500",
+            "Leaded Tin Bronze C92600",
+            "Leaded Tin Bronze C92700",
+            "Leaded Tin Bronze C92800",
+            "Leaded Tin Bronze C92900",
+            "High Leaded Tin Bronze C93200",
+            "High Leaded Tin Bronze C93400",
+            "High Leaded Tin Bronze C93500",
+            "High Leaded Tin Bronze C93700",
+            "High Leaded Tin Bronze C93800",
+            "High Leaded Tin Bronze C93900",
+            "High Leaded Tin Bronze C94300",
+            "High Leaded Tin Bronze C94400",
+            "High Leaded Tin Bronze C94500",
+            "Nickel-Tin Bronze C94700",
+            "Nickel-Tin Bronze C94800",
+            "Aluminum Bronze C95200",
+            "Aluminum Bronze C95300",
+            "Aluminum Bronze C95400",
+            "Aluminum Bronze C95500",
+            "Aluminum Bronze C95600",
+            "Aluminum Bronze C95700",
+            "Aluminum Bronze C95800",
+            "Copper-Nickel C96200",
+            "Copper-Nickel C96300",
+            "Copper-Nickel C96400",
+            "Copper-Nickel C96600",
+            "Nickel Silver C97300",
+            "Nickel Silver C97400",
+            "Nickel Silver C97600",
+            "Nickel Silver C97800",
+            "Special Alloy C99300",
+            "Special Alloy C99400",
+            "Special Alloy C99500",
+            "Special Alloy C99700",
+            "Special Alloy C99750",
+            "Copper Alloy C10100",
+            "Copper Alloy C15000",
+            "Copper Alloy C15500",
+            "Copper Alloy C15715",
+            "Copper Alloy C15720",
+            "Copper Alloy C15760",
+            "Copper Alloy C16200",
+            "Copper Alloy C16500",
+            "Copper Alloy C17000",
+            "Copper Alloy C17300",
+            "Copper Alloy C17500",
+            "Copper Alloy C18200",
+            "Copper Alloy C18900",
+            "Copper Alloy C19000",
+            "Copper Alloy C19100",
+            "Copper Alloy C19200",
+            "Copper Alloy C19400",
+            "Copper Alloy C19500",
+            "Copper Alloy C21000",
+            "Commercial bronze C22000",
+            "Red brass C23000",
+            "Low brass C24000",
+            "Cartridge brass C26000",
+            "Yellow brass C26800",
+            "Muntz metal C28000",
+            "Leaded commercial bronze C31400",
+            "Low-leaded brass C33000",
+            "High-leaded brass C34200",
+            "Medium-leaded brass C35000",
+            "Leaded Muntz metal C36500 (As hot rolled)",
+            "Architectural bronze C38500 (As extruded)",
+            "Copper Alloy C40500",
+            "Copper Alloy C40800",
+            "Copper Alloy C41100",
+            "Copper Alloy C41300",
+            "Copper Alloy C41500",
+            "Copper Alloy C42200",
+            "Copper Alloy C42500",
+            "Copper Alloy C43000",
+            "Copper Alloy C43400",
+            "Copper Alloy C43500",
+            "Copper Alloy C44300",
+            "Copper Alloy C46400",
+            "Copper Alloy C48200",
+            "Copper Alloy C48500",
+            "Copper Alloy C50500",
+            "Copper Alloy C51000",
+            "Copper Alloy C51100",
+            "Copper Alloy C52100",
+            "Copper Alloy C52400",
+            "Copper Alloy C54400",
+            "Copper Alloy C60800",
+            "Copper Alloy C61000",
+            "Copper Alloy C61300",
+            "Copper Alloy C61400",
+            "Copper Alloy C61500",
+            "Copper Alloy C61800",
+            "Copper Alloy C61900",
+            "Copper Alloy C62300",
+            "Copper Alloy C62400",
+            "Copper Alloy C62500 (As extruded)",
+            "Copper Alloy C63000",
+            "Copper Alloy C63200",
+            "Copper Alloy C63800",
+            "Copper Alloy C64200",
+            "Copper Alloy C65100",
+            "Copper Alloy C65500",
+            "Copper Alloy C66700",
+            "Copper Alloy C67400",
+            "Copper Alloy C67500",
+            "Copper Alloy C68700",
+            "Copper Alloy C68800",
+            "Copper Alloy C69000",
+            "Copper Alloy C69400",
+            "Copper Alloy C70400",
+            "Copper Alloy C70600",
+            "Copper Alloy C71000",
+            "Copper Alloy C71500",
+            "Copper Alloy C72200",
+            "Copper Alloy C72500",
+            "Copper Alloy C73500",
+            "Copper Alloy C74500",
+            "Copper Alloy C75200",
+            "Copper Alloy C75400",
+            "Copper Alloy C75700",
+            "Copper Alloy C76390",
+            "Copper Alloy C77000",
+            "Copper Alloy C78200",
+            "EN 11SMn30",
+            "EN 10S2O",
+            "EN 35S20",
+            "EN FeP01",
+            "EN FeP03",
+            "EN FeP04",
+            "EN SPT360",
+            "EN P235GH",
+            "EN S235JRG1",
+            "EN S235JRH",
+            "EN S235JRG2",
+            "EN S235JO",
+            "EN P265GH",
+            "EN S275JR",
+            "EN S275J2G3",
+            "EN S275J2HG3",
+            "EN S355J2G3",
+            "EN S355J2H",
+            "EN S355JO",
+            "EN S355JOH",
+            "EN SPT410",
+            "EN SPT510",
+            "EN E295",
+            "EN E355",
+            "EN E360",
+            "EN C10E",
+            "EN C15E",
+            "EN C22",
+            "EN C25",
+            "EN C30",
+            "EN C35",
+            "EN C40",
+            "EN C45 (heat treated)",
+            "EN C50 (heat treated)",
+            "EN C55 (heat treated)",
+            "EN C60 (heat treated)",
+            "EN P295GH",
+            "EN 28Mn6 (heat treated)",
+            "EN 17Cr3",
+            "EN 34Cr4 (heat treated)",
+            "EN 37Cr4 (heat treated)",
+            "EN 41Cr4 (heat treated)",
+            "EN 16MnCr5 (case-hardened)",
+            "EN 20MnCr5 (case-hardened)",
+            "EN 16Mo3",
+            "EN 13CrMo4",
+            "EN 25CrMo4 (heat treated)",
+            "EN 34CrMo4 (heat treated)",
+            "EN 42CrMo4 (heat treated)",
+            "EN S355J2G1W",
+            "EN S355J0WP",
+            "EN 51CrV4 (case-hardened)",
+            "EN 10CrMo9-10",
+            "EN 11CrMo9-10",
+            "EN 16NiCr4 (case-hardened)",
+            "EN 12Ni14",
+            "EN 34CrNiMo6 (heat treated)",
+            "EN 30CrNiMo8 (heat treated)",
+            "EN 12Ni19",
+            "EN X8Ni9",
+            "EN X6Cr13",
+            "EN X12Cr13",
+            "EN X20Cr13",
+            "EN X30Cr13",
+            "EN X6Cr17",
+            "EN X17CrNi16-2",
+            "EN X5CrNi18-10",
+            "EN X8CrNiS18-9",
+            "EN X6CrNiTi18-10",
+            "EN X2CrNi19-11",
+            "EN X2CrNiN18-10",
+            "EN X5CrNiMo17-12-2",
+            "EN X6CrNiMoTi17-12-2",
+            "EN X2CrNiMo17-12-2",
+            "EN X2CrNiMo18-14-3",
+            "EN X3CrNiMo17-13-3",
+            "EN X2CrNiMoN17-11-2",
+            "EN X2CrNiMoN17-13-3",
+            "EN X2CrNiMoN22-5-3",
+            "EN X12CrMnNiN18-9-5",
+            "Grey cast iron",
+            "DIN 9SMn28",
+            "DIN 10S2O",
+            "DIN 35S20",
+            "DIN USt1303",
+            "DIN St1405",
+            "DIN St1203",
+            "DIN USt34-2",
+            "DIN St34-2BK",
+            "DIN St37.0",
+            "DIN HI",
+            "DIN St37-2",
+            "DIN St37-2BK",
+            "DIN RSt37-2",
+            "DIN St37-3",
+            "DIN HII",
+            "DIN St44-2",
+            "DIN St44.0",
+            "DIN St44-3",
+            "DIN St50-2",
+            "DIN St52-3",
+            "DIN St52.0",
+            "DIN St52-3BK",
+            "DIN St60-2",
+            "DIN St70-2",
+            "DIN Ck10 (case-hardened)",
+            "DIN Ck15 (case-hardened)",
+            "DIN Ck22",
+            "DIN Ck25",
+            "DIN Ck30",
+            "DIN Ck35",
+            "DIN Cf35",
+            "DIN Ck40 (heat treated)",
+            "DIN Ck45 (normalized)",
+            "DIN Ck45 (heat treated)",
+            "DIN Cf45",
+            "DIN Ck50 (face hardened)",
+            "DIN Cf53",
+            "DIN Ck55 (heat treated)",
+            "DIN Ck60 (normalized)",
+            "DIN Ck60 (heat treated)",
+            "DIN Ck60 (nitro-carburized)",
+            "DIN 17Mn4",
+            "DIN 28Mn6",
+            "DIN 17Cr3",
+            "DIN 34Cr4",
+            "DIN 37Cr4 (heat treated)",
+            "DIN 37Cr4 (face hardened)",
+            "DIN 37Cr4 (nitro-case-hard.)",
+            "DIN 38Cr4",
+            "DIN 41Cr4",
+            "DIN 42Cr4",
+            "DIN 37CrS4",
+            "DIN 41CrS4",
+            "DIN 55Cr3 (heat treated)",
+            "DIN 16MnCr5 (case-hardened)",
+            "DIN 20MnCr5",
+            "DIN 54SiCr6 (heat treated)",
+            "DIN 15Mo3",
+            "DIN 13CrMo4",
+            "DIN WTSt52-3",
+            "DIN 25CrMo4",
+            "DIN 34CrMo4",
+            "DIN 42CrMo4",
+            "DIN 41CrMo4",
+            "DIN 49CrMo4",
+            "DIN 30CrV9 (nitrided)",
+            "DIN 42CrV6 (heat treated)",
+            "DIN 42CrV6 (face hardened)",
+            "DIN 50CrV4 (heat treated)",
+            "DIN 10CrMo9-10",
+            "DIN 41CrAlMo7",
+            "DIN 32CrMo12",
+            "DIN 31CrMo12",
+            "DIN 17CrNiMo6",
+            "DIN 10Ni14",
+            "DIN 34CrNiMo6",
+            "DIN 30CrNiMo8",
+            "DIN 12Ni19",
+            "DIN X8Ni9",
+            "DIN X6Cr13",
+            "DIN X6Cr17",
+            "DIN X10Cr13",
+            "DIN X20Cr13",
+            "DIN X30Cr13",
+            "DIN X45CrSi93",
+            "DIN X6CrAl13",
+            "DIN X20CrNi172",
+            "DIN X85CrMoV182",
+            "DIN X5CrNi1810",
+            "DIN X10CrNiS189",
+            "DIN X6CrNiTi1810",
+            "DIN X2CrNi1911",
+            "DIN X2CrNiN1810",
+            "DIN X5CrNiMo17122",
+            "DIN X6CrNiMoTi17122",
+            "DIN X2CrNiMo17132",
+            "DIN X2CrNiMo18143",
+            "DIN X5CrNiMo17133",
+            "DIN X2CrNiMoN17122",
+            "DIN X2CrNiMoN17133",
+            "DIN X2CrNiMoN17135",
+            "DIN X8CrMnNi188",
+            "DIN X53CrMnNiN219",
+            "DIN GG - 15",
+            "DIN GG - 20",
+            "DIN GG - 25",
+            "DIN GG - 30",
+            "DIN GG - 35",
+            "DIN GGG - 50",
+            "DIN GGG - 60",
+            "DIN GGG - 70",
+            "DIN GGG - 80",
+            "DIN GTS - 40",
+            "DIN GTS - 50",
+            "BS 230M07",
+            "BS 212M36",
+            "BS CR3GP",
+            "BS CR2PL",
+            "BS CR4GP",
+            "BS CEW2BK",
+            "BS CFS3NBK",
+            "BS Grade 360",
+            "BS CEW3BK",
+            "BS 40B",
+            "BS 40C",
+            "BS Grade 430",
+            "BS 43B",
+            "BS CFS6NBK",
+            "BS 43D",
+            "BS 50B",
+            "BS 50C",
+            "BS 50D",
+            "BS CFS8NBK",
+            "BS CEW5BK",
+            "BS 55C",
+            "BS 55E",
+            "BS 070M26",
+            "BS 080M30",
+            "BS 080M36",
+            "BS 080A35",
+            "BS 080M40",
+            "BS 080M46",
+            "BS 060A47",
+            "BS 080M50",
+            "BS 060A57",
+            "BS 070M55",
+            "BS 150M19",
+            "BS 251A58 (heat treated)",
+            "BS 530A36",
+            "BS 530M40 (heat treated)",
+            "BS 530M40 (face hardened)",
+            "BS 525A60 (heat treated)",
+            "BS 708A25",
+            "BS 708A37",
+            "BS 708M40 (heat treated)",
+            "BS 708M40 (face hardened)",
+            "BS 735A51 (heat treated)",
+            "BS 905M39 (nitrided)",
+            "BS 722M22",
+            "BS 722M24 (nitrided)",
+            "BS 817M40 (heat treated)",
+            "BS 403S17",
+            "BS 410S21",
+            "BS 420S37",
+            "BS 430S17",
+            "BS 401S45",
+            "BS 431S29",
+            "BS 304S15",
+            "BS 303S31",
+            "BS 321S31",
+            "BS 304S11",
+            "BS 310S31",
+            "BS 316S11",
+            "BS 316S31",
+            "BS 349S54",
+            "CSN 10370",
+            "CSN 11110",
+            "CSN 11110 (normalized)",
+            "CSN 11120",
+            "CSN 11140 (normalized)",
+            "CSN 11301",
+            "CSN 11305",
+            "CSN 11321",
+            "CSN 11343",
+            "CSN 11353",
+            "CSN 11368",
+            "CSN 11373",
+            "CSN 11378",
+            "CSN 11418",
+            "CSN 11423",
+            "CSN 11448",
+            "CSN 11453",
+            "CSN 11500",
+            "CSN 11503",
+            "CSN 11523 (normalized)",
+            "CSN 11600",
+            "CSN 11600 (face hardened)",
+            "CSN 11700",
+            "CSN 11700 (face hardened)",
+            "CSN 12010 (case-hardened)",
+            "CSN 12020",
+            "CSN 12020 (case-hardened)",
+            "CSN 12024",
+            "CSN 12030",
+            "CSN 12031",
+            "CSN 12040",
+            "CSN 12041",
+            "CSN 12050 (normalized)",
+            "CSN 12050 (heat treated)",
+            "CSN 12051",
+            "CSN 12060",
+            "CSN 12061 (heat treated)",
+            "CSN 12071 (heat treated)",
+            "CSN 13030",
+            "CSN 13141",
+            "CSN 13180 (heat treated)",
+            "CSN 13220 (normalized)",
+            "CSN 13221 (normalized)",
+            "CSN 13240",
+            "CSN 13242",
+            "CSN 13251 (heat treated)",
+            "CSN 13270 (heat treated)",
+            "CSN 14120",
+            "CSN 14140 (heat treated)",
+            "CSN 14140 (face hardened)",
+            "CSN 14140 (nitro-case-hard.)",
+            "CSN 14141",
+            "CSN 14146",
+            "CSN 14148",
+            "CSN 14220",
+            "CSN 14220 (case-hardened)",
+            "CSN 14221",
+            "CSN 14223 (case-hardened)",
+            "CSN 14230 (case-hardened)",
+            "CSN 14260 (heat treated)",
+            "CSN 14262 (heat treated)",
+            "CSN 15020",
+            "CSN 15121",
+            "CSN 15127",
+            "CSN 15130",
+            "CSN 15131",
+            "CSN 15141",
+            "CSN 15142",
+            "CSN 15217",
+            "CSN 15222 (normalized)",
+            "CSN 15230 (heat treated)",
+            "CSN 15230 (Heat-treatment nitrided steel)",
+            "CSN 15241 (heat treated)",
+            "CSN 15241 (face hardened)",
+            "CSN 15260",
+            "CSN 15313",
+            "CSN 15330 (Heat-treatment nitrided steel)",
+            "CSN 15340",
+            "CSN 15432",
+            "CSN 16220 (case-hardened)",
+            "CSN 16223",
+            "CSN 16321",
+            "CSN 16326",
+            "CSN 16329",
+            "CSN 16343",
+            "CSN 16420 (case-hardened)",
+            "CSN 16430 (heat treated)",
+            "CSN 16527",
+            "CSN 16640 (heat treated)",
+            "CSN 17020 (normalized)",
+            "CSN 17021 (normalized)",
+            "CSN 17022 (normalized)",
+            "CSN 17023 (normalized)",
+            "CSN 17040 (normalized)",
+            "CSN 17041 (normalized)",
+            "CSN 17113 (normalized)",
+            "CSN 17115 (normalized)",
+            "CSN 17125 (normalized)",
+            "CSN 17145 (normalized)",
+            "CSN 17150 (normalized)",
+            "CSN 17240 (normalized)",
+            "CSN 17241 (normalized)",
+            "CSN 17243 (normalized)",
+            "CSN 17246 (normalized)",
+            "CSN 17247 (normalized)",
+            "CSN 17248 (normalized)",
+            "CSN 17249 (normalized)",
+            "CSN 17251 (normalized)",
+            "CSN 17253 (normalized)",
+            "CSN 17255 (normalized)",
+            "CSN 17256 (normalized)",
+            "CSN 17259 (normalized)",
+            "CSN 17265 (normalized)",
+            "CSN 17346 (normalized)",
+            "CSN 17348 (normalized)",
+            "CSN 17359 (normalized)",
+            "CSN 17460 (normalized)",
+            "CSN 17465 (normalized)",
+            "CSN 17501 (normalized)",
+            "CSN 422303",
+            "CSN 422304",
+            "CSN 422305",
+            "CSN 422306",
+            "CSN 422307",
+            "CSN 422308",
+            "CSN 422410",
+            "CSN 422415",
+            "CSN 422420",
+            "CSN 422425",
+            "CSN 422430",
+            "CSN 422435",
+            "CSN 422540",
+            "CSN 422555",
+            "CSN 422630",
+            "CSN 422640",
+            "CSN 422650",
+            "CSN 242660",
+            "CSN 422670",
+            "CSN 422709",
+            "CSN 422712",
+            "CSN 422713",
+            "CSN 422724",
+            "CSN 422735",
+            "CSN 422739",
+            "CSN 422753",
+            "CSN 422906",
+            "CSN 422912",
+            "CSN 423042",
+            "CSN 423044",
+            "CSN 423045",
+            "CSN 423047",
+            "CSN 423115",
+            "CSN 423119",
+            "CSN 423123",
+            "CSN 423135",
+            "CSN 423137",
+            "CSN 423145",
+            "CSN 423147",
+            "CSN 423210",
+            "CSN 423212",
+            "CSN 423213",
+            "CSN 423214",
+            "CSN 423256",
+            "CSN 423311",
+            "Steel ST3KP GOST 380-94",
+            "Steel ST3PC GOST 380-94",
+            "Steel ST3CP GOST 380-94",
+            "Steel ST4KP GOST 380-94",
+            "Steel ST4PS GOST 380-94",
+            "Steel ST4SP GOST 380-94",
+            "Steel ST5PS GOST 380-94",
+            "Steel ST5SP GOST 380-94",
+            "Steel ST6PS GOST 380-94",
+            "Steel ST6SP GOST 380-94",
+            "Steel S235 GOST 27772-88",
+            "Steel S245 GOST 27772-88",
+            "Steel S255 GOST 27772-88",
+            "Steel S285 GOST 27772-88",
+            "Steel S345 GOST 27772-88",
+            "Steel S375 GOST 27772-88",
+            "Steel 08 GOST 1050-88 (normalized)",
+            "Steel 10 GOST 1050-88 (normalized)",
+            "Steel 10 GOST 1050-88 (case-hardened)",
+            "Steel 10 GOST 1050-88 (Cold working)",
+            "Steel 10 GOST 1050-88 (Annealing or high tempering)",
+            "Steel 15 GOST 1050-88 (normalized)",
+            "Steel 15 GOST 1050-88 (case-hardened)",
+            "Steel 15 GOST 1050-88 (Cold working)",
+            "Steel 15 GOST 1050-88 (Annealing or high tempering)",
+            "Steel 20 GOST 1050-88 (normalized)",
+            "Steel 20 GOST 1050-88 (case-hardened)",
+            "Steel 20 GOST 1050-88 (Cold working)",
+            "Steel 20 GOST 1050-88 (Annealing or high tempering)",
+            "Steel 25 GOST 1050-88 (normalized)",
+            "Steel 25 GOST 1050-88 (case-hardened)",
+            "Steel 25 GOST 1050-88 (Cold working)",
+            "Steel 25 GOST 1050-88 (Annealing or high tempering)",
+            "Steel 30 GOST 1050-88 (normalized)",
+            "Steel 30 GOST 1050-88 (Improved)",
+            "Steel 30 GOST 1050-88 (Cold working)",
+            "Steel 30 GOST 1050-88 (Annealing or high tempering)",
+            "Steel 30 GOST 1050-88 (Quenched and tempered)",
+            "Steel 35 GOST 1050-88 (normalized)",
+            "Steel 35 GOST 1050-88 (Improved)",
+            "Steel 35 GOST 1050-88 (Quenching and cooling in the water)",
+            "Steel 35 GOST 1050-88 (Cold working)",
+            "Steel 35 GOST 1050-88 (Annealing or high tempering)",
+            "Steel 35 GOST 1050-88 (Quenched and tempered)",
+            "Steel 40 GOST 1050-88 (normalized)",
+            "Steel 40 GOST 1050-88 (Improved)",
+            "Steel 40 GOST 1050-88 (Quenching and cooling in the water)",
+            "Steel 40 GOST 1050-88 (Cold working)",
+            "Steel 40 GOST 1050-88 (Annealing or high tempering)",
+            "Steel 40 GOST 1050-88 (Quenched and tempered)",
+            "Steel 45 GOST 1050-88 (normalized)",
+            "Steel 45 GOST 1050-88 (Improved)",
+            "Steel 45 GOST 1050-88 (Quenching and cooling in the oil)",
+            "Steel 45 GOST 1050-88 (Quenching and cooling in the water)",
+            "Steel 45 GOST 1050-88 (Quenching and heating)",
+            "Steel 45 GOST 1050-88 (Cold working)",
+            "Steel 45 GOST 1050-88 (Annealing or high tempering)",
+            "Steel 45 GOST 1050-88 (Quenched and tempered)",
+            "Steel 50 GOST 1050-88 (normalized)",
+            "Steel 50 GOST 1050-88 (Improved)",
+            "Steel 50 GOST 1050-88 (Cold working)",
+            "Steel 50 GOST 1050-88 (Annealing or high tempering)",
+            "Steel 50 GOST 1050-88 (Quenched and tempered)",
+            "Steel 55 GOST 1050-88 (normalized)",
+            "Steel 55 GOST 1050-88 (Quenched and tempered)",
+            "Steel 60 GOST 1050-88 (normalized)",
+            "Steel 60 GOST 1050-88 (Quenched and tempered)",
+            "Steel 20G GOST 1050-88 (normalized)",
+            "Steel 20G GOST 1050-88 (Quenching and cooling in the water)",
+            "Steel 30G GOST 1050-88 (normalized)",
+            "Steel 30G GOST 1050-88 (Quenching and cooling in the water)",
+            "Steel 40G GOST 1050-88 (normalized)",
+            "Steel 40G GOST 1050-88 (Quenching and cooling in the water)",
+            "Steel 50G GOST 1050-88 (normalized)",
+            "Steel 50G GOST 1050-88 (Quenching and cooling in the water)",
+            "Steel 65G GOST 1050-88 (normalized)",
+            "Steel 65G GOST 1050-88 (Improved)",
+            "Steel 65G GOST 1050-88 (Quenching and cooling in the water)",
+            "Steel A11 GOST 1414-75",
+            "Steel A12 GOST 1414-75",
+            "Steel A20 GOST 1414-75",
+            "Steel A30 GOST 1414-75",
+            "Steel A35 GOST 1414-75",
+            "Steel 15Ch GOST 4543-71",
+            "Steel 20Ch GOST 4543-71",
+            "Steel 20Ch GOST 4543-71 (normalized)",
+            "Steel 20Ch GOST 4543-71 (Improved)",
+            "Steel 20Ch GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 30Ch GOST 4543-71",
+            "Steel 35Ch GOST 4543-71",
+            "Steel 40Ch GOST 4543-71",
+            "Steel 40Ch GOST 4543-71 (normalized)",
+            "Steel 40Ch GOST 4543-71 (Improved)",
+            "Steel 40Ch GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 45Ch GOST 4543-71",
+            "Steel 45Ch GOST 4543-71 (normalized)",
+            "Steel 45Ch GOST 4543-71 (Improved)",
+            "Steel 45Ch GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 50Ch GOST 4543-71",
+            "Steel 50Ch GOST 4543-71 (normalized)",
+            "Steel 50Ch GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 10G2 GOST 4543-71 (normalized)",
+            "Steel 35G2 GOST 4543-71 (normalized)",
+            "Steel 35G2 GOST 4543-71 (Quenching and cooling in the water)",
+            "Steel 40G2 GOST 4543-71 (normalized)",
+            "Steel 40G2 GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 45G2 GOST 4543-71 (normalized)",
+            "Steel 45G2 GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 33ChS GOST 4543-71 (normalized)",
+            "Steel 33ChS GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 38ChS GOST 4543-71 (Improved)",
+            "Steel 30ChMA GOST 4543-71",
+            "Steel 30ChM GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 35ChM GOST 4543-71",
+            "Steel 35ChM GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 18ChG GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 18ChGT GOST 4543-71 (normalized)",
+            "Steel 18ChGT GOST 4543-71 (Case hardening,quenching and cooling in the oil)",
+            "Steel 30ChGT GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 30ChGT GOST 4543-71 (Case hardening,quenching and cooling in the oil)",
+            "Steel 20ChGSA GOST 4543-71",
+            "Steel 20ChGSA GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 20ChGNR GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 40ChFA GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 30ChGS GOST 4543-71",
+            "Steel 20ChN GOST 4543-71",
+            "Steel 40ChN GOST 4543-71",
+            "Steel 40ChN GOST 4543-71 (normalized)",
+            "Steel 40ChN GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 45ChN GOST 4543-71",
+            "Steel 50ChN GOST 4543-71",
+            "Steel 30ChN3A GOST 4543-71",
+            "Steel 12ChN2 GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 12ChN2 GOST 4543-71 (Case hardening,quenching and cooling in the oil)",
+            "Steel 12ChN3A GOST 4543-71 (Improved)",
+            "Steel 12ChN3A GOST 4543-71 (Quenching and heating)",
+            "Steel 20Ch2N4A GOST 4543-71 (Quenching and heating)",
+            "Steel 20Ch2N4A GOST 4543-71 (Case hardening,quenching and cooling in the oil)",
+            "Steel 20Ch2N4A GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 30ChGS GOST 4543-71 (Annealing)",
+            "Steel 30ChGSA GOST 4543-71 (Improved)",
+            "Steel 30ChGSA GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 38Ch210 GOST 4543-71 (Quenching and cooling in the oil)",
+            "Steel 38ChA GOST 4543-71 (Quenched and tempered)",
+            "Steel 38Ch2MJuA GOST 4543-71",
+            "Steel 12MCh GOST 20072-74",
+            "Steel 12Ch1MF GOST 20072-74",
+            "Steel 20Ch1M1F1TR GOST 20072-74",
+            "Steel 20Ch1M1F1BR GOST 20072-74",
+            "Steel 25Ch1MF GOST 20072-74",
+            "Steel 18Ch3MV GOST 20072-74",
+            "Steel 20Ch3MVF GOST 20072-74",
+            "Steel 15Ch5 GOST 20072-74",
+            "Steel 15Ch5M GOST 20072-74",
+            "Steel 15Ch5VF GOST 20072-74",
+            "Steel 12Ch8VF GOST 20072-74",
+            "Steel 13Ch14N3V2FR GOST 5949-75",
+            "Steel 10Ch11N23T3MR GOST 5949-75",
+            "Steel 12Ch18N10T GOST 5949-75",
+            "Steel 12Ch18N9T GOST 5949-75",
+            "Steel 12Ch18N12T GOST 5949-75",
+            "Steel 12Ch25N16G7AR GOST 5949-75",
+            "Steel 20 GOST 1577-93 (normalized)",
+            "Steel 20 GOST 1577-93 (Quenched and tempered)",
+            "Steel 25 GOST 1577-93 (normalized)",
+            "Steel 25 GOST 1577-93 (Quenched and tempered)",
+            "Steel 30 GOST 1577-93 (normalized)",
+            "Steel 30 GOST 1577-93 (Quenched and tempered)",
+            "Steel 35 GOST 1577-93 (normalized)",
+            "Steel 35 GOST 1577-93 (Quenched and tempered)",
+            "Steel 40 GOST 1577-93 (normalized)",
+            "Steel 40 GOST 1577-93 (Quenched and tempered)",
+            "Steel 45 GOST 1577-93 (normalized)",
+            "Steel 45 GOST 1577-93 (Quenched and tempered)",
+            "Steel 50 GOST 1577-93 (normalized)",
+            "Steel 50 GOST 1577-93 (Quenched and tempered)",
+            "Steel 55 GOST 1577-93 (normalized)",
+            "Steel 55 GOST 1577-93 (Quenched and tempered)",
+            "Steel 60 GOST 1577-93 (normalized)",
+            "Steel 60 GOST 1577-93 (Quenched and tempered)",
+            "Steel 30Ch GOST 1577-93 (Quenched and tempered)",
+            "Steel 38ChA GOST 1577-93 (Quenched and tempered)",
+            "Steel 40Ch GOST 1577-93 (Quenched and tempered)",
+            "Steel 15L GOST 977-88 (normalized)",
+            "Steel 20L GOST 977-88 (normalized)",
+            "Steel 25L GOST 977-88 (normalized)",
+            "Steel 30L GOST 977-88 (normalized)",
+            "Steel 35L GOST 977-88 (normalized)",
+            "Steel 40L GOST 977-88 (normalized)",
+            "Steel 45L GOST 977-88 (normalized)",
+            "Steel 50L GOST 977-88 (normalized)",
+            "Steel 20GL GOST 977-88 (normalized)",
+            "Steel 35GL GOST 977-88 (normalized)",
+            "Steel 35GL GOST 977-88 (Quenching and cooling in the water)",
+            "Steel 20GSL GOST 977-88 (normalized)",
+            "Steel 30GSL GOST 977-88 (normalized)",
+            "Steel 30GSL GOST 977-88 (Quenching and cooling in the water)",
+            "Steel 20G1FL GOST 977-88 (normalized)",
+            "Steel 20FL GOST 977-88 (normalized)",
+            "Steel 30ChGSFL GOST 977-88 (normalized)",
+            "Steel 45FL GOST 977-88 (normalized)",
+            "Steel 20ChML GOST 977-88 (normalized)",
+            "Steel 20ChMFL GOST 977-88 (normalized)",
+            "Steel 20GNMFL GOST 977-88 (normalized)",
+            "Steel 35ChML GOST 977-88 (normalized)",
+            "Steel 30ChNML GOST 977-88 (normalized)",
+            "Steel 35ChGSL GOST 977-88 (normalized)",
+            "Steel 35ChGSL GOST 977-88 (Quenching and cooling in the water)",
+            "Steel 20DChL GOST 977-88 (normalized)",
+            "Steel 08GDNFL GOST 977-88 (normalized)",
+            "Steel 13ChNDFTL GOST 977-88 (normalized)",
+            "Steel 12DN2FL GOST 977-88 (normalized)",
+            "Steel 25L GOST 977-88 (Quenched and tempered)",
+            "Steel 30L GOST 977-88 (Quenched and tempered)",
+            "Steel 35L GOST 977-88 (Quenched and tempered)",
+            "Steel 40L GOST 977-88 (Quenched and tempered)",
+            "Steel 45L GOST 977-88 (Quenched and tempered)",
+            "Steel 50L GOST 977-88 (Quenched and tempered)",
+            "Steel 20GL GOST 977-88 (Quenched and tempered)",
+            "Steel 35GL GOST 977-88 (Quenched and tempered)",
+            "Steel 30GSL GOST 977-88 (Quenched and tempered)",
+            "Steel 30ChGSFL GOST 977-88 (Quenched and tempered)",
+            "Steel 45FL GOST 977-88 (Quenched and tempered)",
+            "Steel 32Ch06L GOST 977-88 (Quenched and tempered)",
+            "Steel 20GNMFL GOST 977-88 (Quenched and tempered)",
+            "Steel 35ChML GOST 977-88 (Quenched and tempered)",
+            "Steel 30ChNML GOST 977-88 (Quenched and tempered)",
+            "Steel 35ChGSL GOST 977-88 (Quenched and tempered)",
+            "Steel 35NGML GOST 977-88 (Quenched and tempered)",
+            "Steel 20DChL GOST 977-88 (Quenched and tempered)",
+            "Steel 12DN2FL GOST 977-88 (Quenched and tempered)",
+            "Steel 12DChN1MFL GOST 977-88 (Quenched and tempered)",
+            "Steel 23ChGS2MFL GOST 977-88 (Quenched and tempered)",
+            "Steel 12Ch7G3SL GOST 977-88 (Quenched and tempered)",
+            "Steel 25Ch2GNMFL1 GOST 977-88 (Quenched and tempered)",
+            "Steel 25Ch2GNMFL2 GOST 977-88 (Quenched and tempered)",
+            "Steel 27Ch5GSML GOST 977-88 (Quenched and tempered)",
+            "Steel 30Ch3S3GML GOST 977-88 (Quenched and tempered)",
+            "Steel 03N12Ch5M3TL GOST 977-88 (Quenched and tempered)",
+            "Steel 03N12Ch5M3TJuL GOST 977-88 (Quenched and tempered)",
+            "Steel 40ChL GOST 977-88 (Quenching and cooling in the oil)",
+            "Steel 50ChFA GOST 14959-79 (heat treated)",
+            "Steel 55S2 GOST 14959-79 (heat treated)",
+            "Steel 50ChGA GOST 14959-79 (heat treated)",
+            "Steel 50ChGFA GOST 14959-79 (heat treated)",
+            "Grey cast iron 10 GOST1412-85",
+            "Grey cast iron 15 GOST1412-85",
+            "Grey cast iron 18 GOST1412-85",
+            "Grey cast iron 20 GOST1412-85",
+            "Grey cast iron 21 GOST1412-85",
+            "Grey cast iron 24 GOST1412-85",
+            "Grey cast iron 25 GOST1412-85",
+            "Grey cast iron 30 GOST1412-85",
+            "Grey cast iron 35 GOST1412-85",
+            "Nodular cast iron 35 GOST7293-85",
+            "Nodular cast iron 40 GOST7293-85",
+            "Nodular cast iron 45 GOST7293-85",
+            "Nodular cast iron 50 GOST7293-85",
+            "Nodular cast iron 60 GOST7293-85",
+            "Nodular cast iron 70 GOST7293-85",
+            "Nodular cast iron 80 GOST7293-85",
+            "Nodular cast iron 100 GOST7293-85",
+            "Malleable cast iron 30-6",
+            "Malleable cast iron 33-8",
+            "Malleable cast iron 35-10",
+            "Malleable cast iron 37-12",
+            "Malleable cast iron 45-7",
+            "Malleable cast iron 50-5",
+            "Malleable cast iron 55-4",
+            "Malleable cast iron 60-3",
+            "Malleable cast iron 65-3",
+            "Malleable cast iron 70-2",
+            "Malleable cast iron 80-1.5",
+            "Malleable cast iron 40",
+            "NF 13MF4",
+            "NF 35MF6",
+            "NF XE",
+            "NF ZE",
+            "NF ZES",
+            "NF A34-2",
+            "NF A37CP",
+            "NF A42CP",
+            "NF E24-2",
+            "NF E24-3",
+            "NF E28-2",
+            "NF E28-4",
+            "NF A50-2",
+            "NF E36-3",
+            "NF E36-4",
+            "NF A60-2",
+            "NF A70-2",
+            "NF XC10",
+            "NF XC12",
+            "NF XC18",
+            "NF XC25",
+            "NF XC32",
+            "NF XC38H1",
+            "NF XC42TS",
+            "NF XC42H1",
+            "NF XC48H1 (heat treated)",
+            "NF XC55H1",
+            "NF 52M4TS",
+            "NF A48CP",
+            "NF 35M5",
+            "NF 51S7 (heat treated)",
+            "NF 32C4",
+            "NF 38C4",
+            "NF 42C4",
+            "NF 35CD4TS",
+            "NF 42C4TS",
+            "NF 16MC5 (case-hardened)",
+            "NF 20MC5 (case-hardened)",
+            "NF 55C3 (heat treated)",
+            "NF 15D3",
+            "NF 15CD405",
+            "NF 25CD4",
+            "NF 34CD4",
+            "NF 42CD4 (heat treated)",
+            "NF 42CD4TS (face hardened)",
+            "NF 50CV4 (heat treated)",
+            "NF 40CAD612 (nitrided)",
+            "NF 30CD12 (heat treated)",
+            "NF 30CD12 (nitrided)",
+            "NF 16NC6 (case-hardened)",
+            "NF 18NCD6 (case-hardened)",
+            "NF 30CND8 (heat treated)",
+            "NF Z6C13",
+            "NF Z12C13",
+            "NF Z20C13",
+            "NF Z30C13",
+            "NF Z8C17",
+            "NF Z8CA7",
+            "NF Z45CS9",
+            "NF Z6CA13",
+            "NF Z10C13",
+            "NF Z85CDMV1802",
+            "NF Z6CN1809",
+            "NF Z6CNT1810",
+            "NF Z6CNT1812",
+            "NF Z2CN1810",
+            "NF Z15CN2413",
+            "NF Z12NCS3516",
+            "NF Z12CN2520",
+            "NF Z12CNS2520",
+            "NF Z6CND1711",
+            "NF Z6CNDT1712",
+            "NF Z2CND1712",
+            "NF Z2CND1713",
+            "NF Z6CND1712",
+            "NF Z52CMN2109",
+            "JIS SUM22",
+            "JIS SS330",
+            "JIS STKM13B",
+            "JIS STKM12A",
+            "JIS STKM12C",
+            "JIS SS400",
+            "JIS SS490",
+            "JIS SM52OC",
+            "JIS SM52OB",
+            "JIS STKM16A",
+            "JIS STKM16C",
+            "JIS SM570",
+            "JIS S10C",
+            "JIS S15C",
+            "JIS S22C",
+            "JIS S25C",
+            "JIS S30C",
+            "JIS S35C",
+            "JIS S40C",
+            "JIS S45C",
+            "JIS S50C",
+            "JIS S55C",
+            "JIS S58C",
+            "JIS SMn433",
+            "JIS SCr430",
+            "JIS SCr435",
+            "JIS SCr440",
+            "JIS SMnC420",
+            "JIS SUP9 (heat treated)",
+            "JIS SCM430",
+            "JIS SCM435",
+            "JIS SCM440",
+            "JIS SCM445",
+            "JIS SUP10",
+            "JIS SNC815",
+            "JIS SNCM815",
+            "JIS SNCM447",
+            "JIS SNCM630",
+            "JIS SUS403",
+            "JIS SUS405",
+            "JIS SUS410",
+            "JIS SUS420J1",
+            "JIS SUS420J2",
+            "JIS SUS430",
+            "JIS SUS431",
+            "JIS SUS304",
+            "JIS SUS303",
+            "JIS SUS316",
+            "JIS SUS316L",
+            "JIS SUS321",
+            "JIS SUS304L",
+            "JIS SUS3093",
+            "JIS SUH1",
+            "JIS SUH330",
+            "JIS SUH310",
+            "JIS SUH35"
+        ],
+        "Heavy (>10.0 g/cm\u00b3)": [
+            "Tungsten",
+            "Molybdenum",
+            "Tantalum"
+        ]
+    },
+    "use_case_recommendations": {
+        "Aerospace": [
+            {
+                "Material": "Titanium Ti-10V-2Fe-3Al",
+                "Tensile_Strength_MPa": 1379.0,
+                "Density_g_cm3": 4.54
+            },
+            {
+                "Material": "Titanium Ti-5Al-5V-5Fe",
+                "Tensile_Strength_MPa": 1260.0,
+                "Density_g_cm3": 4.81
+            },
+            {
+                "Material": "Titanium Ti-6Al-4V",
+                "Tensile_Strength_MPa": 950.0,
+                "Density_g_cm3": 4.43
+            }
+        ],
+        "Marine": [
+            {
+                "Material": "Steel SAE 51440C (tempered at 600 F)",
+                "Corrosion_Resistance_0_10": 10,
+                "Cost_Index_1_10": 6
+            },
+            {
+                "Material": "Stainless Steel 440C",
+                "Corrosion_Resistance_0_10": 9,
+                "Cost_Index_1_10": 6
+            },
+            {
+                "Material": "Tungsten",
+                "Corrosion_Resistance_0_10": 9,
+                "Cost_Index_1_10": 9
+            }
+        ],
+        "Automotive": [
+            {
+                "Material": "Steel SAE 9255 (tempered at 400 F)",
+                "Tensile_Strength_MPa": 2103.0,
+                "Cost_Index_1_10": 2
+            },
+            {
+                "Material": "Steel SAE 5150 (tempered at 400 F)",
+                "Tensile_Strength_MPa": 1944.0,
+                "Cost_Index_1_10": 3
+            },
+            {
+                "Material": "Steel SAE 8650 (tempered at 400 F)",
+                "Tensile_Strength_MPa": 1937.0,
+                "Cost_Index_1_10": 3
+            }
+        ],
+        "Electronics": [
+            {
+                "Material": "Copper C110",
+                "Thermal_Conductivity_W_mK": 397.0
+            },
+            {
+                "Material": "Aluminum Alloy 5005-H18 (Wrought)",
+                "Thermal_Conductivity_W_mK": 195.56
+            },
+            {
+                "Material": "Aluminum Alloy 3105-H14 (Wrought)",
+                "Thermal_Conductivity_W_mK": 195.19
+            }
+        ]
+    }
+}

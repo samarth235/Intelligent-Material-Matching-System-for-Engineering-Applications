@@ -1,0 +1,45 @@
+Material,Alloy_Type,Density_g_cm3,Yield_Strength_MPa,Tensile_Strength_MPa,Hardness_HB,Corrosion_Resistance_0_10,Thermal_Conductivity_W_mK,Cost_Index_1_10,Melting_Point_C,Machinability,Primary_Application
+Aluminum 6061,Aluminum,2.70,276,310,95,7,167,3,660,8,General Purpose
+Aluminum 7075,Aluminum,2.81,505,570,150,6,130,7,477,6,Aerospace
+Aluminum 2024,Aluminum,2.78,325,485,120,5,121,6,635,7,Aircraft Structures
+Stainless Steel 304,Stainless Steel,8.00,215,505,217,8,16.3,4,1454,6,General Purpose
+Stainless Steel 316,Stainless Steel,8.00,170,485,217,9,16.3,5,1425,5,Marine
+Stainless Steel 440C,Stainless Steel,7.75,1720,1860,62,9,24.9,6,1425,4,Cutting Tools
+Carbon Steel AISI 1045,Carbon Steel,7.85,310,565,163,3,50,2,1515,7,General Purpose
+Carbon Steel AISI 4140,Carbon Steel,7.85,415,1040,311,3,42.6,3,1540,6,Structural
+Tool Steel H13,Tool Steel,7.75,515,655,38,4,16.3,5,1345,5,Die Casting
+Titanium Grade 2,Titanium,4.51,345,450,191,10,21.9,9,1668,4,Marine
+Titanium Ti-6Al-4V,Titanium,4.43,880,950,334,10,7.4,9,1605,5,Aerospace
+Titanium Ti-5Al-5V-5Fe,Titanium,4.81,1160,1260,369,9,8.4,8,1620,4,Aerospace
+Inconel 718,Nickel Alloy,8.19,1034,1379,382,10,11.4,10,1260,3,Turbine Blades
+Inconel 625,Nickel Alloy,8.44,345,1035,225,10,9.8,10,1350,3,Marine/Chemical
+Hastelloy C-276,Nickel Alloy,8.89,310,655,217,10,10.1,10,1320,2,Chemical Processing
+Magnesium AZ31,Magnesium,1.77,165,275,82,4,75,4,630,8,Automotive
+Magnesium AZ91D,Magnesium,1.81,160,230,75,4,72,4,595,8,Casting
+Copper C110,Copper,8.94,33,200,47,7,397,5,1083,9,Electrical
+Brass C36000,Copper Alloy,8.53,300,380,95,6,121,4,920,9,General Purpose
+Bronze C95400,Copper Alloy,8.86,200,380,100,8,26,5,1050,8,Marine
+Beryllium Copper C17200,Copper Alloy,8.26,1310,1380,395,8,120,9,950,4,Springs
+Nickel 200,Nickel,8.89,100,380,95,10,63,8,1455,7,Chemical Processing
+Tungsten,Refractory,19.30,1500,1650,412,9,163,9,3422,2,High Temperature
+Molybdenum,Refractory,10.28,565,655,180,7,142,8,2623,3,High Temperature
+Tantalum,Refractory,16.69,180,207,78,10,57.5,10,3017,5,Chemical Processing
+Cobalt L-605,Cobalt Alloy,8.89,450,1034,331,9,12.8,9,1495,3,High Temperature
+Aluminum 5083,Aluminum,2.66,215,315,77,9,121,3,655,8,Marine
+Aluminum 2014,Aluminum,2.80,415,480,105,5,121,6,645,7,Aircraft
+Stainless Steel 410,Stainless Steel,7.75,275,415,187,6,25.3,3,1510,7,Valve Parts
+Stainless Steel 630,Stainless Steel,7.75,1170,1310,382,8,12.2,6,1454,4,Aerospace
+Duplex Steel 2205,Duplex Stainless,7.80,450,620,269,9,14.0,6,1480,5,Marine
+Super Duplex 2507,Duplex Stainless,7.80,620,860,310,10,13.4,7,1500,4,Subsea
+Ferritic Steel 430,Stainless Steel,7.70,172,310,149,7,26.1,2,1480,8,General Purpose
+Martensitic Steel 420,Stainless Steel,7.75,517,620,217,8,24.9,3,1520,6,Cutting Tools
+Aluminum 7178,Aluminum,2.84,570,620,158,6,121,7,475,6,Aerospace Structures
+Titanium Ti-5Al-2.5Sn,Titanium,4.48,380,455,203,9,7.8,8,1650,5,Aerospace
+Inconel X-750,Nickel Alloy,8.28,1000,1172,355,9,11.6,9,1150,3,Turbine
+Rene 41,Nickel Alloy,8.25,1240,1380,390,9,13.5,9,1177,3,Jet Engines
+Aluminum 3003,Aluminum,2.73,69,186,47,7,180,2,655,9,General Purpose
+Copper Beryllium C17000,Copper Alloy,8.26,600,700,220,8,125,8,950,5,Springs
+Magnesium ZE63,Magnesium,1.83,172,255,88,5,71,5,610,7,Castings
+Nickel Alloy 263,Nickel Alloy,8.80,865,1310,310,9,12.5,8,1300,3,High Temperature
+Cobalt MP35N,Cobalt Alloy,9.45,448,1516,450,10,10.0,9,1500,2,Medical Implants
+Titanium Ti-10V-2Fe-3Al,Titanium,4.54,1275,1379,382,9,7.6,9,1720,3,Aerospace

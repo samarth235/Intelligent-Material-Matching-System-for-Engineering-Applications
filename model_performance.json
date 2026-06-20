@@ -1,0 +1,13 @@
+{
+    "train_size": 855,
+    "test_size": 214,
+    "accuracy": 0.9906542056074766,
+    "best_model": "Random Forest",
+    "best_params": {
+        "max_depth": 10,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 100
+    },
+    "timestamp": "2026-06-20 19:38:19.625223"
+}

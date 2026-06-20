@@ -1,0 +1,1494 @@
+Material,Alloy_Type,Density_g_cm3,Yield_Strength_MPa,Tensile_Strength_MPa,Hardness_HB,Corrosion_Resistance_0_10,Thermal_Conductivity_W_mK,Cost_Index_1_10,Melting_Point_C,Machinability,Primary_Application
+Aluminum 6061,Aluminum,2.7,276.0,310.0,95.0,7,167.0,3,660.0,8,General Purpose
+Aluminum 7075,Aluminum,2.81,505.0,570.0,150.0,6,130.0,7,477.0,6,Aerospace
+Aluminum 2024,Aluminum,2.78,325.0,485.0,120.0,5,121.0,6,635.0,7,Aircraft Structures
+Stainless Steel 304,Stainless Steel,8.0,215.0,505.0,217.0,8,16.3,4,1454.0,6,General Purpose
+Stainless Steel 316,Stainless Steel,8.0,170.0,485.0,217.0,9,16.3,5,1425.0,5,Marine
+Stainless Steel 440C,Stainless Steel,7.75,1720.0,1860.0,62.0,9,24.9,6,1425.0,4,Cutting Tools
+Carbon Steel AISI 1045,Carbon Steel,7.85,310.0,565.0,163.0,3,50.0,2,1515.0,7,General Purpose
+Carbon Steel AISI 4140,Carbon Steel,7.85,415.0,1040.0,311.0,3,42.6,3,1540.0,6,Structural
+Tool Steel H13,Tool Steel,7.75,515.0,655.0,38.0,4,16.3,5,1345.0,5,Die Casting
+Titanium Grade 2,Titanium,4.51,345.0,450.0,191.0,10,21.9,9,1668.0,4,Marine
+Titanium Ti-6Al-4V,Titanium,4.43,880.0,950.0,334.0,10,7.4,9,1605.0,5,Aerospace
+Titanium Ti-5Al-5V-5Fe,Titanium,4.81,1160.0,1260.0,369.0,9,8.4,8,1620.0,4,Aerospace
+Inconel 718,Nickel Alloy,8.19,1034.0,1379.0,382.0,10,11.4,10,1260.0,3,Turbine Blades
+Inconel 625,Nickel Alloy,8.44,345.0,1035.0,225.0,10,9.8,10,1350.0,3,Marine/Chemical
+Hastelloy C-276,Nickel Alloy,8.89,310.0,655.0,217.0,10,10.1,10,1320.0,2,Chemical Processing
+Magnesium AZ31,Magnesium,1.77,165.0,275.0,82.0,4,75.0,4,630.0,8,Automotive
+Magnesium AZ91D,Magnesium,1.81,160.0,230.0,75.0,4,72.0,4,595.0,8,Casting
+Copper C110,Copper,8.94,33.0,200.0,47.0,7,397.0,5,1083.0,9,Electrical
+Brass C36000,Copper Alloy,8.53,300.0,380.0,95.0,6,121.0,4,920.0,9,General Purpose
+Bronze C95400,Copper Alloy,8.86,200.0,380.0,100.0,8,26.0,5,1050.0,8,Marine
+Beryllium Copper C17200,Copper Alloy,8.26,1310.0,1380.0,395.0,8,120.0,9,950.0,4,Springs
+Nickel 200,Nickel,8.89,100.0,380.0,95.0,10,63.0,8,1455.0,7,Chemical Processing
+Tungsten,Refractory,19.3,1500.0,1650.0,412.0,9,163.0,9,3422.0,2,High Temperature
+Molybdenum,Refractory,10.28,565.0,655.0,180.0,7,142.0,8,2623.0,3,High Temperature
+Tantalum,Refractory,16.69,180.0,207.0,78.0,10,57.5,10,3017.0,5,Chemical Processing
+Cobalt L-605,Cobalt Alloy,8.89,450.0,1034.0,331.0,9,12.8,9,1495.0,3,High Temperature
+Aluminum 5083,Aluminum,2.66,215.0,315.0,77.0,9,121.0,3,655.0,8,Marine
+Aluminum 2014,Aluminum,2.8,415.0,480.0,105.0,5,121.0,6,645.0,7,Aircraft
+Stainless Steel 410,Stainless Steel,7.75,275.0,415.0,187.0,6,25.3,3,1510.0,7,Valve Parts
+Stainless Steel 630,Stainless Steel,7.75,1170.0,1310.0,382.0,8,12.2,6,1454.0,4,Aerospace
+Duplex Steel 2205,Duplex Stainless,7.8,450.0,620.0,269.0,9,14.0,6,1480.0,5,Marine
+Super Duplex 2507,Duplex Stainless,7.8,620.0,860.0,310.0,10,13.4,7,1500.0,4,Subsea
+Ferritic Steel 430,Stainless Steel,7.7,172.0,310.0,149.0,7,26.1,2,1480.0,8,General Purpose
+Martensitic Steel 420,Stainless Steel,7.75,517.0,620.0,217.0,8,24.9,3,1520.0,6,Cutting Tools
+Aluminum 7178,Aluminum,2.84,570.0,620.0,158.0,6,121.0,7,475.0,6,Aerospace Structures
+Titanium Ti-5Al-2.5Sn,Titanium,4.48,380.0,455.0,203.0,9,7.8,8,1650.0,5,Aerospace
+Inconel X-750,Nickel Alloy,8.28,1000.0,1172.0,355.0,9,11.6,9,1150.0,3,Turbine
+Rene 41,Nickel Alloy,8.25,1240.0,1380.0,390.0,9,13.5,9,1177.0,3,Jet Engines
+Aluminum 3003,Aluminum,2.73,69.0,186.0,47.0,7,180.0,2,655.0,9,General Purpose
+Copper Beryllium C17000,Copper Alloy,8.26,600.0,700.0,220.0,8,125.0,8,950.0,5,Springs
+Magnesium ZE63,Magnesium,1.83,172.0,255.0,88.0,5,71.0,5,610.0,7,Castings
+Nickel Alloy 263,Nickel Alloy,8.8,865.0,1310.0,310.0,9,12.5,8,1300.0,3,High Temperature
+Cobalt MP35N,Cobalt Alloy,9.45,448.0,1516.0,450.0,10,10.0,9,1500.0,2,Medical Implants
+Titanium Ti-10V-2Fe-3Al,Titanium,4.54,1275.0,1379.0,382.0,9,7.6,9,1720.0,3,Aerospace
+Steel SAE 1015 (as-rolled),Carbon Steel,7.86,314.0,421.0,126.0,3,46.67,2,1522.3,7,General Purpose
+Steel SAE 1015 (normalized),Carbon Steel,7.86,324.0,424.0,121.0,3,48.86,2,1493.2,7,General Purpose
+Steel SAE 1015 (annealed),Carbon Steel,7.86,284.0,386.0,111.0,4,53.94,2,1517.2,6,General Purpose
+Steel SAE 1020 (as-rolled),Carbon Steel,7.86,331.0,448.0,143.0,2,54.06,3,1496.3,6,General Purpose
+Steel SAE 1020 (normalized),Carbon Steel,7.86,346.0,441.0,131.0,3,49.77,1,1499.9,7,General Purpose
+Steel SAE 1020 (annealed),Carbon Steel,7.86,295.0,395.0,111.0,3,52.9,2,1559.4,7,General Purpose
+Steel SAE 1022 (as-rolled),Carbon Steel,7.86,359.0,503.0,149.0,2,49.91,3,1531.2,7,General Purpose
+Steel SAE 1022 (normalized),Carbon Steel,7.86,359.0,483.0,143.0,4,52.2,2,1528.5,7,General Purpose
+Steel SAE 1022 (annealed),Carbon Steel,7.86,317.0,450.0,137.0,2,50.82,2,1474.1,8,General Purpose
+Steel SAE 1030 (as-rolled),Carbon Steel,7.86,345.0,552.0,179.0,3,49.94,2,1537.4,7,General Purpose
+Steel SAE 1030 (normalized),Carbon Steel,7.86,345.0,517.0,149.0,3,53.91,3,1513.9,7,General Purpose
+Steel SAE 1030 (annealed),Carbon Steel,7.86,341.0,464.0,126.0,4,50.85,2,1527.3,7,General Purpose
+Steel SAE 1030 (tempered at 400 F),Carbon Steel,7.86,648.0,848.0,495.0,3,44.06,3,1540.5,6,Structural
+Steel SAE 1040 (as-rolled),Carbon Steel,7.86,414.0,621.0,201.0,3,55.24,2,1539.1,7,General Purpose
+Steel SAE 1040 (normalized),Carbon Steel,7.86,374.0,590.0,170.0,3,47.92,1,1552.2,7,General Purpose
+Steel SAE 1040 (annealed),Carbon Steel,7.86,353.0,519.0,149.0,2,50.22,2,1519.4,7,General Purpose
+Steel SAE 1040 (tempered at 400 F),Carbon Steel,7.86,593.0,779.0,262.0,4,50.48,2,1529.8,7,General Purpose
+Steel SAE 1050 (as-rolled),Carbon Steel,7.86,414.0,724.0,229.0,3,52.86,2,1539.4,7,General Purpose
+Steel SAE 1050 (normalized),Carbon Steel,7.86,427.0,748.0,217.0,4,54.25,1,1515.7,6,General Purpose
+Steel SAE 1050 (annealed),Carbon Steel,7.86,365.0,636.0,187.0,3,53.15,2,1531.7,7,General Purpose
+Steel SAE 1050 (tempered at 600 F),Carbon Steel,7.86,724.0,979.0,321.0,3,38.2,2,1545.3,6,Structural
+Steel SAE 1060 (as-rolled),Carbon Steel,7.86,483.0,814.0,241.0,3,42.62,4,1531.7,6,Structural
+Steel SAE 1060 (normalized),Carbon Steel,7.86,421.0,776.0,229.0,2,50.22,2,1512.2,6,General Purpose
+Steel SAE 1060 (annealed),Carbon Steel,7.86,372.0,626.0,179.0,2,47.43,2,1505.8,7,General Purpose
+Steel SAE 1060 (tempered at 600 F),Carbon Steel,7.86,779.0,1103.0,321.0,3,42.0,3,1543.4,6,Structural
+Steel SAE 1080 (as-rolled),Carbon Steel,7.86,586.0,965.0,293.0,4,44.21,3,1546.7,6,Structural
+Steel SAE 1080 (normalized),Carbon Steel,7.86,524.0,1010.0,293.0,2,44.66,3,1543.1,6,Structural
+Steel SAE 1080 (annealed),Carbon Steel,7.86,376.0,615.0,174.0,3,50.36,2,1518.9,8,General Purpose
+Steel SAE 1080 (tempered at 600 F),Carbon Steel,7.86,979.0,1303.0,388.0,3,38.71,3,1535.9,6,Structural
+Steel SAE 1095 (as-rolled),Carbon Steel,7.86,572.0,965.0,293.0,3,41.56,3,1542.9,7,Structural
+Steel SAE 1095 (normalized),Carbon Steel,7.86,500.0,1014.0,293.0,3,44.51,3,1519.1,6,Structural
+Steel SAE 1095 (annealed),Carbon Steel,7.86,379.0,657.0,192.0,2,48.64,1,1501.0,7,General Purpose
+Steel SAE 1095 (tempered at 400 F),Carbon Steel,7.86,827.0,1289.0,401.0,3,40.03,3,1533.7,6,Structural
+Steel SAE 1117 (as-rolled),Carbon Steel,7.86,305.0,487.0,143.0,3,54.17,3,1492.3,6,General Purpose
+Steel SAE 1117 (normalized),Carbon Steel,7.86,303.0,467.0,137.0,3,44.92,2,1509.2,7,General Purpose
+Steel SAE 1117 (annealed),Carbon Steel,7.86,279.0,429.0,121.0,2,53.2,2,1529.2,7,General Purpose
+Steel SAE 1118 (as-rolled),Carbon Steel,7.86,316.0,521.0,149.0,2,54.63,3,1508.6,7,General Purpose
+Steel SAE 1118 (normalized),Carbon Steel,7.86,319.0,477.0,143.0,4,52.66,1,1504.5,7,General Purpose
+Steel SAE 1118 (annealed),Carbon Steel,7.86,284.0,450.0,131.0,3,48.54,3,1498.2,7,General Purpose
+Steel SAE 1137 (as-rolled),Carbon Steel,7.86,379.0,627.0,192.0,3,52.99,1,1499.9,7,General Purpose
+Steel SAE 1137 (normalized),Carbon Steel,7.86,396.0,669.0,197.0,2,47.95,1,1495.8,7,General Purpose
+Steel SAE 1137 (annealed),Carbon Steel,7.86,345.0,584.0,174.0,3,53.12,1,1510.1,7,General Purpose
+Steel SAE 1137 (tempered at 400 F),Carbon Steel,7.86,938.0,1082.0,352.0,3,39.01,3,1537.3,6,Structural
+Steel SAE 1141 (as-rolled),Carbon Steel,7.86,359.0,676.0,192.0,2,55.17,2,1520.8,7,General Purpose
+Steel SAE 1141 (normalized),Carbon Steel,7.86,405.0,707.0,201.0,3,50.7,3,1515.9,7,General Purpose
+Steel SAE 1141 (annealed),Carbon Steel,7.86,353.0,598.0,163.0,2,44.98,2,1521.6,7,General Purpose
+Steel SAE 1141 (tempered at 400 F),Carbon Steel,7.86,1213.0,1634.0,461.0,3,39.99,3,1514.8,6,Structural
+Steel SAE 1144 (as-rolled),Carbon Steel,7.86,421.0,703.0,212.0,3,45.72,2,1513.7,7,General Purpose
+Steel SAE 1144 (normalized),Carbon Steel,7.86,400.0,667.0,197.0,2,51.19,3,1491.5,7,General Purpose
+Steel SAE 1144 (annealed),Carbon Steel,7.86,346.0,584.0,167.0,3,49.72,2,1499.6,6,General Purpose
+Steel SAE 1144 (tempered at 400 F),Carbon Steel,7.86,627.0,876.0,277.0,3,42.09,4,1551.5,5,Structural
+Steel SAE 1340 (normalized),Carbon Steel,7.86,558.0,836.0,248.0,3,39.91,3,1510.8,6,Structural
+Steel SAE 1340 (annealed),Carbon Steel,7.86,436.0,703.0,207.0,3,50.85,3,1526.2,8,General Purpose
+Steel SAE 1340 (tempered at 400 F),Carbon Steel,7.86,1593.0,1806.0,505.0,3,39.21,3,1575.2,6,Structural
+Steel SAE 3140 (normalized),Carbon Steel,7.86,600.0,891.0,262.0,3,37.18,4,1519.6,6,Structural
+Steel SAE 3140 (annealed),Carbon Steel,7.86,422.0,689.0,197.0,3,48.39,2,1519.6,7,General Purpose
+Steel SAE 4037 (tempered at 400 F),Carbon Steel,7.86,758.0,1027.0,310.0,3,44.82,2,1548.5,6,Structural
+Steel SAE 4042 (tempered at 400 F),Carbon Steel,7.86,1662.0,1800.0,516.0,3,45.8,4,1541.1,6,Structural
+Steel SAE 4130 (normalized),Carbon Steel,7.86,436.0,669.0,197.0,3,47.12,2,1528.5,7,General Purpose
+Steel SAE 4130 (annealed),Carbon Steel,7.86,360.0,560.0,156.0,3,47.27,2,1497.7,8,General Purpose
+Steel SAE 4130 (tempered at 400 F),Carbon Steel,7.86,1462.0,1627.0,467.0,3,46.67,3,1534.7,6,Structural
+Steel SAE 4140 (normalized),Carbon Steel,7.86,655.0,1020.0,302.0,3,42.98,4,1539.4,6,Structural
+Steel SAE 4140 (annealed),Carbon Steel,7.86,417.0,655.0,197.0,3,53.05,2,1521.6,7,General Purpose
+Steel SAE 4140 (tempered at 400 F),Carbon Steel,7.86,1641.0,1772.0,510.0,3,38.64,3,1577.7,7,Structural
+Steel SAE 4150 (normalized),Carbon Steel,7.86,734.0,1155.0,321.0,3,40.37,3,1519.3,6,Structural
+Steel SAE 4150 (annealed),Carbon Steel,7.86,379.0,729.0,197.0,2,49.2,2,1524.8,8,General Purpose
+Steel SAE 4150 (tempered at 400 F),Carbon Steel,7.86,1724.0,1931.0,530.0,3,41.53,3,1523.4,6,Structural
+Steel SAE 4320 (normalized),Carbon Steel,7.86,464.0,793.0,235.0,3,45.46,1,1505.5,7,General Purpose
+Steel SAE 4320 (annealed),Carbon Steel,7.86,425.0,579.0,163.0,3,47.32,2,1501.0,7,General Purpose
+Steel SAE 4340 (normalized),Carbon Steel,7.86,862.0,1279.0,363.0,2,43.32,3,1544.1,6,Structural
+Steel SAE 4340 (annealed),Carbon Steel,7.86,472.0,745.0,217.0,3,53.65,2,1508.0,7,General Purpose
+Steel SAE 4340 (tempered at 400 F),Carbon Steel,7.86,1675.0,1875.0,520.0,3,41.56,3,1554.5,6,Structural
+Steel SAE 4620 (normalized),Carbon Steel,7.86,366.0,574.0,174.0,3,49.72,2,1506.8,7,General Purpose
+Steel SAE 4620 (annealed),Carbon Steel,7.86,372.0,512.0,149.0,2,49.71,2,1512.0,7,General Purpose
+Steel SAE 4820 (normalized),Carbon Steel,7.86,484.0,755.0,229.0,3,53.35,3,1507.7,6,General Purpose
+Steel SAE 4820 (annealed),Carbon Steel,7.86,464.0,681.0,197.0,3,47.18,2,1508.6,7,General Purpose
+Steel SAE 5046 (tempered at 400 F),Carbon Steel,7.86,1407.0,1744.0,482.0,3,40.49,3,1544.8,6,Structural
+Steel SAE 5130 (tempered at 400 F),Carbon Steel,7.86,1517.0,1613.0,475.0,3,42.95,2,1559.2,6,Structural
+Steel SAE 5140 (normalized),Carbon Steel,7.86,472.0,793.0,229.0,3,46.48,2,1496.0,7,General Purpose
+Steel SAE 5140 (annealed),Carbon Steel,7.86,293.0,572.0,167.0,3,49.59,2,1507.6,7,General Purpose
+Steel SAE 5140 (tempered at 400 F),Carbon Steel,7.86,1641.0,1793.0,490.0,4,42.89,3,1549.1,6,Structural
+Steel SAE 5150 (normalized),Carbon Steel,7.86,529.0,870.0,255.0,3,40.46,2,1529.4,6,Structural
+Steel SAE 5150 (annealed),Carbon Steel,7.86,357.0,676.0,197.0,3,54.43,2,1510.0,7,General Purpose
+Steel SAE 5150 (tempered at 400 F),Carbon Steel,7.86,1731.0,1944.0,525.0,2,44.62,3,1551.2,5,Structural
+Steel SAE 5160 (normalized),Carbon Steel,7.86,531.0,957.0,269.0,3,39.47,3,1535.3,6,Structural
+Steel SAE 5160 (annealed),Carbon Steel,7.86,276.0,722.0,197.0,3,55.07,1,1498.6,8,General Purpose
+Steel SAE 5160 (tempered at 400 F),Carbon Steel,7.86,1793.0,2220.0,627.0,4,41.3,4,1542.3,6,Structural
+Steel SAE 6150 (normalized),Carbon Steel,7.86,615.0,939.0,269.0,3,40.57,3,1531.6,6,Structural
+Steel SAE 6150 (annealed),Carbon Steel,7.86,412.0,667.0,197.0,3,54.41,2,1511.6,7,General Purpose
+Steel SAE 6150 (tempered at 400 F),Carbon Steel,7.86,1689.0,1931.0,538.0,3,45.71,2,1557.1,6,Structural
+Steel SAE 8620 (normalized),Carbon Steel,7.86,357.0,633.0,183.0,3,50.01,2,1521.3,6,General Purpose
+Steel SAE 8620 (annealed),Carbon Steel,7.86,385.0,536.0,149.0,3,51.65,2,1533.8,7,General Purpose
+Steel SAE 8630 (normalized),Stainless Steel,7.86,429.0,650.0,187.0,8,23.02,2,1548.3,6,Cutting Tools
+Steel SAE 8630 (annealed),Stainless Steel,7.86,372.0,564.0,156.0,8,22.76,4,1529.8,6,Cutting Tools
+Steel SAE 8630 (tempered at 400 F),Stainless Steel,7.86,1503.0,1641.0,465.0,9,25.3,6,1408.9,4,Cutting Tools
+Steel SAE 8640 (tempered at 400 F),Carbon Steel,7.86,1669.0,1862.0,505.0,3,41.5,2,1533.1,6,Structural
+Steel SAE 8650 (normalized),Carbon Steel,7.86,688.0,1024.0,302.0,4,45.18,3,1553.4,7,Structural
+Steel SAE 8650 (annealed),Carbon Steel,7.86,386.0,715.0,212.0,3,47.09,2,1512.1,7,General Purpose
+Steel SAE 8650 (tempered at 400 F),Carbon Steel,7.86,1675.0,1937.0,525.0,3,42.56,3,1540.3,6,Structural
+Steel SAE 8660 (tempered at 800 F),Carbon Steel,7.86,1551.0,1634.0,460.0,4,42.47,3,1511.7,6,Structural
+Steel SAE 8740 (normalized),Carbon Steel,7.86,607.0,929.0,269.0,2,41.8,3,1540.1,6,Structural
+Steel SAE 8740 (annealed),Carbon Steel,7.86,415.0,695.0,201.0,3,50.47,1,1520.8,7,General Purpose
+Steel SAE 8740 (tempered at 400 F),Carbon Steel,7.86,1655.0,1999.0,578.0,3,39.17,4,1552.5,6,Structural
+Steel SAE 9255 (normalized),Carbon Steel,7.86,579.0,933.0,269.0,3,40.09,3,1545.8,6,Structural
+Steel SAE 9255 (annealed),Carbon Steel,7.86,486.0,774.0,229.0,3,52.73,2,1511.4,7,General Purpose
+Steel SAE 9255 (tempered at 400 F),Carbon Steel,7.86,2048.0,2103.0,601.0,3,43.72,2,1553.3,7,Structural
+Steel SAE 9260 (tempered at 800 F),Carbon Steel,7.86,1503.0,1758.0,470.0,3,43.33,3,1540.9,6,Structural
+Steel SAE 9310 (normalized),Carbon Steel,7.86,571.0,907.0,269.0,2,44.08,3,1559.5,6,Structural
+Steel SAE 9310 (annealed),Carbon Steel,7.86,440.0,820.0,241.0,3,42.7,4,1545.3,6,Structural
+Steel SAE 30201 (annealed),Carbon Steel,8.03,379.0,793.0,233.2,4,52.71,2,1500.8,8,General Purpose
+Steel SAE 30201 (1/4-hard),Carbon Steel,8.03,517.0,862.0,253.5,3,40.0,4,1545.3,6,Structural
+Steel SAE 30201 (1/2-hard),Carbon Steel,8.03,758.0,1034.0,304.1,2,43.78,3,1536.3,6,Structural
+Steel SAE 30201 (3/4-hard),Carbon Steel,8.03,931.0,1207.0,355.0,3,43.0,3,1551.0,6,Structural
+Steel SAE 30201 (Full-hard),Carbon Steel,8.03,965.0,1276.0,375.3,3,39.84,3,1545.1,7,Structural
+Steel SAE 30202 (annealed),Carbon Steel,8.03,379.0,724.0,212.9,2,50.18,2,1517.9,7,General Purpose
+Steel SAE 30202 (1/4-hard),Carbon Steel,8.03,517.0,862.0,253.5,3,42.39,3,1514.7,6,Structural
+Steel SAE 30301 (annealed),Carbon Steel,8.03,276.0,758.0,165.0,3,52.18,2,1518.1,7,General Purpose
+Steel SAE 30301 (1/4-hard),Carbon Steel,8.03,517.0,862.0,253.5,3,41.72,2,1567.3,6,Structural
+Steel SAE 30301 (1/2-hard),Carbon Steel,8.03,758.0,1034.0,304.1,3,41.61,3,1525.9,6,Structural
+Steel SAE 30301 (3/4-hard),Carbon Steel,8.03,931.0,1207.0,355.0,3,43.1,3,1525.6,6,Structural
+Steel SAE 30301 (Full-hard),Carbon Steel,8.03,965.0,1276.0,375.3,3,40.29,3,1538.6,5,Structural
+Steel SAE 30302 (annealed),Carbon Steel,8.03,255.0,621.0,155.0,3,51.0,2,1509.1,7,General Purpose
+Steel SAE 30302 (1/4-hard),Carbon Steel,8.03,517.0,862.0,253.5,3,43.38,3,1520.2,6,Structural
+Steel SAE 30302B (annealed),Carbon Steel,8.03,276.0,655.0,165.0,3,57.22,1,1507.5,7,General Purpose
+Steel SAE 30303 (annealed),Carbon Steel,8.03,241.0,621.0,160.0,3,47.26,1,1505.1,6,General Purpose
+Steel SAE 30304 (annealed),Stainless Steel,8.03,241.0,586.0,150.0,7,25.58,2,1478.7,6,Cutting Tools
+Steel SAE 30304L (annealed),Stainless Steel,8.03,207.0,552.0,140.0,8,17.6,4,1461.1,6,General Purpose
+Steel SAE 30305 (annealed),Carbon Steel,8.03,255.0,586.0,156.0,3,50.6,2,1517.1,7,General Purpose
+Steel SAE 30308 (annealed),Carbon Steel,8.03,241.0,586.0,150.0,3,50.6,3,1511.5,7,General Purpose
+Steel SAE 30309 (annealed),Carbon Steel,8.03,276.0,621.0,165.0,4,48.38,2,1544.3,7,General Purpose
+Steel SAE 30310 (annealed),Carbon Steel,8.03,276.0,655.0,170.0,4,49.67,2,1506.0,7,General Purpose
+Steel SAE 30314 (annealed),Carbon Steel,8.03,345.0,689.0,170.0,3,49.71,2,1513.8,7,General Purpose
+Steel SAE 30316 (annealed),Stainless Steel,8.03,241.0,586.0,150.0,9,25.11,3,1521.5,6,Cutting Tools
+Steel SAE 30316L (annealed),Stainless Steel,8.03,207.0,538.0,145.0,8,15.3,4,1440.9,6,General Purpose
+Steel SAE 30317 (annealed),Carbon Steel,8.03,276.0,621.0,160.0,3,49.31,1,1493.1,7,General Purpose
+Steel SAE 30321 (annealed),Carbon Steel,8.03,241.0,600.0,150.0,3,43.2,1,1512.9,7,General Purpose
+Steel SAE 30347 (annealed),Carbon Steel,8.03,241.0,634.0,160.0,3,49.41,2,1517.0,6,General Purpose
+Steel SAE 30348 (annealed),Carbon Steel,8.03,241.0,634.0,160.0,3,48.78,2,1513.0,7,General Purpose
+Steel SAE 51403 (annealed),Carbon Steel,8.03,276.0,517.0,155.0,4,49.86,2,1503.9,7,General Purpose
+Steel SAE 51403 (tempered at 400 F),Carbon Steel,8.03,1000.0,1310.0,390.0,2,38.55,3,1504.3,6,Structural
+Steel SAE 51405 (annealed),Carbon Steel,8.03,276.0,483.0,150.0,3,49.97,2,1515.3,7,General Purpose
+Steel SAE 51410 (annealed),Stainless Steel,8.03,276.0,517.0,155.0,8,14.86,5,1423.8,6,General Purpose
+Steel SAE 51410 (tempered at 400 F),Stainless Steel,8.03,1000.0,1310.0,390.0,7,13.12,6,1454.7,4,Aerospace
+Steel SAE 51414 (annealed),Carbon Steel,8.03,655.0,827.0,235.0,3,41.15,3,1536.9,6,Structural
+Steel SAE 51414 (tempered at 400 F),Carbon Steel,8.03,1034.0,1379.0,415.0,3,41.65,2,1533.2,6,Structural
+Steel SAE 51416 (annealed),Carbon Steel,8.03,276.0,517.0,155.0,3,48.95,2,1498.8,7,General Purpose
+Steel SAE 51416 (tempered at 400 F),Carbon Steel,8.03,1000.0,1310.0,390.0,3,46.32,3,1512.8,6,Structural
+Steel SAE 51420 (annealed),Stainless Steel,8.03,345.0,655.0,195.0,7,22.83,4,1518.7,6,Cutting Tools
+Steel SAE 51420 (tempered at 600 F),Stainless Steel,8.03,1344.0,1586.0,500.0,10,25.75,5,1418.5,4,Cutting Tools
+Steel SAE 51430 (annealed),Stainless Steel,8.03,310.0,517.0,155.0,8,16.7,4,1437.9,6,General Purpose
+Steel SAE 51430F (annealed),Stainless Steel,8.03,379.0,552.0,170.0,9,16.65,4,1433.5,6,General Purpose
+Steel SAE 51431 (annealed),Carbon Steel,8.03,655.0,862.0,260.0,3,42.82,3,1539.9,6,Structural
+Steel SAE 51431 (tempered at 400 F),Carbon Steel,8.03,1069.0,1413.0,415.0,3,42.74,2,1556.6,5,Structural
+Steel SAE 51440A (annealed),Carbon Steel,8.03,414.0,724.0,215.0,3,50.08,3,1502.2,7,General Purpose
+Steel SAE 51440A (tempered at 600 F),Carbon Steel,8.03,1655.0,1793.0,510.0,3,39.53,3,1496.6,6,Structural
+Steel SAE 51440C (annealed),Stainless Steel,8.03,448.0,758.0,230.0,8,25.35,3,1504.6,6,Cutting Tools
+Steel SAE 51440C (tempered at 600 F),Stainless Steel,8.03,1896.0,1965.0,580.0,10,24.48,6,1426.2,4,Cutting Tools
+Steel SAE 51446 (annealed),Carbon Steel,8.03,345.0,552.0,170.0,3,47.89,2,1544.6,7,General Purpose
+Steel SAE 51501 (annealed),Carbon Steel,8.03,207.0,483.0,160.0,3,51.38,2,1516.0,8,General Purpose
+Steel SAE 51502 (annealed),Carbon Steel,8.03,207.0,483.0,150.0,2,50.5,2,1494.9,7,General Purpose
+Grey cast iron class 20,Carbon Steel,7.16,135.2,138.0,40.6,3,51.71,1,1508.7,6,General Purpose
+Grey cast iron class 25,Carbon Steel,7.16,168.6,172.0,50.6,2,47.02,2,1506.4,7,General Purpose
+Grey cast iron class 30,Carbon Steel,7.16,202.9,207.0,60.9,3,47.53,2,1549.4,8,General Purpose
+Grey cast iron class 35,Carbon Steel,7.16,236.2,241.0,70.9,3,51.02,2,1511.3,7,General Purpose
+Grey cast iron class 40,Carbon Steel,7.16,270.5,276.0,81.2,3,48.65,2,1516.8,7,General Purpose
+Grey cast iron class 50,Carbon Steel,7.16,338.1,345.0,101.5,3,50.32,2,1492.1,7,General Purpose
+Grey cast iron class 60,Carbon Steel,7.16,405.7,414.0,121.8,3,47.97,3,1498.6,7,General Purpose
+Malleable cast iron,Carbon Steel,7.16,207.0,276.0,81.2,3,51.01,2,1523.6,7,General Purpose
+Nodular cast iron,Carbon Steel,7.16,276.0,414.0,121.8,4,50.48,3,1528.4,7,General Purpose
+Copper Alloy C80100,Copper Alloy,8.93,62.0,172.0,43.0,8,26.44,5,1054.6,8,Marine
+High-Copper Alloy C81300,Copper Alloy,8.93,248.0,365.0,91.2,8,23.87,4,1037.1,8,Marine
+High-Copper Alloy C81500,Copper Alloy,8.93,276.0,352.0,88.0,8,27.26,6,1056.4,7,Marine
+High-Copper Alloy C81700,Copper Alloy,8.93,469.0,634.0,158.5,8,125.08,8,971.8,5,Springs
+Red brass C83300,Copper Alloy,8.5,69.0,221.0,55.2,6,115.78,5,920.5,9,General Purpose
+Red brass C83400,Copper Alloy,8.5,69.0,241.0,60.2,6,112.14,4,923.2,9,General Purpose
+Red brass C83600,Copper Alloy,8.5,117.0,255.0,63.8,7,112.44,5,916.7,9,General Purpose
+Red brass C83800,Copper Alloy,8.5,110.0,241.0,60.2,6,117.36,3,894.3,9,General Purpose
+Semi-red Brass C84200,Stainless Steel,8.5,97.0,241.0,70.9,8,26.6,2,1481.5,8,General Purpose
+Semi-red Brass C84400,Copper Alloy,8.5,97.0,234.0,58.5,6,131.54,4,917.5,9,General Purpose
+Semi-red Brass C84500,Copper Alloy,8.5,97.0,241.0,60.2,5,124.39,4,915.3,9,General Purpose
+Semi-red Brass C84800,Copper Alloy,8.5,97.0,241.0,60.2,7,117.66,4,944.3,10,General Purpose
+Yellow Brass C85200,Copper Alloy,8.5,90.0,262.0,65.5,6,122.28,3,917.4,9,General Purpose
+Yellow Brass C85400,Copper Alloy,8.5,83.0,234.0,58.5,5,127.02,4,929.6,10,General Purpose
+Yellow Brass C85500,Copper Alloy,8.5,159.0,414.0,103.5,6,132.76,5,926.9,9,General Purpose
+Yellow Brass C85700,Copper Alloy,8.5,124.0,345.0,86.2,6,116.09,5,929.2,8,General Purpose
+Yellow Brass C85800,Copper Alloy,8.5,207.0,379.0,94.8,6,119.95,4,921.4,10,General Purpose
+Manganese Bronze C86100,Copper Alloy,8.8,345.0,655.0,163.8,8,114.28,8,936.4,5,Springs
+Manganese Bronze C86200,Copper Alloy,8.8,331.0,655.0,163.8,8,132.05,8,971.1,6,Springs
+Manganese Bronze C86300,Stainless Steel,8.8,572.0,793.0,233.2,7,22.66,3,1478.5,6,Cutting Tools
+Manganese Bronze C86400,Copper Alloy,8.8,172.0,448.0,112.0,8,26.05,5,1044.0,8,Marine
+Manganese Bronze C86500,Copper Alloy,8.8,193.0,490.0,122.5,8,24.57,5,1061.0,8,Marine
+Manganese Bronze C86700,Copper Alloy,8.8,290.0,586.0,146.5,9,134.6,8,960.5,5,Springs
+Manganese Bronze C86800,Copper Alloy,8.8,262.0,565.0,141.2,8,127.07,8,978.8,4,Springs
+Silicon Brass C87200,Copper Alloy,8.8,172.0,379.0,94.8,8,27.24,5,1047.9,8,Marine
+Silicon Bronze C87400,Copper Alloy,8.8,165.0,379.0,94.8,7,23.75,5,1062.0,8,Marine
+Silicon Bronze C87500,Copper Alloy,8.8,207.0,462.0,115.5,8,25.4,5,1069.6,9,Marine
+Silicon Bronze C87600,Copper Alloy,8.8,221.0,455.0,113.8,8,25.88,5,1038.3,8,Marine
+Silicon Bronze C87800,Copper Alloy,8.8,345.0,586.0,146.5,8,123.23,7,959.6,5,Springs
+Silicon Bronze C87900,Copper Alloy,8.8,241.0,483.0,120.8,8,25.21,5,1056.9,8,Marine
+Tin Bronze C90200,Copper Alloy,8.8,110.0,262.0,65.5,8,27.93,5,1078.5,8,Marine
+Tin Bronze C90300,Copper Alloy,8.8,145.0,310.0,77.5,8,26.42,5,1036.5,8,Marine
+Tin Bronze C90500,Copper Alloy,8.8,152.0,310.0,77.5,8,26.57,4,1056.1,9,Marine
+Tin Bronze C90700,Copper Alloy,8.8,152.0,303.0,75.8,8,27.72,5,1053.5,8,Marine
+Tin Bronze C90900,Copper Alloy,8.8,138.0,276.0,69.0,8,27.99,5,1047.0,9,Marine
+Tin Bronze C91000,Copper Alloy,8.8,172.0,221.0,55.2,8,27.2,5,1042.5,8,Marine
+Tin Bronze C91100,Copper Alloy,8.8,172.0,241.0,60.2,8,26.88,5,1052.3,7,Marine
+Tin Bronze C91300,Copper Alloy,8.8,207.0,241.0,60.2,7,26.62,5,1033.8,8,Marine
+Tin Bronze C91600,Copper Alloy,8.8,152.0,303.0,75.8,8,28.27,5,1054.0,8,Marine
+Tin Bronze C91700,Copper Alloy,8.8,152.0,303.0,75.8,8,25.15,6,1045.3,8,Marine
+Leaded Tin Bronze C92200,Copper Alloy,8.8,138.0,276.0,69.0,9,24.8,5,1048.0,8,Marine
+Leaded Tin Bronze C92300,Copper Alloy,8.8,138.0,276.0,69.0,8,24.9,5,1062.4,8,Marine
+Leaded Tin Bronze C92500,Copper Alloy,8.8,138.0,303.0,75.8,8,26.24,6,1058.1,8,Marine
+Leaded Tin Bronze C92600,Copper Alloy,8.8,138.0,303.0,75.8,8,26.68,6,1036.4,8,Marine
+Leaded Tin Bronze C92700,Copper Alloy,8.8,145.0,290.0,72.5,8,25.97,5,1053.9,9,Marine
+Leaded Tin Bronze C92800,Copper Alloy,8.8,207.0,276.0,69.0,7,24.83,5,1052.2,8,Marine
+Leaded Tin Bronze C92900,Copper Alloy,8.8,179.0,324.0,81.0,8,24.3,6,1063.7,8,Marine
+High Leaded Tin Bronze C93200,Copper Alloy,8.8,124.0,241.0,60.2,8,24.93,5,1073.9,8,Marine
+High Leaded Tin Bronze C93400,Copper Alloy,8.8,110.0,221.0,55.2,9,23.31,5,1070.9,8,Marine
+High Leaded Tin Bronze C93500,Copper Alloy,8.8,110.0,221.0,55.2,8,26.24,5,1073.7,8,Marine
+High Leaded Tin Bronze C93700,Copper Alloy,8.8,124.0,241.0,60.2,9,24.62,5,1041.3,8,Marine
+High Leaded Tin Bronze C93800,Copper Alloy,8.8,110.0,207.0,51.8,9,25.32,5,1016.5,8,Marine
+High Leaded Tin Bronze C93900,Copper Alloy,8.8,152.0,221.0,55.2,9,24.96,5,1042.9,8,Marine
+High Leaded Tin Bronze C94300,Stainless Steel,8.8,90.0,186.0,54.7,7,23.98,2,1499.8,8,General Purpose
+High Leaded Tin Bronze C94400,Copper Alloy,8.8,110.0,221.0,55.2,8,26.59,5,1033.9,9,Marine
+High Leaded Tin Bronze C94500,Copper Alloy,8.8,83.0,172.0,43.0,8,24.39,5,1043.3,8,Marine
+Nickel-Tin Bronze C94700,Copper Alloy,8.8,159.0,345.0,86.2,8,25.73,4,1056.5,8,Marine
+Nickel-Tin Bronze C94800,Copper Alloy,8.8,159.0,310.0,77.5,9,27.19,5,1072.5,8,Marine
+Aluminum Bronze C95200,Aluminum,8.8,186.0,552.0,157.7,6,142.74,7,489.5,7,Aerospace
+Aluminum Bronze C95300,Aluminum,8.8,186.0,517.0,147.7,5,124.23,6,649.0,7,Aircraft
+Aluminum Bronze C95400,Aluminum,8.8,241.0,586.0,167.4,7,125.85,7,462.8,6,Aerospace Structures
+Aluminum Bronze C95500,Aluminum,8.8,303.0,689.0,196.9,6,118.1,7,435.4,6,Aerospace Structures
+Aluminum Bronze C95600,Aluminum,8.8,234.0,517.0,147.7,5,113.57,6,645.9,7,Aircraft
+Aluminum Bronze C95700,Aluminum,8.8,310.0,655.0,187.1,6,113.17,7,496.9,6,Aerospace Structures
+Aluminum Bronze C95800,Aluminum,8.8,262.0,655.0,187.1,5,111.87,7,446.5,7,Aerospace Structures
+Copper-Nickel C96200,Copper Alloy,8.5,172.0,310.0,77.5,6,114.42,4,906.5,9,General Purpose
+Copper-Nickel C96300,Stainless Steel,8.5,379.0,517.0,152.1,8,17.33,4,1446.5,6,General Purpose
+Copper-Nickel C96400,Copper Alloy,8.5,255.0,469.0,117.2,7,122.7,5,922.9,9,General Purpose
+Copper-Nickel C96600,Copper Alloy,8.5,483.0,758.0,189.5,8,116.55,8,974.1,5,Springs
+Nickel Silver C97300,Carbon Steel,8.5,117.0,241.0,70.9,2,49.28,2,1546.2,7,General Purpose
+Nickel Silver C97400,Carbon Steel,8.5,117.0,262.0,77.1,3,50.96,3,1494.5,7,General Purpose
+Nickel Silver C97600,Carbon Steel,8.5,165.0,310.0,91.2,3,51.23,2,1515.7,7,General Purpose
+Nickel Silver C97800,Carbon Steel,8.5,207.0,379.0,111.5,3,49.06,3,1515.7,7,General Purpose
+Special Alloy C99300,Aluminum,8.5,379.0,655.0,187.1,6,115.48,7,454.3,6,Aerospace Structures
+Special Alloy C99400,Aluminum,8.5,234.0,455.0,130.0,4,125.77,6,628.0,6,Aircraft
+Special Alloy C99500,Aluminum,8.5,276.0,483.0,138.0,5,120.07,6,664.6,6,Aircraft
+Special Alloy C99700,Aluminum,8.5,172.0,379.0,108.3,6,123.11,6,656.6,7,Aircraft
+Special Alloy C99750,Aluminum,8.5,221.0,448.0,128.0,6,121.3,7,647.0,7,Aircraft
+Copper Alloy C10100,Copper Alloy,8.93,69.0,221.0,55.2,8,27.07,5,1059.4,7,Marine
+Copper Alloy C15000,Copper Alloy,8.93,41.0,200.0,50.0,8,27.76,5,1043.1,8,Marine
+Copper Alloy C15500,Copper Alloy,8.93,124.0,276.0,69.0,8,27.28,5,1063.5,8,Marine
+Copper Alloy C15715,Copper Alloy,8.93,303.0,359.0,89.8,8,25.79,4,1088.8,8,Marine
+Copper Alloy C15720,Copper Alloy,8.93,372.0,441.0,110.2,8,26.19,5,1052.7,7,Marine
+Copper Alloy C15760,Copper Alloy,8.93,448.0,483.0,120.8,8,26.46,5,1099.1,8,Marine
+Copper Alloy C16200,Copper Alloy,8.93,48.0,241.0,60.2,8,27.95,5,1033.3,8,Marine
+Copper Alloy C16500,Copper Alloy,8.93,97.0,276.0,69.0,8,27.58,6,1031.6,8,Marine
+Copper Alloy C17000,Copper Alloy,8.93,221.0,483.0,120.8,7,28.86,5,1060.1,8,Marine
+Copper Alloy C17300,Copper Alloy,8.93,172.0,469.0,117.2,8,25.55,6,1068.1,8,Marine
+Copper Alloy C17500,Copper Alloy,8.93,172.0,310.0,77.5,8,24.59,5,1041.5,7,Marine
+Copper Alloy C18200,Copper Alloy,8.93,97.0,234.0,58.5,8,23.08,5,1068.1,8,Marine
+Copper Alloy C18900,Copper Alloy,8.93,62.0,262.0,65.5,8,25.93,6,1031.5,8,Marine
+Copper Alloy C19000,Copper Alloy,8.93,138.0,262.0,65.5,8,25.79,5,1057.1,8,Marine
+Copper Alloy C19100,Copper Alloy,8.93,69.0,248.0,62.0,8,26.35,5,1034.4,7,Marine
+Copper Alloy C19200,Copper Alloy,8.93,76.0,255.0,63.8,8,24.83,5,1027.4,8,Marine
+Copper Alloy C19400,Copper Alloy,8.93,165.0,310.0,77.5,8,26.56,5,1029.9,8,Marine
+Copper Alloy C19500,Copper Alloy,8.93,448.0,552.0,138.0,7,121.44,8,945.4,5,Springs
+Copper Alloy C21000,Copper Alloy,8.93,69.0,234.0,58.5,8,26.26,5,1054.9,8,Marine
+Commercial bronze C22000,Aluminum,8.8,69.0,255.0,72.9,7,183.17,2,644.1,9,General Purpose
+Red brass C23000,Copper Alloy,8.8,69.0,269.0,67.2,8,27.6,5,1045.6,7,Marine
+Low brass C24000,Copper Alloy,8.8,83.0,290.0,72.5,8,26.77,5,1055.6,8,Marine
+Cartridge brass C26000,Copper Alloy,8.8,76.0,303.0,75.8,8,26.51,5,1037.7,8,Marine
+Yellow brass C26800,Copper Alloy,8.8,97.0,317.0,79.2,9,26.6,5,1046.2,8,Marine
+Muntz metal C28000,Aluminum,8.8,145.0,372.0,106.3,5,118.97,6,639.4,7,Aircraft
+Leaded commercial bronze C31400,Aluminum,8.8,83.0,255.0,72.9,7,173.22,2,673.6,9,General Purpose
+Low-leaded brass C33000,Copper Alloy,8.8,103.0,324.0,81.0,8,26.18,5,1062.0,9,Marine
+High-leaded brass C34200,Stainless Steel,8.8,117.0,338.0,99.4,8,26.32,2,1483.1,9,General Purpose
+Medium-leaded brass C35000,Copper Alloy,8.8,90.0,310.0,77.5,8,25.11,4,1046.1,8,Marine
+Leaded Muntz metal C36500 (As hot rolled),Aluminum,8.8,138.0,372.0,106.3,5,125.7,5,640.3,7,Aircraft
+Architectural bronze C38500 (As extruded),Aluminum,8.8,138.0,414.0,118.3,5,119.74,7,650.3,7,Aircraft
+Copper Alloy C40500,Copper Alloy,8.8,83.0,269.0,67.2,8,27.02,5,1041.9,8,Marine
+Copper Alloy C40800,Copper Alloy,8.8,90.0,290.0,72.5,8,25.56,6,1021.1,8,Marine
+Copper Alloy C41100,Copper Alloy,8.8,76.0,269.0,67.2,8,25.54,5,1038.8,9,Marine
+Copper Alloy C41300,Copper Alloy,8.8,83.0,283.0,70.8,8,26.49,5,1052.2,8,Marine
+Copper Alloy C41500,Copper Alloy,8.8,117.0,317.0,79.2,8,25.32,4,1062.3,8,Marine
+Copper Alloy C42200,Copper Alloy,8.8,103.0,296.0,74.0,8,25.43,5,1086.8,8,Marine
+Copper Alloy C42500,Copper Alloy,8.8,124.0,310.0,77.5,8,27.22,5,1040.9,7,Marine
+Copper Alloy C43000,Stainless Steel,8.8,124.0,317.0,93.2,8,23.71,2,1483.0,8,General Purpose
+Copper Alloy C43400,Copper Alloy,8.8,103.0,310.0,77.5,8,25.05,5,1062.6,7,Marine
+Copper Alloy C43500,Copper Alloy,8.8,110.0,317.0,79.2,8,26.57,6,1023.1,8,Marine
+Copper Alloy C44300,Stainless Steel,8.8,124.0,331.0,97.4,8,27.16,1,1488.3,8,General Purpose
+Copper Alloy C46400,Copper Alloy,8.8,172.0,379.0,94.8,8,25.94,4,1068.9,8,Marine
+Copper Alloy C48200,Copper Alloy,8.8,172.0,386.0,96.5,8,25.18,5,1046.9,8,Marine
+Copper Alloy C48500,Copper Alloy,8.8,172.0,393.0,98.2,8,27.09,6,1039.9,8,Marine
+Copper Alloy C50500,Copper Alloy,8.8,97.0,276.0,69.0,8,26.85,5,1059.8,8,Marine
+Copper Alloy C51000,Copper Alloy,8.8,131.0,324.0,81.0,9,24.86,5,1041.4,8,Marine
+Copper Alloy C51100,Copper Alloy,8.8,310.7,317.0,79.2,8,26.74,5,1050.7,8,Marine
+Copper Alloy C52100,Copper Alloy,8.8,165.0,379.0,94.8,8,28.3,5,1027.4,8,Marine
+Copper Alloy C52400,Copper Alloy,8.8,193.0,455.0,113.8,8,26.19,5,1048.5,8,Marine
+Copper Alloy C54400,Copper Alloy,8.8,131.0,303.0,75.8,8,26.44,6,1037.5,8,Marine
+Copper Alloy C60800,Copper Alloy,8.8,186.0,414.0,103.5,8,26.45,5,1035.5,8,Marine
+Copper Alloy C61000,Copper Alloy,8.8,117.0,359.0,89.8,9,27.58,5,1058.1,9,Marine
+Copper Alloy C61300,Copper Alloy,8.8,207.0,483.0,120.8,7,28.61,5,1040.1,8,Marine
+Copper Alloy C61400,Copper Alloy,8.8,228.0,524.0,131.0,8,26.36,5,1052.8,8,Marine
+Copper Alloy C61500,Copper Alloy,8.8,152.0,483.0,120.8,8,25.56,5,1037.7,8,Marine
+Copper Alloy C61800,Copper Alloy,8.8,269.0,552.0,138.0,8,130.92,8,950.0,5,Springs
+Copper Alloy C61900,Copper Alloy,8.8,338.0,634.0,158.5,8,127.73,8,938.1,5,Springs
+Copper Alloy C62300,Copper Alloy,8.8,241.0,517.0,129.2,8,26.35,5,1051.3,8,Marine
+Copper Alloy C62400,Copper Alloy,8.8,276.0,621.0,155.2,7,124.99,8,956.8,5,Springs
+Copper Alloy C62500 (As extruded),Copper Alloy,8.8,379.0,689.0,172.2,8,112.11,8,939.3,5,Springs
+Copper Alloy C63000,Stainless Steel,8.8,345.0,621.0,182.6,7,24.32,2,1516.3,5,Cutting Tools
+Copper Alloy C63200,Copper Alloy,8.8,310.0,621.0,155.2,8,116.23,8,943.3,5,Springs
+Copper Alloy C63800,Copper Alloy,8.8,372.0,565.0,141.2,7,128.05,8,961.2,5,Springs
+Copper Alloy C64200,Stainless Steel,8.8,241.0,517.0,152.1,8,17.34,4,1455.7,6,General Purpose
+Copper Alloy C65100,Copper Alloy,8.8,103.0,276.0,69.0,7,25.42,5,1052.4,9,Marine
+Copper Alloy C65500,Copper Alloy,8.8,145.0,386.0,96.5,8,25.49,5,1015.7,8,Marine
+Copper Alloy C66700,Copper Alloy,8.8,83.0,316.0,79.0,8,26.58,5,1044.3,8,Marine
+Copper Alloy C67400,Copper Alloy,8.8,234.0,483.0,120.8,8,25.36,4,1056.2,8,Marine
+Copper Alloy C67500,Copper Alloy,8.8,207.0,448.0,112.0,8,27.12,5,1065.7,8,Marine
+Copper Alloy C68700,Copper Alloy,8.8,186.0,414.0,103.5,9,25.8,5,1053.7,8,Marine
+Copper Alloy C68800,Copper Alloy,8.8,379.0,565.0,141.2,7,129.86,9,960.5,5,Springs
+Copper Alloy C69000,Copper Alloy,8.8,359.0,565.0,141.2,8,118.66,7,940.7,5,Springs
+Copper Alloy C69400,Copper Alloy,8.8,276.0,552.0,138.0,8,128.49,8,939.2,5,Springs
+Copper Alloy C70400,Copper Alloy,8.8,256.8,262.0,65.5,8,24.0,5,1067.9,8,Marine
+Copper Alloy C70600,Copper Alloy,8.8,110.0,303.0,75.8,8,26.72,5,1025.3,8,Marine
+Copper Alloy C71000,Copper Alloy,8.8,90.0,338.0,84.5,8,27.13,5,1063.0,8,Marine
+Copper Alloy C71500,Copper Alloy,8.8,138.0,372.0,93.0,8,24.72,5,1026.9,8,Marine
+Copper Alloy C72200,Copper Alloy,8.8,124.0,317.0,79.2,8,27.99,4,1036.5,8,Marine
+Copper Alloy C72500,Copper Alloy,8.8,152.0,379.0,94.8,8,25.26,4,1036.0,8,Marine
+Copper Alloy C73500,Copper Alloy,8.8,103.0,345.0,86.2,8,27.45,5,1052.1,8,Marine
+Copper Alloy C74500,Copper Alloy,8.8,124.0,338.0,84.5,8,25.57,5,1041.0,9,Marine
+Copper Alloy C75200,Copper Alloy,8.8,172.0,386.0,96.5,9,23.56,6,1054.8,9,Marine
+Copper Alloy C75400,Copper Alloy,8.8,124.0,365.0,91.2,8,24.57,5,1075.3,8,Marine
+Copper Alloy C75700,Copper Alloy,8.8,124.0,359.0,89.8,8,26.39,5,1057.2,8,Marine
+Copper Alloy C76390,Copper Alloy,8.8,586.0,621.0,155.2,8,130.02,8,963.9,5,Springs
+Copper Alloy C77000,Copper Alloy,8.8,186.0,414.0,103.5,8,25.86,6,1033.0,8,Marine
+Copper Alloy C78200,Copper Alloy,8.8,159.0,365.0,91.2,8,27.58,5,1041.7,8,Marine
+Aluminum Alloy 201.0 (Cast (T7)),Aluminum,2.7,345.0,414.0,110.0,4,118.2,6,650.7,7,Aircraft
+Aluminum Alloy 204.0 (Cast (T4)),Aluminum,2.7,193.0,310.0,88.6,7,164.02,3,677.2,8,General Purpose
+Aluminum Alloy 208.0 (Cast (F)),Aluminum,2.7,83.0,131.0,40.0,7,163.22,2,640.1,9,General Purpose
+Aluminum Alloy 242.0 (Cast (T61)),Aluminum,2.7,138.0,221.0,90.0,6,184.52,2,650.6,9,General Purpose
+Aluminum Alloy 242.0 (Cast (T77)),Aluminum,2.7,90.0,165.0,60.0,7,178.39,1,680.3,9,General Purpose
+Aluminum Alloy 295.0 (Cast (T4)),Aluminum,2.7,90.0,200.0,45.0,7,167.35,2,624.5,9,General Purpose
+Aluminum Alloy 295.0 (Cast (T6)),Aluminum,2.7,138.0,221.0,60.0,7,177.02,2,645.5,9,General Purpose
+Aluminum Alloy 295.0 (Cast (T62)),Aluminum,2.7,193.0,248.0,80.0,7,163.16,2,661.2,8,General Purpose
+Aluminum Alloy 295.0 (Cast (T7)),Aluminum,2.7,110.0,200.0,55.0,8,181.17,2,647.4,10,General Purpose
+Aluminum Alloy 319.0 (Cast (F)),Aluminum,2.7,90.0,159.0,55.0,7,192.94,2,673.7,9,General Purpose
+Aluminum Alloy 319.0 (Cast (T6)),Aluminum,2.7,138.0,214.0,65.0,8,159.25,3,631.8,8,General Purpose
+Aluminum Alloy 328.0 (Cast (F)),Aluminum,2.7,97.0,172.0,45.0,7,173.55,1,660.3,8,General Purpose
+Aluminum Alloy 328.0 (Cast (T6)),Aluminum,2.7,145.0,234.0,65.0,7,180.92,2,650.7,8,General Purpose
+Aluminum Alloy 355.0 (Cast (T51)),Aluminum,2.7,124.0,172.0,50.0,8,175.47,3,623.5,9,General Purpose
+Aluminum Alloy 355.0 (Cast (T6)),Aluminum,2.7,138.0,221.0,70.0,7,171.71,1,656.2,9,General Purpose
+Aluminum Alloy 355.0 (Cast (T71)),Aluminum,2.7,152.0,207.0,60.0,8,184.71,2,679.5,9,General Purpose
+Aluminum Alloy C355.0 (Cast (T6)),Aluminum,2.7,172.0,248.0,75.0,8,154.15,3,657.7,8,General Purpose
+Aluminum Alloy 356.0 (Cast (T51)),Aluminum,2.7,110.0,159.0,45.0,7,186.14,2,659.0,8,General Purpose
+Aluminum Alloy 356.0 (Cast (T6)),Aluminum,2.7,138.0,207.0,55.0,7,183.24,2,659.9,9,General Purpose
+Aluminum Alloy 356.0 (Cast (T7)),Aluminum,2.7,200.0,214.0,60.0,7,178.08,2,645.4,9,General Purpose
+Aluminum Alloy 356.0 (Cast (T71)),Aluminum,2.7,124.0,172.0,45.0,7,188.77,2,655.5,8,General Purpose
+Aluminum Alloy A356.0 (Cast (T6)),Aluminum,2.7,165.0,234.0,70.0,7,172.06,2,684.5,9,General Purpose
+Aluminum Alloy 443.0 (Cast (F)),Aluminum,2.7,48.0,117.0,25.0,7,174.62,2,673.2,8,General Purpose
+Aluminum Alloy B443.0 (Cast (F)),Aluminum,2.7,41.0,117.0,25.0,7,181.64,1,627.0,9,General Purpose
+Aluminum Alloy 512.0 (Cast (F)),Aluminum,2.7,69.0,117.0,35.0,7,192.95,2,656.7,10,General Purpose
+Aluminum Alloy 514.0 (Cast (F)),Aluminum,2.7,62.0,152.0,35.0,7,161.15,1,653.6,9,General Purpose
+Aluminum Alloy 520.0 (Cast (T4)),Aluminum,2.7,152.0,290.0,60.0,8,158.35,4,658.1,8,General Purpose
+Aluminum Alloy 535.0 (Cast (F or T5)),Aluminum,2.7,124.0,241.0,60.0,7,177.23,2,659.3,9,General Purpose
+Aluminum Alloy 705.0 (Cast (F or T5)),Aluminum,2.7,117.0,207.0,50.0,7,180.98,3,667.3,9,General Purpose
+Aluminum Alloy 707.0 (Cast (T5)),Aluminum,2.7,152.0,228.0,70.0,7,189.62,3,681.3,9,General Purpose
+Aluminum Alloy 707.0 (Cast (T7)),Aluminum,2.7,207.0,255.0,65.0,8,167.99,4,661.0,8,General Purpose
+Aluminum Alloy 710.0 (Cast (F or T5)),Aluminum,2.7,138.0,221.0,60.0,6,173.21,3,594.3,9,General Purpose
+Aluminum Alloy 712.0 (Cast (F or T5)),Aluminum,2.7,172.0,234.0,60.0,7,191.94,3,649.5,8,General Purpose
+Aluminum Alloy 713.0 (Cast (F or T5)),Aluminum,2.7,152.0,221.0,60.0,7,184.61,2,645.4,9,General Purpose
+Aluminum Alloy 771.0 (Cast (T5)),Aluminum,2.7,262.0,290.0,85.0,6,170.29,2,668.7,8,General Purpose
+Aluminum Alloy 771.0 (Cast (T51)),Aluminum,2.7,186.0,221.0,70.0,7,193.4,3,644.2,8,General Purpose
+Aluminum Alloy 771.0 (Cast (T52)),Aluminum,2.7,207.0,248.0,70.0,7,170.44,2,681.8,8,General Purpose
+Aluminum Alloy 771.0 (Cast (T53)),Aluminum,2.7,186.0,248.0,70.9,7,175.82,3,662.7,8,General Purpose
+Aluminum Alloy 771.0 (Cast (T6)),Aluminum,2.7,241.0,290.0,75.0,7,167.16,2,650.4,8,General Purpose
+Aluminum Alloy 771.0 (Cast (T71)),Aluminum,2.7,310.0,331.0,105.0,10,114.9,4,662.5,8,Marine
+Aluminum Alloy 852.0 (Cast (T5)),Aluminum,2.7,124.0,165.0,45.0,7,188.57,2,631.6,9,General Purpose
+Aluminum Alloy 1060-O (Wrought),Aluminum,2.7,28.0,69.0,19.0,7,186.73,1,649.0,9,General Purpose
+Aluminum Alloy 1060-H12 (Wrought),Aluminum,2.7,76.0,83.0,23.0,7,184.21,2,625.9,9,General Purpose
+Aluminum Alloy 1060-H14 (Wrought),Aluminum,2.7,90.0,97.0,26.0,7,170.9,2,664.4,10,General Purpose
+Aluminum Alloy 1060-H16 (Wrought),Aluminum,2.7,103.0,110.0,30.0,7,186.03,2,664.8,9,General Purpose
+Aluminum Alloy 1060-H18 (Wrought),Aluminum,2.7,124.0,131.0,35.0,7,165.94,2,652.6,8,General Purpose
+Aluminum Alloy 1100-O (Wrought),Aluminum,2.7,34.0,90.0,23.0,7,175.49,2,626.2,9,General Purpose
+Aluminum Alloy 1100-H12 (Wrought),Aluminum,2.7,103.0,110.0,28.0,7,188.71,2,653.1,9,General Purpose
+Aluminum Alloy 1100-H14 (Wrought),Aluminum,2.7,117.0,124.0,32.0,8,194.7,2,645.0,9,General Purpose
+Aluminum Alloy 1100-H16 (Wrought),Aluminum,2.7,138.0,145.0,38.0,6,181.29,2,656.5,8,General Purpose
+Aluminum Alloy 1100-H18 (Wrought),Aluminum,2.7,152.0,165.0,44.0,7,166.08,2,650.6,10,General Purpose
+Aluminum Alloy 1350-O (Wrought),Aluminum,2.7,28.0,83.0,23.7,8,177.8,2,669.9,9,General Purpose
+Aluminum Alloy 1350-H12 (Wrought),Aluminum,2.7,83.0,97.0,27.7,7,177.21,2,637.7,10,General Purpose
+Aluminum Alloy 1350-H14 (Wrought),Aluminum,2.7,97.0,110.0,31.4,7,176.51,2,656.4,9,General Purpose
+Aluminum Alloy 1350-H16 (Wrought),Aluminum,2.7,110.0,124.0,35.4,8,186.12,2,639.3,9,General Purpose
+Aluminum Alloy 1350-H19 (Wrought),Aluminum,2.7,165.0,186.0,53.1,7,168.32,3,660.3,9,General Purpose
+Aluminum Alloy 2011-T3 (Wrought),Aluminum,2.7,296.0,379.0,95.0,10,127.0,3,658.4,8,Marine
+Aluminum Alloy 2011-T8 (Wrought),Aluminum,2.7,310.0,407.0,100.0,5,122.77,6,673.5,7,Aircraft
+Aluminum Alloy 2014-O (Wrought),Aluminum,2.7,97.0,186.0,45.0,7,180.09,2,652.9,9,General Purpose
+Aluminum Alloy 2014-T4 (Wrought),Aluminum,2.7,290.0,427.0,105.0,5,118.43,6,626.0,7,Aircraft
+Aluminum Alloy 2014-T451 (Wrought),Aluminum,2.7,290.0,427.0,105.0,5,129.25,6,645.7,7,Aircraft
+Aluminum Alloy 2014-T6 (Wrought),Aluminum,2.7,414.0,483.0,135.0,4,117.29,6,610.5,6,Aircraft Structures
+Aluminum Alloy 2014-T651 (Wrought),Aluminum,2.7,414.0,483.0,135.0,5,122.54,5,629.7,7,Aircraft Structures
+Aluminum Alloy Alclad 2014-O (Wrought),Aluminum,2.7,69.0,172.0,49.1,7,170.45,2,648.8,9,General Purpose
+Aluminum Alloy Alclad 2014-T3 (Wrought),Aluminum,2.7,276.0,434.0,124.0,4,117.8,5,655.3,7,Aircraft
+Aluminum Alloy Alclad 2014-T4 (Wrought),Aluminum,2.7,255.0,421.0,120.3,6,132.4,7,650.0,8,Aircraft
+Aluminum Alloy Alclad 2014-T451 (Wrought),Aluminum,2.7,255.0,421.0,120.3,5,124.11,6,636.2,7,Aircraft
+Aluminum Alloy Alclad 2014-T6 (Wrought),Aluminum,2.7,414.0,469.0,134.0,5,109.48,7,637.3,7,Aircraft
+Aluminum Alloy Alclad 2014-T651 (Wrought),Aluminum,2.7,414.0,469.0,134.0,5,113.16,6,647.4,7,Aircraft
+Aluminum Alloy 2017-O (Wrought),Aluminum,2.7,69.0,179.0,45.0,7,167.61,1,669.1,9,General Purpose
+Aluminum Alloy 2017-T4 (Wrought),Aluminum,2.7,276.0,427.0,105.0,5,107.94,6,677.7,7,Aircraft
+Aluminum Alloy 2017-T451 (Wrought),Aluminum,2.7,276.0,427.0,105.0,4,132.03,6,648.4,7,Aircraft
+Aluminum Alloy 2018-T61 (Wrought),Aluminum,2.7,317.0,421.0,120.0,5,121.98,7,652.1,8,Aircraft
+Aluminum Alloy 2024-O (Wrought),Aluminum,2.7,76.0,186.0,47.0,7,192.76,2,665.8,9,General Purpose
+Aluminum Alloy 2024-T3 (Wrought),Aluminum,2.7,345.0,483.0,120.0,5,129.2,6,679.6,7,Aircraft Structures
+Aluminum Alloy 2024-T351 (Wrought),Aluminum,2.7,324.0,469.0,120.0,5,124.34,7,642.6,7,Aircraft
+Aluminum Alloy 2024-T4 (Wrought),Aluminum,2.7,324.0,469.0,120.0,5,124.57,6,654.5,7,Aircraft
+Aluminum Alloy 2024-T361 (Wrought),Aluminum,2.7,393.0,496.0,130.0,5,119.0,6,628.9,7,Aircraft Structures
+Aluminum Alloy Alclad 2024-O (Wrought),Aluminum,2.7,76.0,179.0,51.1,7,190.65,3,672.9,9,General Purpose
+Aluminum Alloy Alclad 2024-T3 (Wrought),Aluminum,2.7,310.0,448.0,128.0,5,114.75,7,637.9,7,Aircraft
+Aluminum Alloy Alclad 2024-T351 (Wrought),Aluminum,2.7,290.0,441.0,126.0,5,118.92,5,603.8,7,Aircraft
+Aluminum Alloy Alclad 2024-T4 (Wrought),Aluminum,2.7,290.0,441.0,126.0,6,126.91,6,615.4,7,Aircraft
+Aluminum Alloy Alclad 202024-T361 (Wrought),Aluminum,2.7,365.0,462.0,132.0,5,111.3,6,658.2,7,Aircraft
+Aluminum Alloy Alclad 2024-T81 (Wrought),Aluminum,2.7,414.0,448.0,128.0,6,120.98,6,627.5,7,Aircraft
+Aluminum Alloy Alclad 2024-T851 (Wrought),Aluminum,2.7,414.0,448.0,128.0,4,120.18,5,640.0,6,Aircraft
+Aluminum Alloy Alclad 2024-T861 (Wrought),Aluminum,2.7,455.0,483.0,138.0,5,129.09,6,607.3,6,Aircraft Structures
+Aluminum Alloy 2025-T6 (Wrought),Aluminum,2.7,255.0,400.0,110.0,5,128.44,6,644.6,8,Aircraft
+Aluminum Alloy 2036-T4 (Wrought),Aluminum,2.7,193.0,338.0,96.6,9,118.53,3,660.4,8,Marine
+Aluminum Alloy 2117-T4 (Wrought),Aluminum,2.7,165.0,296.0,70.0,7,175.03,3,664.8,8,General Purpose
+Aluminum Alloy 2218-T72 (Wrought),Aluminum,2.7,255.0,331.0,95.0,9,124.23,3,661.3,8,Marine
+Aluminum Alloy 2219-O (Wrought),Aluminum,2.7,76.0,172.0,49.1,7,194.68,2,641.6,9,General Purpose
+Aluminum Alloy 2219-T42 (Wrought),Aluminum,2.7,186.0,359.0,102.6,9,123.33,4,644.4,7,Marine
+Aluminum Alloy 2219-T31 (Wrought),Aluminum,2.7,248.0,359.0,102.6,10,119.34,3,669.7,8,Marine
+Aluminum Alloy 2219-T351 (Wrought),Aluminum,2.7,248.0,359.0,102.6,9,121.61,3,630.4,9,Marine
+Aluminum Alloy 2219-T37 (Wrought),Aluminum,2.7,317.0,393.0,112.3,9,107.36,3,667.1,9,Marine
+Aluminum Alloy 2219-T62 (Wrought),Aluminum,2.7,290.0,414.0,118.3,5,119.04,6,635.5,7,Aircraft
+Aluminum Alloy 2219-T81 (Wrought),Aluminum,2.7,352.0,455.0,130.0,5,116.03,6,661.0,7,Aircraft
+Aluminum Alloy 2219-T851 (Wrought),Aluminum,2.7,352.0,455.0,130.0,5,126.5,7,640.1,7,Aircraft
+Aluminum Alloy 2219-T87 (Wrought),Aluminum,2.7,393.0,476.0,136.0,5,115.47,6,662.6,8,Aircraft
+Aluminum Alloy 3003-O (Wrought),Aluminum,2.7,41.0,110.0,28.0,7,178.51,2,641.9,10,General Purpose
+Aluminum Alloy 3003-H12 (Wrought),Aluminum,2.7,124.0,131.0,35.0,7,163.22,1,650.4,9,General Purpose
+Aluminum Alloy 3003-H14 (Wrought),Aluminum,2.7,145.0,152.0,40.0,7,165.27,2,688.7,8,General Purpose
+Aluminum Alloy 3003-H16 (Wrought),Aluminum,2.7,172.0,179.0,47.0,7,181.49,2,628.0,9,General Purpose
+Aluminum Alloy 3003-H18 (Wrought),Aluminum,2.7,186.0,200.0,55.0,6,184.35,2,631.7,9,General Purpose
+Aluminum Alloy Alclad 3003-O (Wrought),Aluminum,2.7,41.0,110.0,31.4,7,189.42,1,661.2,9,General Purpose
+Aluminum Alloy Alclad 3003-H12 (Wrought),Aluminum,2.7,124.0,131.0,37.4,7,178.32,2,663.9,9,General Purpose
+Aluminum Alloy Alclad 3003-H14 (Wrought),Aluminum,2.7,145.0,152.0,43.4,7,193.3,2,651.4,9,General Purpose
+Aluminum Alloy Alclad 3003-H16 (Wrought),Aluminum,2.7,172.0,179.0,51.1,7,187.86,2,664.2,8,General Purpose
+Aluminum Alloy Alclad 3003-H18 (Wrought),Aluminum,2.7,186.0,200.0,57.1,7,175.2,2,661.5,9,General Purpose
+Aluminum Alloy 3004-O (Wrought),Aluminum,2.7,69.0,179.0,45.0,7,182.2,3,664.5,9,General Purpose
+Aluminum Alloy 3004-H32 (Wrought),Aluminum,2.7,172.0,214.0,52.0,7,191.28,2,658.2,9,General Purpose
+Aluminum Alloy 3004-H34 (Wrought),Aluminum,2.7,200.0,241.0,63.0,7,183.76,2,658.0,9,General Purpose
+Aluminum Alloy 3004-H36 (Wrought),Aluminum,2.7,228.0,262.0,70.0,7,164.22,3,643.8,8,General Purpose
+Aluminum Alloy 3004-H38 (Wrought),Aluminum,2.7,248.0,283.0,77.0,6,172.13,2,649.0,9,General Purpose
+Aluminum Alloy Alclad 3004-O (Wrought),Aluminum,2.7,69.0,179.0,51.1,7,185.85,2,670.1,8,General Purpose
+Aluminum Alloy Alclad 3004-H32 (Wrought),Aluminum,2.7,172.0,214.0,61.1,7,164.28,2,631.2,9,General Purpose
+Aluminum Alloy Alclad 3004-H34 (Wrought),Aluminum,2.7,200.0,241.0,68.9,7,182.42,2,648.8,8,General Purpose
+Aluminum Alloy Alclad 3004-H36 (Wrought),Aluminum,2.7,228.0,262.0,74.9,7,182.92,2,672.5,9,General Purpose
+Aluminum Alloy Alclad 3004-H38 (Wrought),Aluminum,2.7,248.0,283.0,80.9,7,165.93,3,658.8,8,General Purpose
+Aluminum Alloy 3105-O (Wrought),Aluminum,2.7,55.0,117.0,33.4,7,184.34,2,633.0,8,General Purpose
+Aluminum Alloy 3105-H12 (Wrought),Aluminum,2.7,131.0,152.0,43.4,6,179.68,2,656.4,9,General Purpose
+Aluminum Alloy 3105-H14 (Wrought),Aluminum,2.7,152.0,172.0,49.1,7,195.19,2,674.6,9,General Purpose
+Aluminum Alloy 3105-H16 (Wrought),Aluminum,2.7,172.0,193.0,55.1,7,186.02,2,647.8,9,General Purpose
+Aluminum Alloy 3105-H18 (Wrought),Aluminum,2.7,193.0,214.0,61.1,7,174.28,2,661.7,9,General Purpose
+Aluminum Alloy 3105-H25 (Wrought),Aluminum,2.7,159.0,179.0,51.1,6,181.8,1,655.0,9,General Purpose
+Aluminum Alloy 4032-T6 (Wrought),Aluminum,2.7,317.0,379.0,120.0,9,114.8,2,660.3,8,Marine
+Aluminum Alloy 5005-O (Wrought),Aluminum,2.7,41.0,124.0,28.0,7,181.5,2,632.2,10,General Purpose
+Aluminum Alloy 5005-H12 (Wrought),Aluminum,2.7,131.0,138.0,39.4,7,181.42,1,641.8,9,General Purpose
+Aluminum Alloy 5005-H14 (Wrought),Aluminum,2.7,152.0,159.0,45.4,7,178.05,2,676.5,8,General Purpose
+Aluminum Alloy 5005-H16 (Wrought),Aluminum,2.7,172.0,179.0,51.1,7,173.54,2,656.8,9,General Purpose
+Aluminum Alloy 5005-H18 (Wrought),Aluminum,2.7,193.0,200.0,57.1,6,195.56,2,676.2,8,General Purpose
+Aluminum Alloy 5005-H32 (Wrought),Aluminum,2.7,117.0,138.0,36.0,7,177.69,2,672.4,9,General Purpose
+Aluminum Alloy 5005-H34 (Wrought),Aluminum,2.7,138.0,159.0,41.0,7,176.73,3,635.1,9,General Purpose
+Aluminum Alloy 5005-H36 (Wrought),Aluminum,2.7,165.0,179.0,46.0,8,176.64,2,651.1,9,General Purpose
+Aluminum Alloy 5005-H38 (Wrought),Aluminum,2.7,186.0,200.0,51.0,6,192.43,3,663.5,8,General Purpose
+Aluminum Alloy 5050-O (Wrought),Aluminum,2.7,55.0,145.0,36.0,7,180.45,2,657.9,9,General Purpose
+Aluminum Alloy 5050-H32 (Wrought),Aluminum,2.7,145.0,172.0,46.0,7,176.31,2,615.6,9,General Purpose
+Aluminum Alloy 5050-H34 (Wrought),Aluminum,2.7,165.0,193.0,53.0,7,183.52,2,692.8,8,General Purpose
+Aluminum Alloy 5050-H36 (Wrought),Aluminum,2.7,179.0,207.0,58.0,7,191.89,2,627.7,9,General Purpose
+Aluminum Alloy 5050-H38 (Wrought),Aluminum,2.7,200.0,221.0,63.0,7,171.11,1,644.2,9,General Purpose
+Aluminum Alloy 5052-O (Wrought),Aluminum,2.7,90.0,193.0,47.0,7,162.68,2,667.1,10,General Purpose
+Aluminum Alloy 5052-H32 (Wrought),Aluminum,2.7,193.0,228.0,60.0,8,193.39,1,646.0,9,General Purpose
+Aluminum Alloy 5052-H34 (Wrought),Aluminum,2.7,214.0,262.0,68.0,7,146.07,4,665.4,8,General Purpose
+Aluminum Alloy 5052-H36 (Wrought),Aluminum,2.7,241.0,276.0,73.0,7,165.66,3,660.7,8,General Purpose
+Aluminum Alloy 5052-H38 (Wrought),Aluminum,2.7,255.0,290.0,77.0,7,137.63,2,664.9,8,General Purpose
+Aluminum Alloy 5056-O (Wrought),Aluminum,2.7,152.0,290.0,65.0,7,166.46,3,641.5,8,General Purpose
+Aluminum Alloy 5056-H18 (Wrought),Aluminum,2.7,407.0,434.0,105.0,5,128.26,6,666.8,7,Aircraft
+Aluminum Alloy 5056-H38 (Wrought),Aluminum,2.7,345.0,414.0,100.0,5,120.16,6,614.6,7,Aircraft
+Aluminum Alloy 5083-O (Wrought),Aluminum,2.7,145.0,290.0,82.9,6,174.84,3,656.4,8,General Purpose
+Aluminum Alloy 5083-H116 (Wrought),Aluminum,2.7,228.0,317.0,90.6,9,125.01,4,663.1,8,Marine
+Aluminum Alloy 5083-H321 (Wrought),Aluminum,2.7,228.0,317.0,90.6,9,124.29,3,645.1,8,Marine
+Aluminum Alloy 5086-O (Wrought),Aluminum,2.7,117.0,262.0,74.9,6,175.83,3,669.6,8,General Purpose
+Aluminum Alloy 5086-H32 (Wrought),Aluminum,2.7,207.0,290.0,82.9,7,155.34,3,659.0,8,General Purpose
+Aluminum Alloy 5086-H34 (Wrought),Aluminum,2.7,255.0,324.0,92.6,9,131.48,3,680.5,8,Marine
+Aluminum Alloy 5086-H112 (Wrought),Aluminum,2.7,131.0,269.0,76.9,7,173.84,3,684.9,8,General Purpose
+Aluminum Alloy 5086-H116 (Wrought),Aluminum,2.7,207.0,290.0,82.9,7,169.02,3,648.9,8,General Purpose
+Aluminum Alloy 5154-O (Wrought),Aluminum,2.7,117.0,241.0,58.0,7,181.26,2,661.2,8,General Purpose
+Aluminum Alloy 5154-H32 (Wrought),Aluminum,2.7,207.0,269.0,67.0,7,171.6,3,672.4,9,General Purpose
+Aluminum Alloy 5154-H34 (Wrought),Aluminum,2.7,228.0,290.0,73.0,7,152.41,3,653.0,8,General Purpose
+Aluminum Alloy 5154-H36 (Wrought),Aluminum,2.7,248.0,310.0,78.0,8,183.02,2,683.2,8,General Purpose
+Aluminum Alloy 5154-H38 (Wrought),Aluminum,2.7,269.0,331.0,80.0,9,123.92,3,655.9,8,Marine
+Aluminum Alloy 5154-H112 (Wrought),Aluminum,2.7,117.0,241.0,63.0,7,177.44,2,648.9,9,General Purpose
+Aluminum Alloy 5252-H25 (Wrought),Aluminum,2.7,172.0,234.0,68.0,7,177.01,2,626.8,9,General Purpose
+Aluminum Alloy 5252-H28 (Wrought),Aluminum,2.7,241.0,283.0,75.0,7,180.73,3,661.3,8,General Purpose
+Aluminum Alloy 5252-H38 (Wrought),Aluminum,2.7,241.0,283.0,75.0,7,160.11,4,666.9,8,General Purpose
+Aluminum Alloy 5254-O (Wrought),Aluminum,2.7,117.0,241.0,58.0,7,179.48,2,660.3,9,General Purpose
+Aluminum Alloy 5254-H32 (Wrought),Aluminum,2.7,207.0,269.0,67.0,7,158.73,2,641.6,8,General Purpose
+Aluminum Alloy 5254-H34 (Wrought),Aluminum,2.7,228.0,290.0,73.0,7,157.41,2,634.7,9,General Purpose
+Aluminum Alloy 5254-H36 (Wrought),Aluminum,2.7,248.0,310.0,78.0,7,170.25,3,662.8,8,General Purpose
+Aluminum Alloy 5254-H38 (Wrought),Aluminum,2.7,269.0,331.0,80.0,9,113.08,3,663.1,9,Marine
+Aluminum Alloy 5254-H112 (Wrought),Aluminum,2.7,117.0,241.0,63.0,8,193.15,2,660.1,9,General Purpose
+Aluminum Alloy 5454-O (Wrought),Aluminum,2.7,117.0,248.0,62.0,7,165.6,3,659.8,8,General Purpose
+Aluminum Alloy 5454-H32 (Wrought),Aluminum,2.7,207.0,276.0,73.0,7,173.5,3,663.4,8,General Purpose
+Aluminum Alloy 5454-H34 (Wrought),Aluminum,2.7,241.0,303.0,81.0,7,171.26,3,633.7,8,General Purpose
+Aluminum Alloy 5454-H111 (Wrought),Aluminum,2.7,179.0,262.0,70.0,7,166.26,2,664.7,9,General Purpose
+Aluminum Alloy 5454-H112 (Wrought),Aluminum,2.7,124.0,248.0,62.0,8,157.63,3,653.8,9,General Purpose
+Aluminum Alloy 5456-O (Wrought),Aluminum,2.7,159.0,310.0,88.6,8,167.61,3,671.5,8,General Purpose
+Aluminum Alloy 5456-H112 (Wrought),Aluminum,2.7,165.0,310.0,88.6,6,162.44,2,661.5,8,General Purpose
+Aluminum Alloy 5456-H116 (Wrought),Aluminum,2.7,255.0,352.0,90.0,9,117.03,3,668.6,8,Marine
+Aluminum Alloy 5456-H321 (Wrought),Aluminum,2.7,255.0,352.0,90.0,10,112.54,3,637.7,7,Marine
+Aluminum Alloy 5457-O (Wrought),Aluminum,2.7,48.0,131.0,32.0,8,186.68,1,631.2,8,General Purpose
+Aluminum Alloy 5457-H25 (Wrought),Aluminum,2.7,159.0,179.0,48.0,7,175.38,2,664.3,9,General Purpose
+Aluminum Alloy 5457-H28 (Wrought),Aluminum,2.7,186.0,207.0,55.0,7,174.42,2,664.3,9,General Purpose
+Aluminum Alloy 5457-H38 (Wrought),Aluminum,2.7,186.0,207.0,55.0,7,163.99,2,654.5,9,General Purpose
+Aluminum Alloy 5652-O (Wrought),Aluminum,2.7,90.0,193.0,47.0,7,175.7,2,641.5,9,General Purpose
+Aluminum Alloy 5652-H32 (Wrought),Aluminum,2.7,193.0,228.0,60.0,6,179.86,1,654.7,9,General Purpose
+Aluminum Alloy 5652-H34 (Wrought),Aluminum,2.7,214.0,262.0,68.0,7,160.14,3,690.0,8,General Purpose
+Aluminum Alloy 5652-H36 (Wrought),Aluminum,2.7,241.0,276.0,73.0,7,187.12,3,675.6,8,General Purpose
+Aluminum Alloy 5652-H38 (Wrought),Aluminum,2.7,255.0,290.0,77.0,6,164.9,4,668.7,8,General Purpose
+Aluminum Alloy 5657-H25 (Wrought),Aluminum,2.7,138.0,159.0,40.0,6,172.08,2,658.5,9,General Purpose
+Aluminum Alloy 5657-H28 (Wrought),Aluminum,2.7,165.0,193.0,50.0,6,175.89,2,660.3,10,General Purpose
+Aluminum Alloy 5657-H38 (Wrought),Aluminum,2.7,165.0,193.0,50.0,7,189.19,2,653.6,9,General Purpose
+Aluminum Alloy 6061-O (Wrought),Aluminum,2.7,55.0,124.0,30.0,7,179.99,2,657.7,10,General Purpose
+Aluminum Alloy 6061-T4 (Wrought),Aluminum,2.7,145.0,241.0,65.0,7,172.51,1,664.8,9,General Purpose
+Aluminum Alloy 6061-T451 (Wrought),Aluminum,2.7,145.0,241.0,65.0,7,185.71,2,644.7,9,General Purpose
+Aluminum Alloy 6061-T6 (Wrought),Aluminum,2.7,276.0,310.0,95.0,7,163.68,3,678.4,8,General Purpose
+Aluminum Alloy 6061-T651 (Wrought),Aluminum,2.7,276.0,310.0,95.0,7,156.67,3,685.3,8,General Purpose
+Aluminum Alloy Alclad 6061-O (Wrought),Aluminum,2.7,48.0,117.0,33.4,7,193.45,2,666.5,9,General Purpose
+Aluminum Alloy Alclad 6061-T4 (Wrought),Aluminum,2.7,131.0,228.0,65.1,7,191.51,1,639.7,9,General Purpose
+Aluminum Alloy Alclad 6061-T451 (Wrought),Aluminum,2.7,131.0,228.0,65.1,7,185.44,2,670.8,9,General Purpose
+Aluminum Alloy Alclad 6061-T6 (Wrought),Aluminum,2.7,255.0,290.0,82.9,7,161.08,3,669.1,8,General Purpose
+Aluminum Alloy Alclad 6061-T651 (Wrought),Aluminum,2.7,255.0,290.0,82.9,8,167.63,3,666.1,8,General Purpose
+Aluminum Alloy 6063-O (Wrought),Aluminum,2.7,48.0,90.0,25.0,6,149.17,2,636.0,10,General Purpose
+Aluminum Alloy 6063-T1 (Wrought),Aluminum,2.7,90.0,152.0,42.0,7,175.06,3,677.3,9,General Purpose
+Aluminum Alloy 6063-T4 (Wrought),Aluminum,2.7,90.0,172.0,49.1,7,184.19,2,685.3,8,General Purpose
+Aluminum Alloy 6063-T5 (Wrought),Aluminum,2.7,145.0,186.0,60.0,7,172.96,2,637.1,9,General Purpose
+Aluminum Alloy 6063-T6 (Wrought),Aluminum,2.7,214.0,241.0,73.0,7,171.02,2,672.1,9,General Purpose
+Aluminum Alloy 6063-T83 (Wrought),Aluminum,2.7,241.0,255.0,82.0,7,156.11,4,677.2,8,General Purpose
+Aluminum Alloy 6063-T831 (Wrought),Aluminum,2.7,186.0,207.0,70.0,7,186.19,2,613.7,10,General Purpose
+Aluminum Alloy 6063-T832 (Wrought),Aluminum,2.7,269.0,290.0,95.0,7,169.6,3,646.5,8,General Purpose
+Aluminum Alloy 6066-O (Wrought),Aluminum,2.7,83.0,152.0,43.0,7,186.69,2,659.8,9,General Purpose
+Aluminum Alloy 6066-T4 (Wrought),Aluminum,2.7,207.0,359.0,90.0,10,120.59,3,671.8,8,Marine
+Aluminum Alloy 6066-T451 (Wrought),Aluminum,2.7,207.0,359.0,90.0,9,117.05,3,657.1,8,Marine
+Aluminum Alloy 6066-T6 (Wrought),Aluminum,2.7,359.0,393.0,120.0,9,118.6,4,680.4,8,Marine
+Aluminum Alloy 6066-T651 (Wrought),Aluminum,2.7,359.0,393.0,120.0,9,127.98,3,649.4,8,Marine
+Aluminum Alloy 6070-T6 (Wrought),Aluminum,2.7,352.0,379.0,108.3,9,124.72,3,640.0,8,Marine
+Aluminum Alloy 6101-H111 (Wrought),Aluminum,2.7,76.0,97.0,27.7,7,175.13,2,653.4,8,General Purpose
+Aluminum Alloy 6101-T6 (Wrought),Aluminum,2.7,193.0,221.0,71.0,7,166.76,3,653.4,9,General Purpose
+Aluminum Alloy 6262-T9 (Wrought),Aluminum,2.7,379.0,400.0,120.0,5,117.96,5,639.5,8,Aircraft
+Aluminum Alloy 6351-T4 (Wrought),Aluminum,2.7,152.0,248.0,70.9,7,170.98,2,644.5,8,General Purpose
+Aluminum Alloy 6351-T6 (Wrought),Aluminum,2.7,283.0,310.0,95.0,7,171.06,3,649.9,8,General Purpose
+Aluminum Alloy 6463-T1 (Wrought),Aluminum,2.7,90.0,152.0,42.0,7,179.94,2,630.6,9,General Purpose
+Aluminum Alloy 6463-T5 (Wrought),Aluminum,2.7,145.0,186.0,60.0,7,170.83,2,643.4,9,General Purpose
+Aluminum Alloy 6463-T6 (Wrought),Aluminum,2.7,214.0,241.0,74.0,7,182.54,2,648.0,9,General Purpose
+Aluminum Alloy 7049-T73 (Wrought),Aluminum,2.7,448.0,517.0,135.0,5,121.97,5,625.8,8,Aircraft Structures
+Aluminum Alloy 7049-T7352 (Wrought),Aluminum,2.7,434.0,517.0,135.0,5,109.04,6,617.7,7,Aircraft Structures
+Aluminum Alloy 7050-T73510 (Wrought),Aluminum,2.7,434.0,496.0,141.7,5,123.01,6,633.8,7,Aircraft Structures
+Aluminum Alloy 7050-T7451f (Wrought),Aluminum,2.7,469.0,524.0,149.7,5,119.1,6,625.9,7,Aircraft Structures
+Aluminum Alloy 7050-T7651 (Wrought),Aluminum,2.7,490.0,552.0,157.7,7,135.52,6,470.0,6,Aerospace
+Aluminum Alloy 7075-O (Wrought),Aluminum,2.7,103.0,228.0,60.0,7,191.52,2,653.0,9,General Purpose
+Aluminum Alloy 7075-T6 (Wrought),Aluminum,2.7,503.0,572.0,150.0,6,129.15,7,484.6,6,Aerospace
+Aluminum Alloy 7075-T651 (Wrought),Aluminum,2.7,503.0,572.0,150.0,6,123.72,7,483.8,7,Aerospace
+Aluminum Alloy Alclad 7075-O (Wrought),Aluminum,2.7,97.0,221.0,63.1,7,157.9,2,648.8,9,General Purpose
+Aluminum Alloy Alclad 7075-T6 (Wrought),Aluminum,2.7,462.0,524.0,149.7,5,120.21,6,648.9,7,Aircraft Structures
+Aluminum Alloy Alclad 7075-T651 (Wrought),Aluminum,2.7,462.0,524.0,149.7,5,121.07,6,632.1,7,Aircraft Structures
+Aluminum Alloy 7178-O (Wrought),Aluminum,2.7,103.0,228.0,65.1,8,178.01,1,682.2,9,General Purpose
+Aluminum Alloy 7178-T6 (Wrought),Aluminum,2.7,538.0,607.0,173.4,6,112.35,7,478.9,6,Aerospace Structures
+Aluminum Alloy 7178-T651 (Wrought),Aluminum,2.7,538.0,607.0,173.4,6,121.4,7,459.9,6,Aerospace Structures
+Aluminum Alloy 7178-T76 (Wrought),Aluminum,2.7,503.0,572.0,163.4,7,121.9,8,506.3,7,Aerospace
+Aluminum Alloy 7178-T7651 (Wrought),Aluminum,2.7,503.0,572.0,163.4,6,126.87,7,483.0,6,Aerospace
+Aluminum Alloy Alclad 7178-O (Wrought),Aluminum,2.7,97.0,221.0,63.1,7,180.97,1,651.8,10,General Purpose
+Aluminum Alloy Alclad 7178-T6 (Wrought),Aluminum,2.7,490.0,558.0,159.4,7,130.3,7,471.5,6,Aerospace
+Aluminum Alloy Alclad 7178-T651 (Wrought),Aluminum,2.7,490.0,558.0,159.4,6,115.28,7,478.9,6,Aerospace
+Aluminum Alloy 8176-H24 (Wrought),Aluminum,2.7,97.0,117.0,33.4,7,176.65,2,674.0,9,General Purpose
+Magnesium Alloy AM100A-T61 (sand casting),Magnesium,1.75,152.0,276.0,86.2,4,76.9,4,643.4,8,Automotive
+Magnesium Alloy AZ63A-T6 (sand casting),Magnesium,1.75,97.0,276.0,86.2,4,71.75,4,619.9,8,Automotive
+Magnesium Alloy AZ81A-T4 (sand casting),Magnesium,1.75,83.0,276.0,86.2,4,80.05,4,624.6,8,Automotive
+Magnesium Alloy AZ91C-T6 (sand casting),Magnesium,1.75,145.0,276.0,86.2,4,79.63,4,616.0,8,Automotive
+Magnesium Alloy AZ91E-T6 (sand casting),Magnesium,1.75,145.0,276.0,86.2,5,75.53,4,629.6,9,Automotive
+Magnesium Alloy AZ92A-T6 (sand casting),Magnesium,1.75,152.0,276.0,86.2,5,75.98,4,644.8,9,Automotive
+Magnesium Alloy EZ33A-T5 (sand casting),Magnesium,1.75,110.0,159.0,49.7,4,73.92,4,586.0,9,Casting
+Magnesium Alloy HK31A-T6 (sand casting),Magnesium,1.75,103.0,221.0,69.1,4,77.87,4,592.6,7,Casting
+Magnesium Alloy HZ32A-T6 (sand casting),Magnesium,1.75,90.0,186.0,58.1,4,68.06,4,605.2,8,Casting
+Magnesium Alloy K1A-F (sand casting),Magnesium,1.75,55.0,179.0,55.9,4,73.12,4,578.3,8,Casting
+Magnesium Alloy QE22A-T6 (sand casting),Magnesium,1.75,193.0,262.0,81.9,5,72.17,4,600.7,7,Castings
+Magnesium Alloy QH21A-T6 (sand casting),Magnesium,1.75,207.0,276.0,86.2,4,67.5,4,671.2,8,Automotive
+Magnesium Alloy ZE41A-T5 (sand casting),Magnesium,1.75,138.0,207.0,64.7,5,65.82,5,582.2,8,Casting
+Magnesium Alloy ZE63A-T6 (sand casting),Magnesium,1.75,193.0,303.0,94.7,4,69.27,5,668.2,9,Automotive
+Magnesium Alloy ZH62A-T5 (sand casting),Magnesium,1.75,152.0,241.0,75.3,3,77.44,4,611.0,9,Casting
+Magnesium Alloy ZK51A-T5 (sand casting),Magnesium,1.75,138.0,207.0,64.7,4,74.23,4,611.8,9,Casting
+Magnesium Alloy ZK61A-T6 (sand casting),Magnesium,1.75,193.0,310.0,96.9,4,78.35,4,603.4,8,Automotive
+Magnesium Alloy WE54A-F (sand casting),Magnesium,1.75,200.0,276.0,86.2,4,80.84,5,640.4,8,Automotive
+Magnesium Alloy AZ91A-F (pressure die casting),Magnesium,1.75,159.0,234.0,73.1,5,71.25,5,621.2,8,Casting
+Magnesium Alloy AZ91B-FAZ91B-F (pressure die casting),Magnesium,1.75,159.0,234.0,73.1,4,67.36,4,571.0,8,Casting
+Magnesium Alloy AZ91D-F (pressure die casting),Magnesium,1.75,159.0,234.0,73.1,5,66.28,3,593.7,8,Casting
+Magnesium Alloy AM60A-F (pressure die casting),Magnesium,1.75,131.0,221.0,69.1,3,75.15,4,598.2,7,Casting
+Magnesium Alloy AM60B-F (pressure die casting),Magnesium,1.75,131.0,221.0,69.1,5,78.92,4,593.0,8,Casting
+Magnesium Alloy AS41A-F (pressure die casting),Magnesium,1.75,138.0,214.0,66.9,4,69.98,4,585.1,8,Casting
+Magnesium Alloy AZ10A-F (As extruded),Magnesium,1.75,145.0,241.0,75.3,4,69.41,4,615.1,9,Casting
+Magnesium Alloy AZ31B-F (As extruded),Magnesium,1.75,200.0,262.0,81.9,5,69.92,4,601.7,7,Castings
+Magnesium Alloy AZ31C-F (As extruded),Magnesium,1.75,200.0,262.0,81.9,6,67.89,6,630.2,6,Castings
+Magnesium Alloy AZ61A-F (As extruded),Magnesium,1.75,228.0,310.0,96.9,4,74.68,5,656.1,8,Automotive
+Magnesium Alloy AZ80A-T5 (As extruded),Magnesium,1.75,276.0,379.0,118.4,4,76.33,4,654.8,9,Automotive
+Magnesium Alloy HM31A-F (As extruded),Magnesium,1.75,228.0,290.0,90.6,4,71.04,4,619.5,7,Automotive
+Magnesium Alloy M1A-F (As extruded),Magnesium,1.75,179.0,255.0,79.7,5,71.02,5,608.4,7,Castings
+Magnesium Alloy ZK40A-T5 (As extruded),Magnesium,1.75,255.0,276.0,86.2,4,79.15,5,629.6,8,Automotive
+Magnesium Alloy ZK60A-F (As extruded),Magnesium,1.75,283.0,352.0,110.0,5,78.64,4,635.6,8,Automotive
+Magnesium Alloy AZ31B-H24,Magnesium,1.75,221.0,290.0,90.6,4,81.4,4,636.7,7,Automotive
+Magnesium Alloy AZ31C-H24,Magnesium,1.75,221.0,290.0,90.6,4,69.98,3,620.3,8,Automotive
+Magnesium Alloy HK31A-H24,Magnesium,1.75,207.0,262.0,81.9,5,75.85,5,599.4,7,Castings
+Magnesium Alloy HM21A-T8,Magnesium,1.75,172.0,234.0,73.1,5,72.05,4,580.6,8,Casting
+EN 11SMn30,Carbon Steel,7.86,230.0,380.0,111.8,3,53.41,2,1514.1,7,General Purpose
+EN 10S2O,Carbon Steel,7.86,225.0,360.0,105.9,3,43.91,1,1522.1,8,General Purpose
+EN 35S20,Carbon Steel,7.86,380.0,600.0,176.5,3,46.76,1,1513.2,7,General Purpose
+EN FeP01,Carbon Steel,7.86,202.5,270.0,79.4,3,51.37,2,1529.4,7,General Purpose
+EN FeP03,Carbon Steel,7.86,202.5,270.0,79.4,3,52.08,2,1534.1,8,General Purpose
+EN FeP04,Carbon Steel,7.86,202.5,270.0,79.4,2,51.8,3,1513.0,7,General Purpose
+EN SPT360,Carbon Steel,7.86,225.0,360.0,105.9,3,47.31,1,1540.1,7,General Purpose
+EN P235GH,Carbon Steel,7.86,225.0,360.0,105.9,3,49.46,2,1503.2,7,General Purpose
+EN S235JRG1,Carbon Steel,7.86,225.0,340.0,100.0,3,50.67,2,1517.4,8,General Purpose
+EN S235JRH,Carbon Steel,7.86,225.0,340.0,100.0,3,50.9,2,1519.3,6,General Purpose
+EN S235JRG2,Carbon Steel,7.86,225.0,340.0,100.0,3,53.19,2,1520.4,7,General Purpose
+EN S235JO,Carbon Steel,7.86,225.0,340.0,100.0,3,43.84,3,1507.9,7,General Purpose
+EN P265GH,Carbon Steel,7.86,225.0,410.0,120.6,3,51.22,2,1505.6,8,General Purpose
+EN S275JR,Carbon Steel,7.86,265.0,410.0,120.6,3,48.92,2,1517.8,8,General Purpose
+EN S275J2G3,Carbon Steel,7.86,265.0,410.0,120.6,3,45.85,1,1503.4,7,General Purpose
+EN S275J2HG3,Carbon Steel,7.86,265.0,410.0,120.6,3,51.78,2,1519.2,7,General Purpose
+EN S355J2G3,Carbon Steel,7.86,345.0,490.0,144.1,3,50.47,2,1505.4,7,General Purpose
+EN S355J2H,Carbon Steel,7.86,345.0,490.0,144.1,3,54.05,2,1497.9,7,General Purpose
+EN S355JO,Carbon Steel,7.86,345.0,490.0,144.1,3,50.28,2,1494.8,7,General Purpose
+EN S355JOH,Carbon Steel,7.86,345.0,490.0,144.1,3,52.64,2,1521.6,7,General Purpose
+EN SPT410,Stainless Steel,7.86,255.0,410.0,120.6,7,23.5,4,1533.5,7,Valve Parts
+EN SPT510,Carbon Steel,7.86,345.0,510.0,150.0,4,51.44,2,1502.7,7,General Purpose
+EN E295,Carbon Steel,7.86,285.0,470.0,138.2,3,45.5,1,1515.8,7,General Purpose
+EN E355,Carbon Steel,7.86,325.0,570.0,167.6,2,49.56,2,1539.5,7,General Purpose
+EN E360,Carbon Steel,7.86,355.0,690.0,202.9,3,48.22,2,1505.1,7,General Purpose
+EN C10E,Carbon Steel,7.86,300.0,420.0,123.5,3,50.22,3,1511.5,7,General Purpose
+EN C15E,Carbon Steel,7.86,340.0,440.0,129.4,3,49.48,2,1541.5,6,General Purpose
+EN C22,Carbon Steel,7.86,290.0,470.0,138.2,3,49.38,2,1518.5,7,General Purpose
+EN C25,Carbon Steel,7.86,320.0,500.0,147.1,3,54.35,1,1512.5,7,General Purpose
+EN C30,Carbon Steel,7.86,350.0,550.0,161.8,3,52.88,2,1498.9,8,General Purpose
+EN C35,Carbon Steel,7.86,380.0,600.0,176.5,3,49.65,2,1527.4,7,General Purpose
+EN C40,Carbon Steel,7.86,400.0,630.0,185.3,3,53.03,2,1542.1,7,General Purpose
+EN C45 (heat treated),Carbon Steel,7.86,430.0,650.0,191.2,2,50.31,1,1507.2,7,General Purpose
+EN C50 (heat treated),Carbon Steel,7.86,460.0,700.0,205.9,3,46.84,2,1546.9,7,General Purpose
+EN C55 (heat treated),Carbon Steel,7.86,490.0,750.0,220.6,3,47.07,2,1512.0,7,General Purpose
+EN C60 (heat treated),Carbon Steel,7.86,520.0,800.0,235.3,3,50.5,2,1507.3,7,General Purpose
+EN P295GH,Carbon Steel,7.86,290.0,460.0,135.3,3,55.09,2,1502.5,7,General Purpose
+EN 28Mn6 (heat treated),Carbon Steel,7.86,490.0,700.0,205.9,3,48.31,1,1500.9,7,General Purpose
+EN 17Cr3,Carbon Steel,7.86,340.0,580.0,170.6,3,52.0,3,1525.8,7,General Purpose
+EN 34Cr4 (heat treated),Carbon Steel,7.86,590.0,800.0,235.3,3,52.84,2,1511.7,7,General Purpose
+EN 37Cr4 (heat treated),Carbon Steel,7.86,630.0,850.0,250.0,3,47.12,3,1541.3,5,Structural
+EN 41Cr4 (heat treated),Carbon Steel,7.86,660.0,900.0,264.7,3,47.36,3,1508.3,6,Structural
+EN 16MnCr5 (case-hardened),Carbon Steel,7.86,680.0,900.0,264.7,3,44.57,3,1545.7,6,Structural
+EN 20MnCr5 (case-hardened),Carbon Steel,7.86,680.0,980.0,288.2,3,41.7,4,1550.2,6,Structural
+EN 16Mo3,Carbon Steel,7.86,270.0,440.0,129.4,3,46.84,2,1484.8,7,General Purpose
+EN 13CrMo4,Carbon Steel,7.86,295.0,450.0,132.4,4,48.85,2,1500.6,6,General Purpose
+EN 25CrMo4 (heat treated),Carbon Steel,7.86,600.0,800.0,235.3,3,49.02,2,1515.2,7,General Purpose
+EN 34CrMo4 (heat treated),Carbon Steel,7.86,650.0,900.0,264.7,4,39.35,3,1542.8,6,Structural
+EN 42CrMo4 (heat treated),Carbon Steel,7.86,770.0,1000.0,294.1,3,40.16,3,1560.7,6,Structural
+EN S355J2G1W,Carbon Steel,7.86,345.0,490.0,144.1,3,49.87,2,1522.7,7,General Purpose
+EN S355J0WP,Carbon Steel,7.86,345.0,490.0,144.1,3,51.34,2,1542.2,7,General Purpose
+EN 51CrV4 (case-hardened),Carbon Steel,7.86,700.0,900.0,264.7,3,43.15,3,1559.8,6,Structural
+EN 10CrMo9-10,Carbon Steel,7.86,300.0,480.0,141.2,3,53.52,2,1514.7,8,General Purpose
+EN 11CrMo9-10,Carbon Steel,7.86,310.0,520.0,152.9,3,47.67,2,1539.7,7,General Purpose
+EN 16NiCr4 (case-hardened),Carbon Steel,7.86,590.0,835.0,245.6,3,43.08,3,1534.7,6,Structural
+EN 12Ni14,Carbon Steel,7.86,355.0,490.0,144.1,2,48.93,3,1536.7,7,General Purpose
+EN 34CrNiMo6 (heat treated),Carbon Steel,7.86,900.0,1100.0,323.5,3,40.52,2,1549.2,6,Structural
+EN 30CrNiMo8 (heat treated),Carbon Steel,7.86,1050.0,1250.0,367.6,4,39.49,3,1542.9,6,Structural
+EN 12Ni19,Carbon Steel,7.86,390.0,530.0,155.9,3,50.4,2,1501.5,7,General Purpose
+EN X8Ni9,Carbon Steel,7.86,585.0,680.0,200.0,3,52.76,2,1514.4,7,General Purpose
+EN X6Cr13,Carbon Steel,7.86,230.0,400.0,117.6,3,50.37,2,1520.7,7,General Purpose
+EN X12Cr13,Carbon Steel,7.86,450.0,650.0,191.2,3,51.56,2,1512.2,7,General Purpose
+EN X20Cr13,Carbon Steel,7.86,500.0,700.0,205.9,3,56.3,2,1497.3,7,General Purpose
+EN X30Cr13,Carbon Steel,7.86,650.0,850.0,250.0,3,40.15,3,1546.0,6,Structural
+EN X6Cr17,Carbon Steel,7.86,240.0,400.0,117.6,3,55.31,2,1488.9,7,General Purpose
+EN X17CrNi16-2,Carbon Steel,7.86,600.0,800.0,235.3,3,47.72,2,1525.0,6,General Purpose
+EN X5CrNi18-10,Carbon Steel,7.86,190.0,500.0,147.1,3,48.48,2,1526.1,7,General Purpose
+EN X8CrNiS18-9,Carbon Steel,7.86,190.0,500.0,147.1,3,49.45,2,1535.5,7,General Purpose
+EN X6CrNiTi18-10,Carbon Steel,7.86,190.0,500.0,147.1,3,47.33,2,1514.1,7,General Purpose
+EN X2CrNi19-11,Carbon Steel,7.86,180.0,460.0,135.3,3,48.18,1,1529.7,8,General Purpose
+EN X2CrNiN18-10,Carbon Steel,7.86,270.0,550.0,161.8,4,51.07,2,1504.3,7,General Purpose
+EN X5CrNiMo17-12-2,Tool Steel,7.86,200.0,500.0,147.1,4,14.78,5,1363.3,5,Die Casting
+EN X6CrNiMoTi17-12-2,Carbon Steel,7.86,200.0,500.0,147.1,3,50.7,2,1524.5,7,General Purpose
+EN X2CrNiMo17-12-2,Tool Steel,7.86,200.0,500.0,147.1,3,16.37,5,1336.1,5,Die Casting
+EN X2CrNiMo18-14-3,Tool Steel,7.86,200.0,500.0,147.1,4,16.1,5,1359.8,5,Die Casting
+EN X3CrNiMo17-13-3,Tool Steel,7.86,200.0,500.0,147.1,4,15.8,5,1363.4,5,Die Casting
+EN X2CrNiMoN17-11-2,Carbon Steel,7.86,280.0,580.0,170.6,3,51.43,2,1539.9,7,General Purpose
+EN X2CrNiMoN17-13-3,Carbon Steel,7.86,280.0,580.0,170.6,3,50.62,2,1511.8,7,General Purpose
+EN X2CrNiMoN22-5-3,Carbon Steel,7.86,450.0,650.0,191.2,3,50.98,3,1503.2,7,General Purpose
+EN X12CrMnNiN18-9-5,Carbon Steel,7.86,320.0,680.0,200.0,3,53.03,2,1517.5,7,General Purpose
+Grey cast iron,Carbon Steel,7.16,147.0,150.0,44.1,3,55.22,2,1529.6,7,General Purpose
+DIN 9SMn28,Carbon Steel,7.86,375.0,460.0,135.3,3,50.31,1,1506.0,7,General Purpose
+DIN 10S2O,Carbon Steel,7.86,355.0,460.0,135.3,2,49.73,1,1527.1,7,General Purpose
+DIN 35S20,Carbon Steel,7.86,365.0,580.0,170.6,3,41.4,2,1513.1,7,General Purpose
+DIN USt1303,Carbon Steel,7.86,202.5,270.0,79.4,3,49.45,2,1513.7,7,General Purpose
+DIN St1405,Carbon Steel,7.86,202.5,270.0,79.4,2,53.5,2,1514.8,7,General Purpose
+DIN St1203,Carbon Steel,7.86,202.5,270.0,79.4,2,47.29,2,1507.8,7,General Purpose
+DIN USt34-2,Carbon Steel,7.86,195.0,330.0,97.1,3,52.43,2,1525.8,8,General Purpose
+DIN St34-2BK,Carbon Steel,7.86,320.0,410.0,120.6,3,51.7,2,1523.8,7,General Purpose
+DIN St37.0,Carbon Steel,7.86,225.0,350.0,102.9,3,47.1,3,1509.7,7,General Purpose
+DIN HI,Carbon Steel,7.86,225.0,360.0,105.9,2,51.52,2,1522.5,8,General Purpose
+DIN St37-2,Carbon Steel,7.86,225.0,340.0,100.0,3,47.88,1,1496.4,7,General Purpose
+DIN St37-2BK,Carbon Steel,7.86,350.0,440.0,129.4,3,49.51,2,1552.3,7,General Purpose
+DIN RSt37-2,Carbon Steel,7.86,225.0,340.0,100.0,3,48.29,2,1506.1,6,General Purpose
+DIN St37-3,Carbon Steel,7.86,225.0,340.0,100.0,3,49.91,2,1517.7,7,General Purpose
+DIN HII,Carbon Steel,7.86,255.0,410.0,120.6,3,52.38,1,1506.6,7,General Purpose
+DIN St44-2,Carbon Steel,7.86,265.0,410.0,120.6,3,52.11,1,1547.3,7,General Purpose
+DIN St44.0,Carbon Steel,7.86,265.0,420.0,123.5,3,48.18,2,1510.1,7,General Purpose
+DIN St44-3,Carbon Steel,7.86,265.0,410.0,120.6,4,51.68,3,1524.9,7,General Purpose
+DIN St50-2,Carbon Steel,7.86,285.0,470.0,138.2,3,53.47,2,1514.8,7,General Purpose
+DIN St52-3,Carbon Steel,7.86,345.0,490.0,144.1,3,46.17,1,1530.3,7,General Purpose
+DIN St52.0,Carbon Steel,7.86,345.0,500.0,147.1,3,47.09,2,1495.4,7,General Purpose
+DIN St52-3BK,Carbon Steel,7.86,470.0,590.0,173.5,3,45.21,3,1529.3,7,General Purpose
+DIN St60-2,Carbon Steel,7.86,325.0,570.0,167.6,2,51.96,2,1481.9,7,General Purpose
+DIN St70-2,Carbon Steel,7.86,355.0,670.0,197.1,3,46.9,2,1529.2,7,General Purpose
+DIN Ck10 (case-hardened),Carbon Steel,7.86,275.0,440.0,129.4,3,49.95,2,1511.3,7,General Purpose
+DIN Ck15 (case-hardened),Carbon Steel,7.86,295.0,495.0,145.6,3,46.6,1,1517.2,7,General Purpose
+DIN Ck22,Carbon Steel,7.86,300.0,500.0,147.1,3,48.81,1,1522.7,6,General Purpose
+DIN Ck25,Carbon Steel,7.86,320.0,500.0,147.1,3,44.92,2,1510.2,7,General Purpose
+DIN Ck30,Carbon Steel,7.86,350.0,550.0,161.8,3,48.07,2,1509.2,7,General Purpose
+DIN Ck35,Carbon Steel,7.86,370.0,600.0,176.5,3,51.68,2,1525.7,7,General Purpose
+DIN Cf35,Carbon Steel,7.86,360.0,580.0,170.6,3,46.08,2,1523.1,7,General Purpose
+DIN Ck40 (heat treated),Carbon Steel,7.86,400.0,630.0,185.3,3,49.58,1,1526.0,7,General Purpose
+DIN Ck45 (normalized),Carbon Steel,7.86,320.0,535.0,157.4,2,49.9,2,1546.0,7,General Purpose
+DIN Ck45 (heat treated),Carbon Steel,7.86,430.0,650.0,191.2,3,46.28,1,1487.6,7,General Purpose
+DIN Cf45,Carbon Steel,7.86,410.0,660.0,194.1,3,49.04,3,1522.5,7,General Purpose
+DIN Ck50 (face hardened),Carbon Steel,7.86,460.0,700.0,205.9,3,49.4,2,1509.0,6,General Purpose
+DIN Cf53,Carbon Steel,7.86,430.0,690.0,202.9,3,49.24,3,1469.0,7,General Purpose
+DIN Ck55 (heat treated),Carbon Steel,7.86,500.0,750.0,220.6,4,49.57,2,1499.5,7,General Purpose
+DIN Ck60 (normalized),Carbon Steel,7.86,400.0,680.0,200.0,3,51.68,1,1490.3,6,General Purpose
+DIN Ck60 (heat treated),Carbon Steel,7.86,520.0,800.0,235.3,3,49.36,2,1538.5,6,General Purpose
+DIN Ck60 (nitro-carburized),Carbon Steel,7.86,520.0,800.0,235.3,3,49.5,1,1549.1,6,General Purpose
+DIN 17Mn4,Carbon Steel,7.86,290.0,460.0,135.3,3,49.01,1,1512.8,8,General Purpose
+DIN 28Mn6,Carbon Steel,7.86,490.0,690.0,202.9,4,48.67,2,1503.5,6,General Purpose
+DIN 17Cr3,Carbon Steel,7.86,340.0,590.0,173.5,3,48.3,2,1493.0,8,General Purpose
+DIN 34Cr4,Carbon Steel,7.86,590.0,800.0,235.3,3,47.6,3,1544.5,7,General Purpose
+DIN 37Cr4 (heat treated),Carbon Steel,7.86,630.0,850.0,250.0,3,41.64,3,1569.3,6,Structural
+DIN 37Cr4 (face hardened),Carbon Steel,7.86,630.0,850.0,250.0,4,45.89,3,1550.0,6,Structural
+DIN 37Cr4 (nitro-case-hard.),Carbon Steel,7.86,1300.0,1700.0,500.0,3,42.49,3,1521.7,6,Structural
+DIN 38Cr4,Carbon Steel,7.86,630.0,830.0,244.1,3,43.8,3,1536.0,6,Structural
+DIN 41Cr4,Carbon Steel,7.86,660.0,900.0,264.7,3,44.38,4,1532.9,6,Structural
+DIN 42Cr4,Carbon Steel,7.86,670.0,880.0,258.8,4,42.43,3,1553.6,6,Structural
+DIN 37CrS4,Carbon Steel,7.86,630.0,850.0,250.0,3,41.25,2,1536.9,6,Structural
+DIN 41CrS4,Carbon Steel,7.86,665.0,880.0,258.8,2,45.39,3,1529.7,6,Structural
+DIN 55Cr3 (heat treated),Carbon Steel,7.86,1270.0,1450.0,426.5,3,42.75,3,1581.7,6,Structural
+DIN 16MnCr5 (case-hardened),Carbon Steel,7.86,680.0,900.0,264.7,3,40.81,3,1547.6,7,Structural
+DIN 20MnCr5,Carbon Steel,7.86,680.0,980.0,288.2,4,44.69,4,1544.8,6,Structural
+DIN 54SiCr6 (heat treated),Carbon Steel,7.86,1180.0,1370.0,402.9,3,40.45,3,1535.6,5,Structural
+DIN 15Mo3,Carbon Steel,7.86,270.0,440.0,129.4,3,52.4,3,1511.2,7,General Purpose
+DIN 13CrMo4,Carbon Steel,7.86,295.0,450.0,132.4,3,46.54,2,1492.6,7,General Purpose
+DIN WTSt52-3,Carbon Steel,7.86,345.0,490.0,144.1,3,55.76,2,1524.7,6,General Purpose
+DIN 25CrMo4,Carbon Steel,7.86,600.0,800.0,235.3,3,51.57,2,1520.3,6,General Purpose
+DIN 34CrMo4,Carbon Steel,7.86,650.0,900.0,264.7,3,40.24,3,1532.9,6,Structural
+DIN 42CrMo4,Carbon Steel,7.86,750.0,1000.0,294.1,3,41.94,3,1578.5,6,Structural
+DIN 41CrMo4,Carbon Steel,7.86,760.0,980.0,288.2,3,45.62,3,1544.4,5,Structural
+DIN 49CrMo4,Carbon Steel,7.86,690.0,880.0,258.8,3,39.66,4,1543.2,7,Structural
+DIN 30CrV9 (nitrided),Carbon Steel,7.86,600.0,800.0,235.3,3,49.34,2,1504.2,7,General Purpose
+DIN 42CrV6 (heat treated),Carbon Steel,7.86,850.0,980.0,288.2,3,40.97,3,1548.5,6,Structural
+DIN 42CrV6 (face hardened),Carbon Steel,7.86,850.0,980.0,288.2,3,41.66,4,1508.7,6,Structural
+DIN 50CrV4 (heat treated),Carbon Steel,7.86,1180.0,1370.0,402.9,4,46.13,2,1549.7,6,Structural
+DIN 10CrMo9-10,Carbon Steel,7.86,300.0,480.0,141.2,2,53.41,2,1533.1,7,General Purpose
+DIN 41CrAlMo7,Carbon Steel,7.86,735.0,930.0,273.5,4,45.52,3,1522.6,5,Structural
+DIN 32CrMo12,Tool Steel,7.86,1030.0,1230.0,361.8,4,18.14,5,1357.4,5,Die Casting
+DIN 31CrMo12,Tool Steel,7.86,750.0,1000.0,294.1,4,14.53,5,1356.4,5,Die Casting
+DIN 17CrNiMo6,Carbon Steel,7.86,785.0,1080.0,317.6,3,40.14,3,1547.5,6,Structural
+DIN 10Ni14,Carbon Steel,7.86,355.0,490.0,144.1,3,53.32,3,1475.9,7,General Purpose
+DIN 34CrNiMo6,Carbon Steel,7.86,900.0,1100.0,323.5,2,46.23,2,1553.4,6,Structural
+DIN 30CrNiMo8,Carbon Steel,7.86,1050.0,1250.0,367.6,3,40.41,3,1558.3,6,Structural
+DIN 12Ni19,Carbon Steel,7.86,390.0,530.0,155.9,3,49.49,2,1530.4,7,General Purpose
+DIN X8Ni9,Carbon Steel,7.86,585.0,680.0,200.0,3,51.95,2,1518.6,7,General Purpose
+DIN X6Cr13,Carbon Steel,7.86,250.0,400.0,117.6,3,52.1,2,1500.8,7,General Purpose
+DIN X6Cr17,Carbon Steel,7.86,270.0,450.0,132.4,4,55.35,2,1515.3,7,General Purpose
+DIN X10Cr13,Carbon Steel,7.86,420.0,600.0,176.5,3,55.65,3,1523.8,7,General Purpose
+DIN X20Cr13,Carbon Steel,7.86,450.0,650.0,191.2,3,47.13,2,1514.1,7,General Purpose
+DIN X30Cr13,Carbon Steel,7.86,600.0,800.0,235.3,3,49.61,2,1512.9,7,General Purpose
+DIN X45CrSi93,Carbon Steel,7.86,700.0,900.0,264.7,3,39.7,3,1552.8,6,Structural
+DIN X6CrAl13,Carbon Steel,7.86,250.0,400.0,117.6,3,46.59,2,1513.6,7,General Purpose
+DIN X20CrNi172,Carbon Steel,7.86,550.0,750.0,220.6,4,51.82,2,1529.3,7,General Purpose
+DIN X85CrMoV182,Carbon Steel,7.86,800.0,1000.0,294.1,3,45.63,3,1568.4,5,Structural
+DIN X5CrNi1810,Carbon Steel,7.86,195.0,500.0,147.1,2,48.47,2,1501.4,7,General Purpose
+DIN X10CrNiS189,Carbon Steel,7.86,195.0,500.0,147.1,4,47.21,2,1529.1,7,General Purpose
+DIN X6CrNiTi1810,Carbon Steel,7.86,200.0,500.0,147.1,3,53.46,1,1506.9,7,General Purpose
+DIN X2CrNi1911,Carbon Steel,7.86,180.0,460.0,135.3,4,51.38,2,1514.0,8,General Purpose
+DIN X2CrNiN1810,Carbon Steel,7.86,270.0,550.0,161.8,3,47.81,2,1534.0,7,General Purpose
+DIN X5CrNiMo17122,Tool Steel,7.86,205.0,510.0,150.0,3,15.75,5,1339.7,6,Die Casting
+DIN X6CrNiMoTi17122,Carbon Steel,7.86,210.0,500.0,147.1,3,46.19,2,1509.4,6,General Purpose
+DIN X2CrNiMo17132,Tool Steel,7.86,190.0,490.0,144.1,4,15.76,5,1348.2,4,Die Casting
+DIN X2CrNiMo18143,Tool Steel,7.86,190.0,490.0,144.1,4,15.11,5,1338.8,5,Die Casting
+DIN X5CrNiMo17133,Tool Steel,7.86,205.0,510.0,150.0,4,16.04,5,1342.1,5,Die Casting
+DIN X2CrNiMoN17122,Carbon Steel,7.86,280.0,580.0,170.6,3,48.32,2,1468.4,7,General Purpose
+DIN X2CrNiMoN17133,Carbon Steel,7.86,295.0,580.0,170.6,3,50.06,2,1500.2,8,General Purpose
+DIN X2CrNiMoN17135,Carbon Steel,7.86,285.0,580.0,170.6,3,45.57,2,1528.6,6,General Purpose
+DIN X8CrMnNi188,Carbon Steel,7.86,295.0,590.0,173.5,3,48.65,1,1499.3,7,General Purpose
+DIN X53CrMnNiN219,Carbon Steel,7.86,580.0,950.0,279.4,3,46.13,4,1572.2,6,Structural
+DIN GG - 15,Carbon Steel,7.16,147.0,150.0,44.1,3,48.1,2,1511.2,7,General Purpose
+DIN GG - 20,Carbon Steel,7.16,196.0,200.0,58.8,3,50.51,2,1512.5,7,General Purpose
+DIN GG - 25,Carbon Steel,7.16,245.0,250.0,73.5,2,49.45,2,1514.2,7,General Purpose
+DIN GG - 30,Carbon Steel,7.16,294.0,300.0,88.2,3,53.26,1,1497.2,7,General Purpose
+DIN GG - 35,Carbon Steel,7.16,343.0,350.0,102.9,3,53.66,2,1509.6,7,General Purpose
+DIN GGG - 50,Carbon Steel,7.16,320.0,500.0,147.1,3,47.68,3,1511.7,7,General Purpose
+DIN GGG - 60,Carbon Steel,7.16,370.0,600.0,176.5,3,47.2,2,1524.2,7,General Purpose
+DIN GGG - 70,Carbon Steel,7.16,420.0,700.0,205.9,2,48.4,3,1521.1,7,General Purpose
+DIN GGG - 80,Carbon Steel,7.16,480.0,800.0,235.3,3,50.48,2,1531.9,7,General Purpose
+DIN GTS - 40,Carbon Steel,7.16,180.0,400.0,117.6,3,46.82,2,1509.9,7,General Purpose
+DIN GTS - 50,Carbon Steel,7.16,260.0,500.0,147.1,3,49.75,1,1516.2,7,General Purpose
+BS 230M07,Carbon Steel,7.86,300.0,430.0,126.5,4,50.6,2,1528.9,7,General Purpose
+BS 212M36,Carbon Steel,7.86,370.0,635.0,186.8,4,55.85,3,1528.5,7,General Purpose
+BS CR3GP,Carbon Steel,7.86,140.0,280.0,82.4,4,47.14,2,1540.3,7,General Purpose
+BS CR2PL,Carbon Steel,7.86,140.0,280.0,82.4,3,53.81,1,1525.9,8,General Purpose
+BS CR4GP,Carbon Steel,7.86,140.0,280.0,82.4,2,47.53,3,1493.1,6,General Purpose
+BS CEW2BK,Carbon Steel,7.86,355.0,420.0,123.5,3,49.07,2,1546.8,7,General Purpose
+BS CFS3NBK,Carbon Steel,7.86,215.0,360.0,105.9,3,47.36,2,1496.3,7,General Purpose
+BS Grade 360,Carbon Steel,7.86,225.0,360.0,105.9,3,45.63,1,1520.7,7,General Purpose
+BS CEW3BK,Carbon Steel,7.86,360.0,450.0,132.4,3,49.53,3,1531.1,7,General Purpose
+BS 40B,Carbon Steel,7.86,225.0,340.0,100.0,3,49.11,1,1545.0,7,General Purpose
+BS 40C,Carbon Steel,7.86,225.0,340.0,100.0,3,48.93,2,1534.0,7,General Purpose
+BS Grade 430,Stainless Steel,7.86,225.0,410.0,120.6,6,24.09,3,1487.1,7,Valve Parts
+BS 43B,Carbon Steel,7.86,245.0,430.0,126.5,3,51.71,2,1519.4,7,General Purpose
+BS CFS6NBK,Carbon Steel,7.86,280.0,460.0,135.3,4,48.59,2,1521.5,7,General Purpose
+BS 43D,Carbon Steel,7.86,245.0,430.0,126.5,3,46.82,2,1498.9,7,General Purpose
+BS 50B,Carbon Steel,7.86,355.0,490.0,144.1,2,49.71,2,1536.6,7,General Purpose
+BS 50C,Carbon Steel,7.86,355.0,490.0,144.1,3,48.96,2,1504.0,7,General Purpose
+BS 50D,Carbon Steel,7.86,355.0,490.0,144.1,3,50.9,2,1533.8,8,General Purpose
+BS CFS8NBK,Carbon Steel,7.86,340.0,540.0,158.8,3,50.31,2,1498.8,7,General Purpose
+BS CEW5BK,Carbon Steel,7.86,480.0,600.0,176.5,3,50.15,2,1509.6,7,General Purpose
+BS 55C,Carbon Steel,7.86,430.0,550.0,161.8,3,47.24,2,1519.4,7,General Purpose
+BS 55E,Carbon Steel,7.86,430.0,550.0,161.8,3,51.77,2,1511.7,8,General Purpose
+BS 070M26,Tool Steel,7.86,245.0,490.0,144.1,4,15.26,5,1338.8,5,Die Casting
+BS 080M30,Carbon Steel,7.86,310.0,550.0,161.8,3,50.92,3,1507.6,7,General Purpose
+BS 080M36,Carbon Steel,7.86,370.0,625.0,183.8,3,47.01,2,1494.5,7,General Purpose
+BS 080A35,Carbon Steel,7.86,370.0,625.0,183.8,4,48.5,2,1531.9,7,General Purpose
+BS 080M40,Carbon Steel,7.86,355.0,625.0,183.8,3,51.13,2,1523.9,7,General Purpose
+BS 080M46,Carbon Steel,7.86,340.0,625.0,183.8,3,51.59,2,1524.5,7,General Purpose
+BS 060A47,Carbon Steel,7.86,400.0,700.0,205.9,3,46.02,2,1524.5,6,General Purpose
+BS 080M50,Carbon Steel,7.86,360.0,625.0,183.8,2,50.24,2,1509.8,7,General Purpose
+BS 060A57,Carbon Steel,7.86,450.0,775.0,227.9,3,51.22,2,1523.6,7,General Purpose
+BS 070M55,Carbon Steel,7.86,450.0,775.0,227.9,3,51.4,2,1542.4,7,General Purpose
+BS 150M19,Carbon Steel,7.86,325.0,550.0,161.8,4,52.91,3,1528.1,7,General Purpose
+BS 251A58 (heat treated),Carbon Steel,7.86,1100.0,1300.0,382.4,4,42.8,4,1532.8,6,Structural
+BS 530A36,Carbon Steel,7.86,510.0,700.0,205.9,4,51.05,2,1491.5,8,General Purpose
+BS 530M40 (heat treated),Carbon Steel,7.86,570.0,775.0,227.9,4,47.04,2,1506.3,7,General Purpose
+BS 530M40 (face hardened),Carbon Steel,7.86,665.0,850.0,250.0,3,45.02,3,1555.5,6,Structural
+BS 525A60 (heat treated),Carbon Steel,7.86,1180.0,1380.0,405.9,3,40.77,4,1523.8,6,Structural
+BS 708A25,Carbon Steel,7.86,665.0,850.0,250.0,3,41.74,3,1543.9,5,Structural
+BS 708A37,Carbon Steel,7.86,665.0,850.0,250.0,3,42.72,3,1536.0,6,Structural
+BS 708M40 (heat treated),Carbon Steel,7.86,665.0,850.0,250.0,2,41.42,3,1542.4,5,Structural
+BS 708M40 (face hardened),Carbon Steel,7.86,740.0,925.0,272.1,3,41.4,3,1525.3,6,Structural
+BS 735A51 (heat treated),Carbon Steel,7.86,1180.0,1370.0,402.9,3,44.17,3,1550.7,5,Structural
+BS 905M39 (nitrided),Carbon Steel,7.86,570.0,775.0,227.9,3,51.7,2,1481.2,7,General Purpose
+BS 722M22,Tool Steel,7.86,665.0,850.0,250.0,3,16.33,5,1321.3,5,Die Casting
+BS 722M24 (nitrided),Tool Steel,7.86,685.0,850.0,250.0,4,17.34,5,1341.0,5,Die Casting
+BS 817M40 (heat treated),Carbon Steel,7.86,925.0,1075.0,316.2,3,47.03,3,1560.8,5,Structural
+BS 403S17,Carbon Steel,7.86,245.0,420.0,123.5,4,54.57,2,1520.1,6,General Purpose
+BS 410S21,Stainless Steel,7.86,340.0,550.0,161.8,8,16.8,4,1445.7,6,General Purpose
+BS 420S37,Stainless Steel,7.86,490.0,700.0,205.9,8,24.91,3,1512.3,6,Cutting Tools
+BS 430S17,Stainless Steel,7.86,245.0,430.0,126.5,6,26.16,2,1485.7,7,Valve Parts
+BS 401S45,Carbon Steel,7.86,685.0,900.0,264.7,3,46.35,3,1531.8,6,Structural
+BS 431S29,Carbon Steel,7.86,635.0,850.0,250.0,3,40.92,3,1535.4,6,Structural
+BS 304S15,Stainless Steel,7.86,195.0,480.0,141.2,9,16.07,5,1434.9,5,Marine
+BS 303S31,Carbon Steel,7.86,190.0,510.0,150.0,3,45.63,2,1509.3,7,General Purpose
+BS 321S31,Carbon Steel,7.86,195.0,490.0,144.1,4,49.79,3,1518.2,7,General Purpose
+BS 304S11,Stainless Steel,7.86,180.0,480.0,141.2,9,15.54,5,1432.7,5,Marine
+BS 310S31,Carbon Steel,7.86,205.0,510.0,150.0,3,50.5,2,1509.9,7,General Purpose
+BS 316S11,Stainless Steel,7.86,190.0,490.0,144.1,9,16.33,5,1439.2,5,Marine
+BS 316S31,Stainless Steel,7.86,205.0,510.0,150.0,8,16.18,4,1414.9,6,General Purpose
+BS 349S54,Carbon Steel,7.86,580.0,950.0,279.4,2,40.08,3,1560.3,5,Structural
+CSN 10370,Carbon Steel,7.86,200.0,350.0,102.9,3,49.87,3,1501.5,7,General Purpose
+CSN 11110,Carbon Steel,7.86,226.0,400.0,117.6,3,50.86,2,1509.6,6,General Purpose
+CSN 11110 (normalized),Carbon Steel,7.86,373.0,471.0,138.5,3,51.28,3,1530.3,6,General Purpose
+CSN 11120,Carbon Steel,7.86,255.0,400.0,117.6,3,46.02,2,1510.0,7,General Purpose
+CSN 11140 (normalized),Carbon Steel,7.86,520.0,660.0,194.1,3,46.62,3,1488.8,7,General Purpose
+CSN 11301,Carbon Steel,7.86,200.0,280.0,82.4,2,49.62,2,1513.4,7,General Purpose
+CSN 11305,Carbon Steel,7.86,215.0,290.0,85.3,3,50.11,2,1499.7,7,General Purpose
+CSN 11321,Carbon Steel,7.86,200.0,280.0,82.4,3,49.01,2,1512.9,7,General Purpose
+CSN 11343,Carbon Steel,7.86,195.0,330.0,97.1,3,48.74,2,1505.6,7,General Purpose
+CSN 11353,Carbon Steel,7.86,225.0,340.0,100.0,3,51.43,1,1512.3,7,General Purpose
+CSN 11368,Carbon Steel,7.86,225.0,350.0,102.9,3,50.82,2,1519.7,7,General Purpose
+CSN 11373,Carbon Steel,7.86,225.0,340.0,100.0,3,49.89,2,1531.4,6,General Purpose
+CSN 11378,Carbon Steel,7.86,235.0,360.0,105.9,3,51.8,2,1496.2,7,General Purpose
+CSN 11418,Carbon Steel,7.86,255.0,410.0,120.6,3,48.22,3,1520.1,6,General Purpose
+CSN 11423,Carbon Steel,7.86,240.0,420.0,123.5,4,48.95,2,1518.5,7,General Purpose
+CSN 11448,Carbon Steel,7.86,285.0,430.0,126.5,3,48.95,2,1528.0,7,General Purpose
+CSN 11453,Carbon Steel,7.86,265.0,440.0,129.4,3,53.37,3,1523.5,7,General Purpose
+CSN 11500,Carbon Steel,7.86,265.0,490.0,144.1,3,52.76,3,1502.1,7,General Purpose
+CSN 11503,Carbon Steel,7.86,340.0,490.0,144.1,3,51.26,3,1540.8,7,General Purpose
+CSN 11523 (normalized),Carbon Steel,7.86,345.0,510.0,150.0,3,51.27,1,1511.8,7,General Purpose
+CSN 11600,Carbon Steel,7.86,315.0,590.0,173.5,3,50.75,2,1526.2,7,General Purpose
+CSN 11600 (face hardened),Carbon Steel,7.86,315.0,590.0,173.5,3,46.9,1,1502.6,7,General Purpose
+CSN 11700,Carbon Steel,7.86,355.0,686.0,201.8,3,52.07,2,1549.0,7,General Purpose
+CSN 11700 (face hardened),Carbon Steel,7.86,355.0,686.0,201.8,3,50.03,2,1524.2,7,General Purpose
+CSN 12010 (case-hardened),Carbon Steel,7.86,325.0,490.0,144.1,3,49.49,2,1507.4,7,General Purpose
+CSN 12020,Carbon Steel,7.86,350.0,550.0,161.8,3,47.19,1,1515.5,7,General Purpose
+CSN 12020 (case-hardened),Carbon Steel,7.86,295.0,490.0,144.1,2,46.02,3,1510.1,7,General Purpose
+CSN 12024,Aluminum,7.86,300.0,480.0,137.1,5,126.62,6,646.2,8,Aircraft
+CSN 12030,Carbon Steel,7.86,320.0,500.0,147.1,4,50.93,2,1495.8,7,General Purpose
+CSN 12031,Carbon Steel,7.86,350.0,550.0,161.8,3,54.37,2,1526.0,7,General Purpose
+CSN 12040,Carbon Steel,7.86,370.0,600.0,176.5,3,50.02,1,1536.2,7,General Purpose
+CSN 12041,Carbon Steel,7.86,400.0,630.0,185.3,2,46.88,1,1520.1,8,General Purpose
+CSN 12050 (normalized),Carbon Steel,7.86,305.0,530.0,155.9,3,50.04,1,1513.1,7,General Purpose
+CSN 12050 (heat treated),Carbon Steel,7.86,390.0,640.0,188.2,2,52.53,2,1513.2,7,General Purpose
+CSN 12051,Carbon Steel,7.86,440.0,690.0,202.9,3,47.08,2,1522.1,6,General Purpose
+CSN 12060,Carbon Steel,7.86,480.0,750.0,220.6,3,50.1,2,1527.4,7,General Purpose
+CSN 12061 (heat treated),Carbon Steel,7.86,500.0,800.0,235.3,3,51.89,2,1516.5,7,General Purpose
+CSN 12071 (heat treated),Carbon Steel,7.86,1470.0,1770.0,520.6,4,40.21,3,1551.5,6,Structural
+CSN 13030,Carbon Steel,7.86,285.0,460.0,135.3,3,47.7,2,1490.2,6,General Purpose
+CSN 13141,Carbon Steel,7.86,490.0,690.0,202.9,4,50.39,2,1501.4,7,General Purpose
+CSN 13180 (heat treated),Carbon Steel,7.86,1320.0,1570.0,461.8,3,43.05,2,1539.8,6,Structural
+CSN 13220 (normalized),Carbon Steel,7.86,430.0,670.0,197.1,3,50.91,3,1522.9,8,General Purpose
+CSN 13221 (normalized),Carbon Steel,7.86,440.0,680.0,200.0,3,52.77,2,1507.7,7,General Purpose
+CSN 13240,Carbon Steel,7.86,540.0,780.0,229.4,3,53.78,2,1518.8,7,General Purpose
+CSN 13242,Carbon Steel,7.86,685.0,880.0,258.8,2,43.57,2,1549.0,6,Structural
+CSN 13251 (heat treated),Carbon Steel,7.86,1080.0,1270.0,373.5,3,38.93,3,1542.1,6,Structural
+CSN 13270 (heat treated),Carbon Steel,7.86,1210.0,1420.0,417.6,2,44.1,2,1550.6,7,Structural
+CSN 14120,Carbon Steel,7.86,343.0,588.0,172.9,3,47.84,2,1516.7,7,General Purpose
+CSN 14140 (heat treated),Carbon Steel,7.86,637.0,883.0,259.7,2,40.0,3,1536.2,6,Structural
+CSN 14140 (face hardened),Carbon Steel,7.86,785.0,932.0,274.1,3,43.81,4,1530.8,6,Structural
+CSN 14140 (nitro-case-hard.),Carbon Steel,7.86,1373.0,1716.0,504.7,3,42.45,3,1549.8,5,Structural
+CSN 14141,Carbon Steel,7.86,687.0,883.0,259.7,3,42.12,3,1522.6,6,Structural
+CSN 14146,Carbon Steel,7.86,785.0,932.0,274.1,3,42.3,2,1573.8,6,Structural
+CSN 14148,Carbon Steel,7.86,490.0,657.0,193.2,3,48.54,2,1507.6,7,General Purpose
+CSN 14220,Carbon Steel,7.86,680.0,900.0,264.7,3,41.62,3,1531.5,6,Structural
+CSN 14220 (case-hardened),Carbon Steel,7.86,588.0,785.0,230.9,3,49.56,2,1512.2,7,General Purpose
+CSN 14221,Carbon Steel,7.86,686.0,981.0,288.5,4,44.19,3,1561.9,6,Structural
+CSN 14223 (case-hardened),Carbon Steel,7.86,687.0,883.0,259.7,2,44.63,3,1541.1,6,Structural
+CSN 14230 (case-hardened),Carbon Steel,7.86,794.0,981.0,288.5,3,42.02,2,1536.6,6,Structural
+CSN 14260 (heat treated),Carbon Steel,7.86,1175.0,1370.0,402.9,4,43.52,3,1503.5,6,Structural
+CSN 14262 (heat treated),Carbon Steel,7.86,1275.0,1470.0,432.4,3,46.03,3,1512.2,5,Structural
+CSN 15020,Carbon Steel,7.86,265.0,440.0,129.4,3,53.25,2,1528.7,7,General Purpose
+CSN 15121,Carbon Steel,7.86,295.0,430.0,126.5,3,48.84,3,1554.8,7,General Purpose
+CSN 15127,Carbon Steel,7.86,345.0,470.0,138.2,3,53.75,2,1511.9,7,General Purpose
+CSN 15130,Carbon Steel,7.86,490.0,690.0,202.9,3,46.85,2,1504.2,7,General Purpose
+CSN 15131,Carbon Steel,7.86,735.0,930.0,273.5,4,39.49,3,1578.3,6,Structural
+CSN 15141,Carbon Steel,7.86,665.0,880.0,258.8,3,41.8,4,1556.4,7,Structural
+CSN 15142,Carbon Steel,7.86,750.0,1000.0,294.1,3,43.32,3,1528.4,6,Structural
+CSN 15217,Carbon Steel,7.86,345.0,470.0,138.2,3,49.11,2,1510.4,7,General Purpose
+CSN 15222 (normalized),Carbon Steel,7.86,490.0,690.0,202.9,3,48.99,2,1518.9,6,General Purpose
+CSN 15230 (heat treated),Carbon Steel,7.86,850.0,1000.0,294.1,4,41.36,3,1591.7,6,Structural
+CSN 15230 (Heat-treatment nitrided steel),Carbon Steel,7.86,635.0,780.0,229.4,3,51.4,1,1535.0,8,General Purpose
+CSN 15241 (heat treated),Carbon Steel,7.86,981.0,1177.0,346.2,3,43.36,3,1557.2,5,Structural
+CSN 15241 (face hardened),Carbon Steel,7.86,981.0,1177.0,346.2,2,40.63,3,1548.5,6,Structural
+CSN 15260,Carbon Steel,7.86,700.0,900.0,264.7,3,43.02,3,1547.9,6,Structural
+CSN 15313,Carbon Steel,7.86,265.0,480.0,141.2,3,49.65,2,1521.5,7,General Purpose
+CSN 15330 (Heat-treatment nitrided steel),Carbon Steel,7.86,637.0,834.0,245.3,3,42.21,3,1538.5,6,Structural
+CSN 15340,Carbon Steel,7.86,785.0,981.0,288.5,3,40.28,3,1526.0,6,Structural
+CSN 15432,Carbon Steel,7.86,490.0,690.0,202.9,3,48.52,2,1497.9,6,General Purpose
+CSN 16220 (case-hardened),Carbon Steel,7.86,637.0,883.0,259.7,3,42.58,3,1557.1,6,Structural
+CSN 16223,Carbon Steel,7.86,590.0,835.0,245.6,4,42.78,4,1544.9,6,Structural
+CSN 16321,Carbon Steel,7.86,635.0,880.0,258.8,2,43.67,3,1556.4,6,Structural
+CSN 16326,Carbon Steel,7.86,785.0,1080.0,317.6,3,40.7,3,1511.2,5,Structural
+CSN 16329,Carbon Steel,7.86,285.0,440.0,129.4,3,45.8,3,1529.7,7,General Purpose
+CSN 16343,Carbon Steel,7.86,900.0,1100.0,323.5,3,43.35,2,1555.9,6,Structural
+CSN 16420 (case-hardened),Stainless Steel,7.86,785.0,932.0,274.1,8,23.92,3,1493.6,7,Cutting Tools
+CSN 16430 (heat treated),Stainless Steel,7.86,880.0,1080.0,317.6,8,12.26,5,1450.6,4,Aerospace
+CSN 16527,Carbon Steel,7.86,390.0,590.0,173.5,3,47.83,2,1520.7,7,General Purpose
+CSN 16640 (heat treated),Carbon Steel,7.86,1275.0,1569.0,461.5,2,43.92,3,1526.7,5,Structural
+CSN 17020 (normalized),Stainless Steel,7.86,245.0,441.0,129.7,6,24.33,4,1527.6,7,Valve Parts
+CSN 17021 (normalized),Stainless Steel,7.86,415.0,590.0,173.5,9,25.98,2,1517.5,6,Cutting Tools
+CSN 17022 (normalized),Stainless Steel,7.86,455.0,690.0,202.9,8,22.16,3,1515.3,6,Cutting Tools
+CSN 17023 (normalized),Stainless Steel,7.86,495.0,740.0,217.6,8,24.66,3,1519.5,6,Cutting Tools
+CSN 17040 (normalized),Stainless Steel,7.86,265.0,440.0,129.4,5,25.38,3,1525.1,7,Valve Parts
+CSN 17041 (normalized),Stainless Steel,7.86,295.0,440.0,129.4,6,25.66,3,1496.0,7,Valve Parts
+CSN 17113 (normalized),Stainless Steel,7.86,245.0,441.0,129.7,5,25.19,3,1495.6,7,Valve Parts
+CSN 17115 (normalized),Stainless Steel,7.86,685.0,930.0,273.5,9,24.83,2,1497.8,6,Cutting Tools
+CSN 17125 (normalized),Stainless Steel,7.86,270.0,460.0,135.3,9,16.62,5,1476.1,5,Marine
+CSN 17145 (normalized),Stainless Steel,7.86,560.0,800.0,235.3,8,25.6,3,1509.6,6,Cutting Tools
+CSN 17150 (normalized),Stainless Steel,7.86,650.0,900.0,264.7,8,22.69,3,1526.1,6,Cutting Tools
+CSN 17240 (normalized),Stainless Steel,7.86,186.0,490.0,144.1,9,16.37,5,1403.6,5,Marine
+CSN 17241 (normalized),Stainless Steel,7.86,195.0,530.0,155.9,9,15.88,4,1424.5,6,General Purpose
+CSN 17243 (normalized),Stainless Steel,7.86,190.0,500.0,147.1,8,16.58,4,1477.7,6,General Purpose
+CSN 17246 (normalized),Stainless Steel,7.86,210.0,550.0,161.8,8,16.26,5,1461.6,6,General Purpose
+CSN 17247 (normalized),Stainless Steel,7.86,195.0,500.0,147.1,9,15.48,4,1451.4,6,General Purpose
+CSN 17248 (normalized),Stainless Steel,7.86,205.0,500.0,147.1,8,17.18,4,1443.9,6,General Purpose
+CSN 17249 (normalized),Stainless Steel,7.86,175.0,440.0,129.4,6,26.4,4,1505.0,7,Valve Parts
+CSN 17251 (normalized),Stainless Steel,7.86,350.0,650.0,191.2,8,22.93,2,1522.5,6,Cutting Tools
+CSN 17253 (normalized),Stainless Steel,7.86,350.0,700.0,205.9,9,26.91,3,1522.0,6,Cutting Tools
+CSN 17255 (normalized),Stainless Steel,7.86,250.0,600.0,176.5,8,25.17,3,1542.0,7,Cutting Tools
+CSN 17256 (normalized),Stainless Steel,7.86,230.0,500.0,147.1,8,16.61,4,1451.1,6,General Purpose
+CSN 17259 (normalized),Stainless Steel,7.86,265.0,540.0,158.8,8,15.9,5,1458.3,6,General Purpose
+CSN 17265 (normalized),Stainless Steel,7.86,230.0,550.0,161.8,8,16.36,5,1455.1,6,General Purpose
+CSN 17346 (normalized),Stainless Steel,7.86,205.0,550.0,161.8,7,16.07,3,1431.0,7,General Purpose
+CSN 17348 (normalized),Stainless Steel,7.86,215.0,550.0,161.8,8,17.65,4,1443.1,6,General Purpose
+CSN 17359 (normalized),Stainless Steel,7.86,275.0,540.0,158.8,8,17.6,4,1457.7,6,General Purpose
+CSN 17460 (normalized),Stainless Steel,7.86,295.0,635.0,186.8,8,24.81,3,1511.4,6,Cutting Tools
+CSN 17465 (normalized),Stainless Steel,7.86,590.0,980.0,288.2,8,13.16,6,1463.4,4,Aerospace
+CSN 17501 (normalized),Stainless Steel,7.86,490.0,640.0,188.2,8,24.25,3,1501.8,6,Cutting Tools
+CSN 422303,Carbon Steel,7.16,240.0,360.0,105.9,3,46.64,1,1494.5,7,General Purpose
+CSN 422304,Stainless Steel,7.16,270.0,420.0,123.5,6,21.52,3,1497.7,7,Valve Parts
+CSN 422305,Carbon Steel,7.16,320.0,500.0,147.1,2,47.98,2,1502.5,7,General Purpose
+CSN 422306,Carbon Steel,7.16,370.0,600.0,176.5,3,46.37,3,1498.6,7,General Purpose
+CSN 422307,Carbon Steel,7.16,420.0,700.0,205.9,3,49.82,2,1513.6,7,General Purpose
+CSN 422308,Carbon Steel,7.16,480.0,800.0,235.3,3,56.79,3,1503.0,6,General Purpose
+CSN 422410,Stainless Steel,7.16,98.0,100.0,29.4,6,24.9,2,1479.6,9,General Purpose
+CSN 422415,Carbon Steel,7.16,147.0,150.0,44.1,3,51.23,3,1513.4,7,General Purpose
+CSN 422420,Stainless Steel,7.16,196.0,200.0,58.8,6,27.66,2,1468.6,8,General Purpose
+CSN 422425,Carbon Steel,7.16,245.0,250.0,73.5,3,51.06,3,1494.2,7,General Purpose
+CSN 422430,Stainless Steel,7.16,294.0,300.0,88.2,7,26.33,2,1480.8,8,General Purpose
+CSN 422435,Carbon Steel,7.16,343.0,350.0,102.9,3,51.05,2,1499.6,6,General Purpose
+CSN 422540,Carbon Steel,7.16,180.0,400.0,117.6,3,47.09,2,1539.5,6,General Purpose
+CSN 422555,Carbon Steel,7.16,300.0,580.0,170.6,3,47.87,2,1515.7,7,General Purpose
+CSN 422630,Stainless Steel,7.16,200.0,363.0,106.8,7,26.21,3,1443.6,8,General Purpose
+CSN 422640,Carbon Steel,7.16,240.0,441.0,129.7,3,46.87,2,1502.9,7,General Purpose
+CSN 422650,Carbon Steel,7.16,260.0,490.0,144.1,3,49.92,2,1533.5,6,General Purpose
+CSN 242660,Carbon Steel,7.16,300.0,588.0,172.9,3,48.32,2,1501.7,6,General Purpose
+CSN 422670,Carbon Steel,7.16,350.0,686.0,201.8,4,51.85,2,1523.8,7,General Purpose
+CSN 422709,Carbon Steel,7.16,300.0,530.0,155.9,3,46.2,2,1502.5,7,General Purpose
+CSN 422712,Carbon Steel,7.16,250.0,422.0,124.1,3,46.12,3,1521.4,7,General Purpose
+CSN 422713,Carbon Steel,7.16,290.0,490.0,144.1,3,48.04,2,1528.0,8,General Purpose
+CSN 422724,Carbon Steel,7.16,420.0,637.0,187.4,3,48.83,1,1520.2,7,General Purpose
+CSN 422735,Carbon Steel,7.16,520.0,785.0,230.9,3,51.17,2,1507.8,7,General Purpose
+CSN 422739,Carbon Steel,7.16,550.0,830.0,244.1,3,43.11,2,1534.6,6,Structural
+CSN 422753,Carbon Steel,7.16,650.0,981.0,288.5,3,43.69,4,1542.6,6,Structural
+CSN 422906,Carbon Steel,7.16,390.0,550.0,161.8,3,52.55,3,1510.2,7,General Purpose
+CSN 422912,Carbon Steel,7.16,320.0,500.0,147.1,3,53.47,2,1515.2,7,General Purpose
+CSN 423042,Stainless Steel,8.8,265.0,380.0,111.8,6,25.04,2,1498.7,7,Valve Parts
+CSN 423044,Stainless Steel,8.8,265.0,380.0,111.8,5,26.86,3,1514.8,7,Valve Parts
+CSN 423045,Stainless Steel,8.8,265.0,380.0,111.8,6,26.73,2,1519.2,8,Valve Parts
+CSN 423047,Stainless Steel,8.8,265.0,380.0,111.8,6,25.24,3,1499.8,7,Valve Parts
+CSN 423115,Copper Alloy,8.8,160.0,180.0,45.0,8,27.26,5,1053.6,8,Marine
+CSN 423119,Copper Alloy,8.8,160.0,180.0,45.0,8,24.14,5,1061.5,8,Marine
+CSN 423123,Copper Alloy,8.8,160.0,180.0,45.0,7,27.16,5,1058.9,8,Marine
+CSN 423135,Copper Alloy,8.8,120.0,150.0,37.5,7,27.65,4,1044.1,9,Marine
+CSN 423137,Copper Alloy,8.8,100.0,170.0,42.5,8,26.2,4,1044.1,8,Marine
+CSN 423145,Copper Alloy,8.8,130.0,400.0,100.0,7,28.4,5,1079.0,8,Marine
+CSN 423147,Copper Alloy,8.8,130.0,400.0,100.0,8,25.9,5,1051.3,9,Marine
+CSN 423210,Copper Alloy,8.5,100.0,330.0,82.5,6,119.51,3,916.9,9,General Purpose
+CSN 423212,Copper Alloy,8.5,100.0,330.0,82.5,6,115.34,4,895.5,9,General Purpose
+CSN 423213,Copper Alloy,8.5,100.0,330.0,82.5,7,115.61,3,905.1,9,General Purpose
+CSN 423214,Copper Alloy,8.5,100.0,330.0,82.5,6,126.53,5,922.5,9,General Purpose
+CSN 423256,Copper Alloy,8.5,255.0,350.0,87.5,6,128.39,4,919.0,9,General Purpose
+CSN 423311,Copper Alloy,8.5,350.0,600.0,150.0,8,123.55,8,956.5,5,Springs
+CSN 424201,Stainless Steel,2.7,230.0,400.0,117.6,5,26.03,3,1548.3,8,Valve Parts
+CSN 424203,Stainless Steel,2.7,230.0,430.0,126.5,5,25.05,3,1525.2,7,Valve Parts
+CSN 424204,Stainless Steel,2.7,230.0,430.0,126.5,7,27.82,3,1465.0,7,Valve Parts
+CSN 424250,Aluminum,2.7,190.0,340.0,97.1,9,121.45,3,689.7,8,Marine
+CSN 424401,Aluminum,2.7,100.0,280.0,80.0,7,163.46,3,650.1,9,General Purpose
+CSN 424413,Aluminum,2.7,110.0,200.0,57.1,7,176.55,2,640.4,8,General Purpose
+CSN 424415,Aluminum,2.7,110.0,200.0,57.1,7,161.49,3,666.9,9,General Purpose
+Steel ST3KP GOST 380-94,Carbon Steel,7.86,235.0,360.0,105.9,3,47.64,1,1510.4,7,General Purpose
+Steel ST3PC GOST 380-94,Carbon Steel,7.86,245.0,370.0,108.8,4,54.49,3,1515.9,7,General Purpose
+Steel ST3CP GOST 380-94,Carbon Steel,7.86,255.0,380.0,111.8,3,48.94,3,1527.7,7,General Purpose
+Steel ST4KP GOST 380-94,Carbon Steel,7.86,255.0,400.0,117.6,3,51.01,1,1498.0,7,General Purpose
+Steel ST4PS GOST 380-94,Carbon Steel,7.86,265.0,410.0,120.6,4,49.76,2,1504.7,7,General Purpose
+Steel ST4SP GOST 380-94,Carbon Steel,7.86,265.0,410.0,120.6,3,47.41,2,1511.4,7,General Purpose
+Steel ST5PS GOST 380-94,Carbon Steel,7.86,285.0,490.0,144.1,3,54.89,2,1502.1,7,General Purpose
+Steel ST5SP GOST 380-94,Carbon Steel,7.86,295.0,490.0,144.1,3,52.08,2,1503.8,7,General Purpose
+Steel ST6PS GOST 380-94,Carbon Steel,7.86,315.0,590.0,173.5,3,52.87,2,1498.4,7,General Purpose
+Steel ST6SP GOST 380-94,Carbon Steel,7.86,320.0,600.0,176.5,3,53.93,2,1527.1,7,General Purpose
+Steel S235 GOST 27772-88,Carbon Steel,7.86,225.0,360.0,105.9,4,48.2,2,1504.2,6,General Purpose
+Steel S245 GOST 27772-88,Carbon Steel,7.86,235.0,370.0,108.8,3,52.37,2,1519.2,7,General Purpose
+Steel S255 GOST 27772-88,Carbon Steel,7.86,245.0,370.0,108.8,4,50.67,3,1515.0,7,General Purpose
+Steel S285 GOST 27772-88,Carbon Steel,7.86,265.0,390.0,114.7,3,51.16,2,1513.6,8,General Purpose
+Steel S345 GOST 27772-88,Carbon Steel,7.86,325.0,450.0,132.4,3,49.76,3,1528.2,7,General Purpose
+Steel S375 GOST 27772-88,Carbon Steel,7.86,335.0,480.0,141.2,3,45.86,2,1507.5,7,General Purpose
+Steel 08 GOST 1050-88 (normalized),Carbon Steel,7.87,196.0,320.0,131.0,3,50.7,2,1520.4,6,General Purpose
+Steel 10 GOST 1050-88 (normalized),Carbon Steel,7.86,205.0,330.0,143.0,3,46.37,1,1511.5,6,General Purpose
+Steel 10 GOST 1050-88 (case-hardened),Carbon Steel,7.86,250.0,400.0,117.6,3,49.28,2,1475.7,7,General Purpose
+Steel 10 GOST 1050-88 (Cold working),Carbon Steel,7.86,250.0,410.0,187.0,3,48.23,3,1514.1,7,General Purpose
+Steel 10 GOST 1050-88 (Annealing or high tempering),Carbon Steel,7.86,190.0,290.0,143.0,3,51.29,2,1517.8,7,General Purpose
+Steel 15 GOST 1050-88 (normalized),Carbon Steel,7.85,225.0,370.0,149.0,3,46.78,2,1522.9,7,General Purpose
+Steel 15 GOST 1050-88 (case-hardened),Carbon Steel,7.85,250.0,450.0,132.4,2,46.23,2,1515.1,6,General Purpose
+Steel 15 GOST 1050-88 (Cold working),Carbon Steel,7.85,340.0,440.0,197.0,4,47.15,2,1505.0,8,General Purpose
+Steel 15 GOST 1050-88 (Annealing or high tempering),Carbon Steel,7.85,220.0,340.0,149.0,3,48.02,2,1503.2,7,General Purpose
+Steel 20 GOST 1050-88 (normalized),Carbon Steel,7.86,245.0,410.0,163.0,3,49.58,1,1541.3,7,General Purpose
+Steel 20 GOST 1050-88 (case-hardened),Carbon Steel,7.86,300.0,500.0,147.1,3,51.28,2,1510.4,7,General Purpose
+Steel 20 GOST 1050-88 (Cold working),Carbon Steel,7.86,300.0,490.0,207.0,3,49.18,1,1506.9,7,General Purpose
+Steel 20 GOST 1050-88 (Annealing or high tempering),Carbon Steel,7.86,240.0,390.0,163.0,3,45.64,3,1519.1,7,General Purpose
+Steel 25 GOST 1050-88 (normalized),Carbon Steel,7.82,275.0,450.0,170.0,2,52.62,2,1491.2,6,General Purpose
+Steel 25 GOST 1050-88 (case-hardened),Carbon Steel,7.82,350.0,550.0,161.8,3,50.28,2,1501.5,7,General Purpose
+Steel 25 GOST 1050-88 (Cold working),Carbon Steel,7.82,350.0,540.0,217.0,3,48.87,2,1554.1,7,General Purpose
+Steel 25 GOST 1050-88 (Annealing or high tempering),Carbon Steel,7.82,270.0,410.0,170.0,3,44.8,2,1516.0,7,General Purpose
+Steel 30 GOST 1050-88 (normalized),Carbon Steel,7.85,295.0,490.0,179.0,3,53.34,2,1478.4,6,General Purpose
+Steel 30 GOST 1050-88 (Improved),Carbon Steel,7.85,350.0,600.0,176.5,3,41.63,1,1499.1,7,General Purpose
+Steel 30 GOST 1050-88 (Cold working),Carbon Steel,7.85,340.0,560.0,229.0,3,56.33,2,1535.2,7,General Purpose
+Steel 30 GOST 1050-88 (Annealing or high tempering),Carbon Steel,7.85,290.0,440.0,179.0,3,43.68,2,1528.9,8,General Purpose
+Steel 30 GOST 1050-88 (Quenched and tempered),Carbon Steel,7.85,295.0,575.0,169.1,3,50.13,2,1505.8,6,General Purpose
+Steel 35 GOST 1050-88 (normalized),Carbon Steel,7.83,315.0,530.0,207.0,3,51.56,2,1524.0,7,General Purpose
+Steel 35 GOST 1050-88 (Improved),Carbon Steel,7.83,380.0,650.0,191.2,3,49.86,3,1514.6,7,General Purpose
+Steel 35 GOST 1050-88 (Quenching and cooling in the water),Carbon Steel,7.83,650.0,1000.0,294.1,3,41.25,3,1521.0,6,Structural
+Steel 35 GOST 1050-88 (Cold working),Carbon Steel,7.83,350.0,590.0,229.0,3,50.25,2,1548.2,7,General Purpose
+Steel 35 GOST 1050-88 (Annealing or high tempering),Carbon Steel,7.83,310.0,470.0,187.0,3,49.38,1,1517.8,7,General Purpose
+Steel 35 GOST 1050-88 (Quenched and tempered),Carbon Steel,7.83,315.0,625.0,183.8,3,51.85,2,1541.3,7,General Purpose
+Steel 40 GOST 1050-88 (normalized),Carbon Steel,7.85,335.0,570.0,217.0,3,49.45,2,1522.5,7,General Purpose
+Steel 40 GOST 1050-88 (Improved),Carbon Steel,7.85,400.0,700.0,205.9,3,46.84,2,1526.9,7,General Purpose
+Steel 40 GOST 1050-88 (Quenching and cooling in the water),Carbon Steel,7.85,650.0,1000.0,294.1,3,43.2,3,1526.7,6,Structural
+Steel 40 GOST 1050-88 (Cold working),Carbon Steel,7.85,380.0,610.0,241.0,2,48.39,2,1501.1,7,General Purpose
+Steel 40 GOST 1050-88 (Annealing or high tempering),Carbon Steel,7.85,330.0,510.0,197.0,3,51.13,3,1515.4,7,General Purpose
+Steel 40 GOST 1050-88 (Quenched and tempered),Carbon Steel,7.85,355.0,675.0,198.5,2,51.54,3,1529.9,7,General Purpose
+Steel 45 GOST 1050-88 (normalized),Carbon Steel,7.81,355.0,600.0,220.0,4,52.07,2,1513.0,7,General Purpose
+Steel 45 GOST 1050-88 (Improved),Carbon Steel,7.81,450.0,750.0,220.6,3,50.22,2,1541.4,7,General Purpose
+Steel 45 GOST 1050-88 (Quenching and cooling in the oil),Carbon Steel,7.81,650.0,900.0,264.7,4,44.4,3,1541.8,6,Structural
+Steel 45 GOST 1050-88 (Quenching and cooling in the water),Carbon Steel,7.81,700.0,1000.0,294.1,3,45.78,4,1531.5,5,Structural
+Steel 45 GOST 1050-88 (Quenching and heating),Carbon Steel,7.81,450.0,750.0,220.6,3,47.33,2,1524.7,7,General Purpose
+Steel 45 GOST 1050-88 (Cold working),Carbon Steel,7.81,440.0,640.0,241.0,3,50.0,1,1495.4,7,General Purpose
+Steel 45 GOST 1050-88 (Annealing or high tempering),Carbon Steel,7.81,350.0,540.0,207.0,2,50.17,3,1509.1,7,General Purpose
+Steel 45 GOST 1050-88 (Quenched and tempered),Carbon Steel,7.81,375.0,705.0,207.4,4,49.34,2,1512.9,6,General Purpose
+Steel 50 GOST 1050-88 (normalized),Carbon Steel,7.81,355.0,600.0,241.0,3,49.44,2,1529.9,7,General Purpose
+Steel 50 GOST 1050-88 (Improved),Carbon Steel,7.81,700.0,900.0,264.7,3,40.5,3,1564.1,6,Structural
+Steel 50 GOST 1050-88 (Cold working),Carbon Steel,7.81,450.0,660.0,255.0,3,51.32,2,1520.6,6,General Purpose
+Steel 50 GOST 1050-88 (Annealing or high tempering),Carbon Steel,7.81,370.0,560.0,217.0,3,46.74,2,1505.6,7,General Purpose
+Steel 50 GOST 1050-88 (Quenched and tempered),Carbon Steel,7.81,400.0,725.0,213.2,3,55.97,1,1526.9,7,General Purpose
+Steel 55 GOST 1050-88 (normalized),Carbon Steel,7.82,375.0,630.0,255.0,3,50.21,1,1543.5,7,General Purpose
+Steel 55 GOST 1050-88 (Quenched and tempered),Carbon Steel,7.82,420.0,775.0,227.9,3,49.92,2,1557.0,7,General Purpose
+Steel 60 GOST 1050-88 (normalized),Carbon Steel,7.81,400.0,680.0,255.0,4,46.51,2,1540.2,7,General Purpose
+Steel 60 GOST 1050-88 (Quenched and tempered),Carbon Steel,7.81,450.0,825.0,242.6,3,46.63,3,1554.9,6,Structural
+Steel 20G GOST 1050-88 (normalized),Carbon Steel,7.82,280.0,460.0,135.3,2,50.12,2,1511.2,7,General Purpose
+Steel 20G GOST 1050-88 (Quenching and cooling in the water),Carbon Steel,7.82,420.0,570.0,167.6,3,50.78,1,1520.0,7,General Purpose
+Steel 30G GOST 1050-88 (normalized),Carbon Steel,7.81,320.0,550.0,161.8,3,49.39,2,1485.5,7,General Purpose
+Steel 30G GOST 1050-88 (Quenching and cooling in the water),Carbon Steel,7.81,560.0,680.0,200.0,2,53.03,1,1515.6,7,General Purpose
+Steel 40G GOST 1050-88 (normalized),Carbon Steel,7.81,360.0,600.0,176.5,4,45.56,3,1511.8,7,General Purpose
+Steel 40G GOST 1050-88 (Quenching and cooling in the water),Carbon Steel,7.81,590.0,840.0,247.1,3,42.23,3,1547.4,6,Structural
+Steel 50G GOST 1050-88 (normalized),Carbon Steel,7.81,400.0,660.0,194.1,3,48.84,2,1495.4,7,General Purpose
+Steel 50G GOST 1050-88 (Quenching and cooling in the water),Carbon Steel,7.81,560.0,820.0,241.2,3,44.72,2,1552.3,5,Structural
+Steel 65G GOST 1050-88 (normalized),Carbon Steel,7.85,440.0,750.0,220.6,3,49.68,1,1538.5,7,General Purpose
+Steel 65G GOST 1050-88 (Improved),Carbon Steel,7.85,700.0,900.0,264.7,3,45.51,3,1550.4,6,Structural
+Steel 65G GOST 1050-88 (Quenching and cooling in the water),Carbon Steel,7.85,1250.0,1500.0,441.2,3,40.43,4,1548.8,6,Structural
+Steel A11 GOST 1414-75,Carbon Steel,7.86,390.0,490.0,207.0,3,49.52,2,1514.8,7,General Purpose
+Steel A12 GOST 1414-75,Carbon Steel,7.86,390.0,510.0,217.0,3,52.42,1,1516.5,6,General Purpose
+Steel A20 GOST 1414-75,Carbon Steel,7.86,390.0,530.0,217.0,3,47.74,1,1515.7,7,General Purpose
+Steel A30 GOST 1414-75,Carbon Steel,7.86,390.0,540.0,223.0,4,50.24,2,1505.8,7,General Purpose
+Steel A35 GOST 1414-75,Carbon Steel,7.86,390.0,570.0,229.0,3,45.01,2,1521.8,8,General Purpose
+Steel 15Ch GOST 4543-71,Carbon Steel,7.86,490.0,690.0,202.9,3,54.42,2,1532.9,7,General Purpose
+Steel 20Ch GOST 4543-71,Carbon Steel,7.83,635.0,780.0,179.0,3,49.35,2,1498.7,7,General Purpose
+Steel 20Ch GOST 4543-71 (normalized),Carbon Steel,7.83,300.0,600.0,176.5,3,48.19,2,1524.2,7,General Purpose
+Steel 20Ch GOST 4543-71 (Improved),Carbon Steel,7.83,500.0,700.0,205.9,3,53.88,2,1506.0,7,General Purpose
+Steel 20Ch GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.83,630.0,850.0,250.0,3,41.32,3,1558.8,6,Structural
+Steel 30Ch GOST 4543-71,Carbon Steel,7.82,685.0,880.0,187.0,3,42.86,3,1544.5,6,Structural
+Steel 35Ch GOST 4543-71,Carbon Steel,7.85,735.0,910.0,197.0,4,43.38,3,1552.6,7,Structural
+Steel 40Ch GOST 4543-71,Carbon Steel,7.85,785.0,980.0,217.0,2,42.23,2,1534.2,6,Structural
+Steel 40Ch GOST 4543-71 (normalized),Carbon Steel,7.85,330.0,630.0,185.3,3,47.44,2,1495.9,7,General Purpose
+Steel 40Ch GOST 4543-71 (Improved),Carbon Steel,7.85,650.0,800.0,235.3,3,51.2,2,1513.1,7,General Purpose
+Steel 40Ch GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.85,900.0,1100.0,323.5,4,37.17,3,1558.2,6,Structural
+Steel 45Ch GOST 4543-71,Carbon Steel,7.82,835.0,1030.0,229.0,4,40.76,3,1542.1,6,Structural
+Steel 45Ch GOST 4543-71 (normalized),Carbon Steel,7.82,350.0,650.0,191.2,3,54.75,2,1494.2,7,General Purpose
+Steel 45Ch GOST 4543-71 (Improved),Carbon Steel,7.82,750.0,950.0,279.4,4,44.2,3,1540.9,6,Structural
+Steel 45Ch GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.82,1200.0,1400.0,411.8,3,41.88,4,1534.6,6,Structural
+Steel 50Ch GOST 4543-71,Carbon Steel,7.86,885.0,1080.0,229.0,3,43.97,3,1558.3,6,Structural
+Steel 50Ch GOST 4543-71 (normalized),Carbon Steel,7.86,350.0,650.0,191.2,3,47.59,2,1506.5,8,General Purpose
+Steel 50Ch GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.86,1300.0,1500.0,441.2,3,42.98,4,1547.6,6,Structural
+Steel 10G2 GOST 4543-71 (normalized),Carbon Steel,7.79,250.0,430.0,126.5,3,51.4,1,1531.9,7,General Purpose
+Steel 35G2 GOST 4543-71 (normalized),Carbon Steel,7.79,370.0,630.0,185.3,3,45.89,2,1510.7,7,General Purpose
+Steel 35G2 GOST 4543-71 (Quenching and cooling in the water),Carbon Steel,7.79,650.0,800.0,249.0,3,49.27,2,1491.0,7,General Purpose
+Steel 40G2 GOST 4543-71 (normalized),Carbon Steel,7.8,390.0,670.0,197.1,3,47.74,2,1501.4,7,General Purpose
+Steel 40G2 GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.8,950.0,1120.0,331.0,3,42.54,3,1542.4,6,Structural
+Steel 45G2 GOST 4543-71 (normalized),Carbon Steel,7.81,410.0,700.0,205.9,3,49.67,2,1517.6,8,General Purpose
+Steel 45G2 GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.81,700.0,850.0,295.0,3,40.72,3,1529.6,7,Structural
+Steel 33ChS GOST 4543-71 (normalized),Carbon Steel,7.64,300.0,600.0,176.5,2,51.41,3,1490.3,7,General Purpose
+Steel 33ChS GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.64,700.0,900.0,264.7,3,41.5,3,1518.0,6,Structural
+Steel 38ChS GOST 4543-71 (Improved),Carbon Steel,7.64,750.0,950.0,279.4,4,41.41,3,1532.6,6,Structural
+Steel 30ChMA GOST 4543-71,Carbon Steel,7.82,735.0,930.0,229.0,3,41.38,3,1554.8,6,Structural
+Steel 30ChM GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.82,750.0,950.0,279.4,4,49.07,3,1553.2,5,Structural
+Steel 35ChM GOST 4543-71,Carbon Steel,7.82,835.0,930.0,241.0,3,42.57,3,1564.4,6,Structural
+Steel 35ChM GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.82,850.0,1000.0,270.0,3,42.31,3,1537.1,6,Structural
+Steel 18ChG GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.82,735.0,800.0,187.0,3,45.36,2,1527.9,6,General Purpose
+Steel 18ChGT GOST 4543-71 (normalized),Carbon Steel,7.8,430.0,700.0,205.9,3,49.04,2,1499.8,7,General Purpose
+"Steel 18ChGT GOST 4543-71 (Case hardening,quenching and cooling in the oil)",Carbon Steel,7.8,800.0,1000.0,294.1,3,42.31,3,1552.4,6,Structural
+Steel 30ChGT GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.8,1050.0,1250.0,367.6,3,43.85,4,1543.9,5,Structural
+"Steel 30ChGT GOST 4543-71 (Case hardening,quenching and cooling in the oil)",Carbon Steel,7.8,800.0,1100.0,323.5,3,44.01,3,1567.4,6,Structural
+Steel 20ChGSA GOST 4543-71,Carbon Steel,7.76,635.0,780.0,207.0,3,50.27,1,1514.5,7,General Purpose
+Steel 20ChGSA GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.76,650.0,800.0,235.3,3,53.31,3,1483.4,6,General Purpose
+Steel 20ChGNR GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.8,1200.0,1300.0,382.4,3,43.35,3,1537.0,6,Structural
+Steel 40ChFA GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.81,750.0,900.0,264.7,3,41.29,3,1515.9,7,Structural
+Steel 30ChGS GOST 4543-71,Carbon Steel,7.85,835.0,1080.0,229.0,2,44.41,2,1529.0,6,Structural
+Steel 20ChN GOST 4543-71,Carbon Steel,7.85,590.0,780.0,197.0,2,45.99,2,1540.4,7,General Purpose
+Steel 40ChN GOST 4543-71,Carbon Steel,7.85,785.0,980.0,229.0,3,43.24,3,1538.8,6,Structural
+Steel 40ChN GOST 4543-71 (normalized),Carbon Steel,7.85,460.0,780.0,229.4,3,49.74,2,1497.7,7,General Purpose
+Steel 40ChN GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.85,1000.0,1200.0,352.9,3,44.63,4,1530.4,6,Structural
+Steel 45ChN GOST 4543-71,Carbon Steel,7.82,835.0,1030.0,207.0,3,44.77,3,1544.4,6,Structural
+Steel 50ChN GOST 4543-71,Carbon Steel,7.86,885.0,1080.0,207.0,3,44.06,3,1540.8,6,Structural
+Steel 30ChN3A GOST 4543-71,Carbon Steel,7.85,785.0,980.0,241.0,2,43.11,3,1549.1,6,Structural
+Steel 12ChN2 GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.88,600.0,800.0,235.3,3,57.34,2,1534.5,7,General Purpose
+"Steel 12ChN2 GOST 4543-71 (Case hardening,quenching and cooling in the oil)",Carbon Steel,7.88,600.0,800.0,235.3,3,48.22,2,1535.6,8,General Purpose
+Steel 12ChN3A GOST 4543-71 (Improved),Carbon Steel,7.85,700.0,950.0,279.4,3,47.18,3,1560.0,6,Structural
+Steel 12ChN3A GOST 4543-71 (Quenching and heating),Carbon Steel,7.85,850.0,1000.0,294.1,3,39.53,2,1561.8,6,Structural
+Steel 20Ch2N4A GOST 4543-71 (Quenching and heating),Carbon Steel,7.85,450.0,680.0,200.0,3,49.43,2,1496.4,7,General Purpose
+"Steel 20Ch2N4A GOST 4543-71 (Case hardening,quenching and cooling in the oil)",Carbon Steel,7.85,850.0,1100.0,323.5,3,45.92,3,1542.2,6,Structural
+Steel 20Ch2N4A GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.85,1100.0,1300.0,382.4,3,43.42,3,1521.2,5,Structural
+Steel 30ChGS GOST 4543-71 (Annealing),Carbon Steel,7.85,360.0,600.0,176.5,3,49.62,2,1533.4,7,General Purpose
+Steel 30ChGSA GOST 4543-71 (Improved),Carbon Steel,7.85,850.0,1100.0,323.5,3,38.94,2,1537.7,6,Structural
+Steel 30ChGSA GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.85,1300.0,1500.0,441.2,3,42.72,3,1546.1,6,Structural
+Steel 38Ch210 GOST 4543-71 (Quenching and cooling in the oil),Carbon Steel,7.85,700.0,800.0,235.3,2,50.21,1,1486.4,7,General Purpose
+Steel 38ChA GOST 4543-71 (Quenched and tempered),Carbon Steel,7.86,785.0,930.0,273.5,3,39.47,2,1552.7,6,Structural
+Steel 38Ch2MJuA GOST 4543-71,Carbon Steel,7.86,835.0,980.0,288.2,3,42.68,3,1534.1,6,Structural
+Steel 12MCh GOST 20072-74,Carbon Steel,7.85,235.0,410.0,217.0,3,53.83,1,1511.6,6,General Purpose
+Steel 12Ch1MF GOST 20072-74,Carbon Steel,7.8,255.0,470.0,217.0,3,48.12,2,1510.6,6,General Purpose
+Steel 20Ch1M1F1TR GOST 20072-74,Carbon Steel,7.8,665.0,780.0,229.0,3,51.99,3,1521.0,7,General Purpose
+Steel 20Ch1M1F1BR GOST 20072-74,Carbon Steel,7.8,665.0,780.0,229.0,4,52.96,2,1533.6,7,General Purpose
+Steel 25Ch1MF GOST 20072-74,Carbon Steel,7.84,735.0,880.0,229.0,3,42.32,3,1557.8,6,Structural
+Steel 18Ch3MV GOST 20072-74,Carbon Steel,7.85,440.0,640.0,270.0,3,51.52,2,1524.5,7,General Purpose
+Steel 20Ch3MVF GOST 20072-74,Carbon Steel,7.8,735.0,880.0,269.0,3,43.13,3,1535.6,6,Structural
+Steel 15Ch5 GOST 20072-74,Carbon Steel,7.63,165.0,390.0,217.0,3,50.07,1,1525.9,7,General Purpose
+Steel 15Ch5M GOST 20072-74,Carbon Steel,7.75,215.0,390.0,217.0,3,50.16,2,1521.5,7,General Purpose
+Steel 15Ch5VF GOST 20072-74,Carbon Steel,7.85,215.0,390.0,217.0,3,49.77,1,1508.4,7,General Purpose
+Steel 12Ch8VF GOST 20072-74,Carbon Steel,7.85,165.0,390.0,217.0,3,50.13,2,1517.1,7,General Purpose
+Steel 13Ch14N3V2FR GOST 5949-75,Carbon Steel,7.85,735.0,930.0,302.0,3,44.38,3,1518.6,7,Structural
+Steel 10Ch11N23T3MR GOST 5949-75,Carbon Steel,8.12,590.0,880.0,258.8,3,41.82,3,1534.0,6,Structural
+Steel 12Ch18N10T GOST 5949-75,Carbon Steel,7.63,196.0,510.0,150.0,3,47.22,2,1523.7,8,General Purpose
+Steel 12Ch18N9T GOST 5949-75,Carbon Steel,7.9,196.0,540.0,158.8,3,51.84,2,1486.9,7,General Purpose
+Steel 12Ch18N12T GOST 5949-75,Carbon Steel,7.85,196.0,540.0,158.8,3,52.03,2,1482.6,7,General Purpose
+Steel 12Ch25N16G7AR GOST 5949-75,Carbon Steel,7.67,325.0,690.0,202.9,3,51.96,2,1531.4,7,General Purpose
+Steel 20 GOST 1577-93 (normalized),Carbon Steel,7.86,230.0,475.0,156.0,3,48.63,3,1514.3,7,General Purpose
+Steel 20 GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,350.0,625.0,156.0,3,44.68,2,1504.1,7,General Purpose
+Steel 25 GOST 1577-93 (normalized),Carbon Steel,7.86,260.0,495.0,170.0,3,49.66,2,1507.0,7,General Purpose
+Steel 25 GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,370.0,625.0,170.0,3,48.53,3,1491.4,7,General Purpose
+Steel 30 GOST 1577-93 (normalized),Carbon Steel,7.86,280.0,540.0,179.0,3,49.35,2,1503.1,6,General Purpose
+Steel 30 GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,400.0,675.0,179.0,3,50.12,2,1498.4,7,General Purpose
+Steel 35 GOST 1577-93 (normalized),Carbon Steel,7.86,300.0,575.0,207.0,3,50.18,2,1494.2,7,General Purpose
+Steel 35 GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,430.0,705.0,187.0,3,48.04,2,1507.7,8,General Purpose
+Steel 40 GOST 1577-93 (normalized),Carbon Steel,7.86,320.0,625.0,217.0,3,50.74,2,1507.9,8,General Purpose
+Steel 40 GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,460.0,725.0,187.0,3,49.53,1,1509.2,7,General Purpose
+Steel 45 GOST 1577-93 (normalized),Carbon Steel,7.86,340.0,675.0,229.0,3,50.43,2,1533.3,6,General Purpose
+Steel 45 GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,500.0,775.0,197.0,3,46.16,1,1502.5,7,General Purpose
+Steel 50 GOST 1577-93 (normalized),Carbon Steel,7.86,355.0,710.0,241.0,3,50.18,2,1532.5,8,General Purpose
+Steel 50 GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,520.0,825.0,207.0,3,42.77,2,1538.0,6,Structural
+Steel 55 GOST 1577-93 (normalized),Carbon Steel,7.86,370.0,750.0,255.0,4,47.68,1,1522.4,7,General Purpose
+Steel 55 GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,550.0,875.0,217.0,3,42.21,2,1532.9,6,Structural
+Steel 60 GOST 1577-93 (normalized),Carbon Steel,7.86,380.0,785.0,255.0,3,51.0,2,1505.2,7,General Purpose
+Steel 60 GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,580.0,925.0,229.0,3,40.24,3,1488.3,5,Structural
+Steel 30Ch GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,650.0,925.0,187.0,3,44.71,3,1520.0,7,Structural
+Steel 38ChA GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,750.0,1050.0,207.0,2,42.76,3,1540.8,5,Structural
+Steel 40Ch GOST 1577-93 (Quenched and tempered),Carbon Steel,7.86,800.0,1100.0,217.0,3,40.5,3,1539.7,6,Structural
+Steel 15L GOST 977-88 (normalized),Carbon Steel,7.82,196.0,392.0,115.3,3,54.52,2,1516.0,7,General Purpose
+Steel 20L GOST 977-88 (normalized),Carbon Steel,7.82,216.0,412.0,121.2,3,48.4,2,1498.3,7,General Purpose
+Steel 25L GOST 977-88 (normalized),Carbon Steel,7.83,235.0,441.0,129.7,3,53.14,2,1501.9,7,General Purpose
+Steel 30L GOST 977-88 (normalized),Carbon Steel,7.81,255.0,471.0,138.5,3,48.35,2,1529.2,6,General Purpose
+Steel 35L GOST 977-88 (normalized),Carbon Steel,7.83,275.0,491.0,144.4,3,47.19,2,1522.9,8,General Purpose
+Steel 40L GOST 977-88 (normalized),Carbon Steel,7.81,294.0,520.0,152.9,3,47.55,2,1534.3,7,General Purpose
+Steel 45L GOST 977-88 (normalized),Carbon Steel,7.8,314.0,540.0,158.8,2,50.73,1,1528.0,7,General Purpose
+Steel 50L GOST 977-88 (normalized),Carbon Steel,7.82,334.0,569.0,167.4,2,49.76,2,1521.4,7,General Purpose
+Steel 20GL GOST 977-88 (normalized),Carbon Steel,7.82,275.0,540.0,158.8,3,48.8,2,1529.7,7,General Purpose
+Steel 35GL GOST 977-88 (normalized),Carbon Steel,7.82,294.0,540.0,158.8,3,54.68,1,1532.7,8,General Purpose
+Steel 35GL GOST 977-88 (Quenching and cooling in the water),Carbon Steel,7.82,343.0,589.0,173.2,3,52.82,2,1534.8,7,General Purpose
+Steel 20GSL GOST 977-88 (normalized),Carbon Steel,7.82,294.0,540.0,158.8,3,52.65,2,1523.7,7,General Purpose
+Steel 30GSL GOST 977-88 (normalized),Carbon Steel,7.82,343.0,589.0,173.2,3,52.81,3,1540.4,7,General Purpose
+Steel 30GSL GOST 977-88 (Quenching and cooling in the water),Carbon Steel,7.82,392.0,638.0,187.6,2,47.71,3,1512.5,7,General Purpose
+Steel 20G1FL GOST 977-88 (normalized),Carbon Steel,7.82,314.0,510.0,150.0,3,42.58,2,1529.0,7,General Purpose
+Steel 20FL GOST 977-88 (normalized),Carbon Steel,7.82,294.0,491.0,144.4,3,45.24,2,1508.5,6,General Purpose
+Steel 30ChGSFL GOST 977-88 (normalized),Carbon Steel,7.82,392.0,589.0,173.2,3,49.07,3,1503.2,6,General Purpose
+Steel 45FL GOST 977-88 (normalized),Carbon Steel,7.82,392.0,589.0,173.2,3,51.78,2,1530.1,7,General Purpose
+Steel 20ChML GOST 977-88 (normalized),Carbon Steel,7.8,245.0,441.0,129.7,3,50.43,2,1513.6,7,General Purpose
+Steel 20ChMFL GOST 977-88 (normalized),Carbon Steel,7.82,275.0,491.0,144.4,3,51.95,3,1496.6,7,General Purpose
+Steel 20GNMFL GOST 977-88 (normalized),Carbon Steel,7.82,491.0,589.0,173.2,3,48.28,1,1508.0,8,General Purpose
+Steel 35ChML GOST 977-88 (normalized),Carbon Steel,7.84,392.0,589.0,173.2,4,47.39,2,1486.7,7,General Purpose
+Steel 30ChNML GOST 977-88 (normalized),Carbon Steel,7.82,540.0,687.0,202.1,3,50.97,2,1506.5,7,General Purpose
+Steel 35ChGSL GOST 977-88 (normalized),Carbon Steel,7.8,343.0,589.0,173.2,3,48.4,2,1498.7,8,General Purpose
+Steel 35ChGSL GOST 977-88 (Quenching and cooling in the water),Carbon Steel,7.8,589.0,785.0,230.9,3,44.94,2,1510.0,7,General Purpose
+Steel 20DChL GOST 977-88 (normalized),Carbon Steel,7.82,392.0,491.0,144.4,3,49.61,2,1529.1,7,General Purpose
+Steel 08GDNFL GOST 977-88 (normalized),Carbon Steel,7.82,343.0,441.0,129.7,3,47.71,2,1513.2,7,General Purpose
+Steel 13ChNDFTL GOST 977-88 (normalized),Carbon Steel,7.82,392.0,491.0,144.4,3,50.34,2,1530.6,6,General Purpose
+Steel 12DN2FL GOST 977-88 (normalized),Carbon Steel,7.82,540.0,638.0,187.6,3,47.55,2,1495.8,6,General Purpose
+Steel 25L GOST 977-88 (Quenched and tempered),Carbon Steel,7.83,294.0,491.0,144.4,3,48.23,1,1525.7,7,General Purpose
+Steel 30L GOST 977-88 (Quenched and tempered),Carbon Steel,7.81,294.0,491.0,144.4,3,47.12,2,1519.8,8,General Purpose
+Steel 35L GOST 977-88 (Quenched and tempered),Carbon Steel,7.83,343.0,540.0,158.8,3,51.2,2,1547.7,7,General Purpose
+Steel 40L GOST 977-88 (Quenched and tempered),Carbon Steel,7.81,343.0,540.0,158.8,2,51.59,2,1523.9,7,General Purpose
+Steel 45L GOST 977-88 (Quenched and tempered),Carbon Steel,7.8,392.0,589.0,173.2,3,48.78,2,1526.3,7,General Purpose
+Steel 50L GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,392.0,736.0,216.5,3,51.74,2,1523.2,7,General Purpose
+Steel 20GL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,334.0,530.0,155.9,4,49.15,2,1505.9,7,General Purpose
+Steel 35GL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,343.0,589.0,173.2,3,49.92,2,1483.8,7,General Purpose
+Steel 30GSL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,392.0,638.0,187.6,3,50.23,2,1524.5,7,General Purpose
+Steel 30ChGSFL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,589.0,785.0,230.9,3,48.33,2,1479.2,8,General Purpose
+Steel 45FL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,441.0,638.0,187.6,3,50.61,2,1515.2,8,General Purpose
+Steel 32Ch06L GOST 977-88 (Quenched and tempered),Carbon Steel,7.85,491.0,638.0,187.6,3,48.12,2,1518.6,7,General Purpose
+Steel 20GNMFL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,589.0,687.0,202.1,4,49.09,2,1520.7,8,General Purpose
+Steel 35ChML GOST 977-88 (Quenched and tempered),Carbon Steel,7.84,540.0,687.0,202.1,2,48.94,2,1514.5,8,General Purpose
+Steel 30ChNML GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,638.0,785.0,230.9,3,53.15,2,1548.5,7,General Purpose
+Steel 35ChGSL GOST 977-88 (Quenched and tempered),Carbon Steel,7.8,589.0,785.0,230.9,3,49.11,2,1531.4,8,General Purpose
+Steel 35NGML GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,589.0,736.0,216.5,3,48.31,2,1503.8,7,General Purpose
+Steel 20DChL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,540.0,638.0,187.6,3,51.69,2,1505.3,7,General Purpose
+Steel 12DN2FL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,638.0,785.0,230.9,3,56.76,2,1530.1,7,General Purpose
+Steel 12DChN1MFL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,735.0,981.0,288.5,3,44.38,4,1516.6,6,Structural
+Steel 23ChGS2MFL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,1079.0,1275.0,375.0,3,38.75,2,1534.6,6,Structural
+Steel 12Ch7G3SL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,1079.0,1324.0,389.4,3,39.88,3,1552.0,7,Structural
+Steel 25Ch2GNMFL1 GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,491.0,638.0,187.6,3,48.29,3,1505.2,7,General Purpose
+Steel 25Ch2GNMFL2 GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,1079.0,1275.0,375.0,2,45.41,3,1526.4,6,Structural
+Steel 27Ch5GSML GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,1177.0,1472.0,432.9,3,41.65,3,1572.6,6,Structural
+Steel 30Ch3S3GML GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,1472.0,1766.0,519.4,3,43.41,3,1541.1,6,Structural
+Steel 03N12Ch5M3TL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,1275.0,1324.0,389.4,2,39.18,4,1550.5,6,Structural
+Steel 03N12Ch5M3TJuL GOST 977-88 (Quenched and tempered),Carbon Steel,7.82,1422.0,1472.0,432.9,3,38.93,3,1549.5,6,Structural
+Steel 40ChL GOST 977-88 (Quenching and cooling in the oil),Carbon Steel,7.84,491.0,638.0,187.6,3,52.32,2,1535.3,7,General Purpose
+Steel 50ChFA GOST 14959-79 (heat treated),Carbon Steel,7.86,1080.0,1270.0,373.5,3,41.35,3,1570.3,6,Structural
+Steel 55S2 GOST 14959-79 (heat treated),Carbon Steel,7.86,1175.0,1270.0,373.5,3,44.16,3,1529.8,6,Structural
+Steel 50ChGA GOST 14959-79 (heat treated),Carbon Steel,7.86,1175.0,1270.0,373.5,3,42.12,3,1536.8,6,Structural
+Steel 50ChGFA GOST 14959-79 (heat treated),Carbon Steel,7.86,1325.0,1420.0,417.6,3,42.98,3,1562.3,6,Structural
+Grey cast iron 10 GOST1412-85,Carbon Steel,6.8,50.0,100.0,190.0,3,45.57,2,1552.1,7,General Purpose
+Grey cast iron 15 GOST1412-85,Carbon Steel,7.0,75.0,150.0,210.0,3,49.32,3,1519.1,7,General Purpose
+Grey cast iron 18 GOST1412-85,Carbon Steel,7.05,90.0,180.0,52.9,3,52.13,2,1519.6,7,General Purpose
+Grey cast iron 20 GOST1412-85,Carbon Steel,7.1,100.0,200.0,230.0,3,51.89,2,1503.7,7,General Purpose
+Grey cast iron 21 GOST1412-85,Carbon Steel,7.15,105.0,210.0,61.8,3,51.86,3,1542.1,7,General Purpose
+Grey cast iron 24 GOST1412-85,Carbon Steel,7.2,120.0,240.0,70.6,4,49.64,2,1501.6,7,General Purpose
+Grey cast iron 25 GOST1412-85,Carbon Steel,7.2,125.0,250.0,245.0,3,51.43,2,1500.4,7,General Purpose
+Grey cast iron 30 GOST1412-85,Carbon Steel,7.3,150.0,300.0,260.0,3,50.37,2,1532.6,7,General Purpose
+Grey cast iron 35 GOST1412-85,Carbon Steel,7.4,175.0,350.0,275.0,3,52.49,1,1502.1,8,General Purpose
+Nodular cast iron 35 GOST7293-85,Carbon Steel,7.16,220.0,350.0,155.0,3,51.29,2,1539.5,7,General Purpose
+Nodular cast iron 40 GOST7293-85,Carbon Steel,7.16,250.0,400.0,171.0,3,51.98,2,1524.4,7,General Purpose
+Nodular cast iron 45 GOST7293-85,Carbon Steel,7.16,310.0,450.0,182.0,3,53.37,1,1538.2,7,General Purpose
+Nodular cast iron 50 GOST7293-85,Carbon Steel,7.16,320.0,500.0,199.0,4,44.8,2,1513.1,7,General Purpose
+Nodular cast iron 60 GOST7293-85,Carbon Steel,7.16,370.0,600.0,234.0,3,50.0,2,1528.9,7,General Purpose
+Nodular cast iron 70 GOST7293-85,Carbon Steel,7.16,420.0,700.0,265.0,4,47.03,2,1509.3,7,General Purpose
+Nodular cast iron 80 GOST7293-85,Carbon Steel,7.16,480.0,800.0,299.0,3,52.92,3,1509.6,7,General Purpose
+Nodular cast iron 100 GOST7293-85,Carbon Steel,7.16,700.0,1000.0,315.0,3,40.65,3,1513.7,6,Structural
+Malleable cast iron 30-6,Carbon Steel,7.16,170.0,294.0,131.0,3,52.46,1,1512.9,7,General Purpose
+Malleable cast iron 33-8,Carbon Steel,7.16,190.0,323.0,131.0,3,48.8,2,1532.1,7,General Purpose
+Malleable cast iron 35-10,Carbon Steel,7.16,190.0,333.0,131.0,3,48.14,3,1533.4,7,General Purpose
+Malleable cast iron 37-12,Carbon Steel,7.16,210.0,362.0,136.0,3,47.13,2,1544.5,7,General Purpose
+Malleable cast iron 45-7,Carbon Steel,7.16,260.0,441.0,178.0,3,48.09,2,1500.1,7,General Purpose
+Malleable cast iron 50-5,Carbon Steel,7.16,290.0,490.0,200.0,3,49.82,2,1504.0,7,General Purpose
+Malleable cast iron 55-4,Carbon Steel,7.16,325.0,539.0,216.0,3,49.16,2,1476.0,7,General Purpose
+Malleable cast iron 60-3,Carbon Steel,7.16,350.0,588.0,234.0,3,50.85,2,1527.0,7,General Purpose
+Malleable cast iron 65-3,Carbon Steel,7.16,380.0,637.0,240.0,3,49.77,3,1496.8,7,General Purpose
+Malleable cast iron 70-2,Carbon Steel,7.16,410.0,686.0,263.0,3,46.46,2,1528.9,7,General Purpose
+Malleable cast iron 80-1.5,Carbon Steel,7.16,470.0,784.0,295.0,3,46.15,2,1506.5,7,General Purpose
+Malleable cast iron 40,Carbon Steel,7.16,180.0,400.0,220.0,2,49.06,1,1531.3,7,General Purpose
+NF 13MF4,Carbon Steel,7.86,240.0,360.0,105.9,3,49.49,2,1504.1,7,General Purpose
+NF 35MF6,Carbon Steel,7.86,370.0,630.0,185.3,3,50.74,2,1500.7,7,General Purpose
+NF XE,Carbon Steel,7.86,180.0,270.0,79.4,3,50.08,2,1497.1,7,General Purpose
+NF ZE,Carbon Steel,7.86,202.5,270.0,79.4,3,48.44,1,1540.5,7,General Purpose
+NF ZES,Carbon Steel,7.86,202.5,270.0,79.4,4,54.32,2,1514.1,7,General Purpose
+NF A34-2,Carbon Steel,7.86,155.0,330.0,97.1,4,50.3,1,1538.1,8,General Purpose
+NF A37CP,Carbon Steel,7.86,235.0,360.0,105.9,3,51.76,2,1513.3,7,General Purpose
+NF A42CP,Carbon Steel,7.86,255.0,410.0,120.6,3,46.18,2,1538.7,7,General Purpose
+NF E24-2,Carbon Steel,7.86,215.0,340.0,100.0,3,49.6,2,1522.8,7,General Purpose
+NF E24-3,Carbon Steel,7.86,215.0,340.0,100.0,3,50.24,2,1534.5,6,General Purpose
+NF E28-2,Carbon Steel,7.86,275.0,400.0,117.6,3,48.32,3,1509.3,7,General Purpose
+NF E28-4,Carbon Steel,7.86,255.0,400.0,117.6,3,49.52,2,1498.5,7,General Purpose
+NF A50-2,Carbon Steel,7.86,295.0,490.0,144.1,3,49.84,2,1516.7,7,General Purpose
+NF E36-3,Carbon Steel,7.86,355.0,490.0,144.1,3,51.57,2,1528.1,7,General Purpose
+NF E36-4,Carbon Steel,7.86,355.0,490.0,144.1,3,54.78,2,1487.0,7,General Purpose
+NF A60-2,Carbon Steel,7.86,335.0,590.0,173.5,3,47.39,2,1516.4,7,General Purpose
+NF A70-2,Carbon Steel,7.86,365.0,690.0,202.9,3,45.87,3,1505.4,7,General Purpose
+NF XC10,Carbon Steel,7.86,350.0,490.0,144.1,3,49.33,2,1522.0,7,General Purpose
+NF XC12,Carbon Steel,7.86,500.0,690.0,202.9,4,48.81,2,1501.8,7,General Purpose
+NF XC18,Carbon Steel,7.86,270.0,440.0,129.4,3,51.37,2,1483.0,7,General Purpose
+NF XC25,Carbon Steel,7.86,305.0,490.0,144.1,3,49.72,3,1546.6,6,General Purpose
+NF XC32,Carbon Steel,7.86,365.0,570.0,167.6,3,44.42,2,1523.6,7,General Purpose
+NF XC38H1,Carbon Steel,7.86,400.0,630.0,185.3,3,46.62,2,1520.6,7,General Purpose
+NF XC42TS,Carbon Steel,7.86,430.0,670.0,197.1,3,49.43,2,1542.4,7,General Purpose
+NF XC42H1,Carbon Steel,7.86,430.0,670.0,197.1,2,52.72,2,1492.7,7,General Purpose
+NF XC48H1 (heat treated),Carbon Steel,7.86,460.0,710.0,208.8,3,52.92,1,1529.3,7,General Purpose
+NF XC55H1,Carbon Steel,7.86,490.0,750.0,220.6,3,44.68,2,1525.0,7,General Purpose
+NF 52M4TS,Carbon Steel,7.86,410.0,710.0,208.8,3,49.8,2,1528.5,7,General Purpose
+NF A48CP,Carbon Steel,7.86,290.0,470.0,138.2,3,49.95,1,1498.6,7,General Purpose
+NF 35M5,Carbon Steel,7.86,500.0,670.0,197.1,3,55.43,1,1541.3,7,General Purpose
+NF 51S7 (heat treated),Carbon Steel,7.86,1350.0,1500.0,441.2,2,40.55,3,1525.7,6,Structural
+NF 32C4,Carbon Steel,7.86,590.0,780.0,229.4,3,47.12,2,1516.7,7,General Purpose
+NF 38C4,Carbon Steel,7.86,620.0,830.0,244.1,4,41.95,3,1525.6,6,Structural
+NF 42C4,Carbon Steel,7.86,600.0,880.0,258.8,2,42.38,3,1528.3,6,Structural
+NF 35CD4TS,Carbon Steel,7.86,715.0,880.0,258.8,3,44.3,3,1535.7,6,Structural
+NF 42C4TS,Carbon Steel,7.86,685.0,880.0,258.8,3,42.19,3,1546.2,6,Structural
+NF 16MC5 (case-hardened),Carbon Steel,7.86,700.0,980.0,288.2,2,44.53,4,1524.7,5,Structural
+NF 20MC5 (case-hardened),Carbon Steel,7.86,850.0,1200.0,352.9,3,45.42,3,1557.4,6,Structural
+NF 55C3 (heat treated),Carbon Steel,7.86,1180.0,1370.0,402.9,3,39.73,2,1519.7,7,Structural
+NF 15D3,Carbon Steel,7.86,270.0,440.0,129.4,3,49.04,3,1518.2,7,General Purpose
+NF 15CD405,Carbon Steel,7.86,295.0,450.0,132.4,3,47.42,2,1509.9,7,General Purpose
+NF 25CD4,Carbon Steel,7.86,600.0,780.0,229.4,3,51.8,1,1511.0,7,General Purpose
+NF 34CD4,Carbon Steel,7.86,700.0,880.0,258.8,3,41.19,3,1533.1,6,Structural
+NF 42CD4 (heat treated),Carbon Steel,7.86,770.0,980.0,288.2,2,45.25,3,1531.8,6,Structural
+NF 42CD4TS (face hardened),Carbon Steel,7.86,815.0,980.0,288.2,3,42.67,3,1541.2,6,Structural
+NF 50CV4 (heat treated),Carbon Steel,7.86,1125.0,1320.0,388.2,4,41.44,4,1562.7,7,Structural
+NF 40CAD612 (nitrided),Carbon Steel,7.86,720.0,900.0,264.7,3,41.36,3,1542.4,7,Structural
+NF 30CD12 (heat treated),Carbon Steel,7.86,810.0,1030.0,302.9,3,44.7,3,1569.4,5,Structural
+NF 30CD12 (nitrided),Carbon Steel,7.86,770.0,980.0,288.2,4,39.83,4,1558.7,5,Structural
+NF 16NC6 (case-hardened),Carbon Steel,7.86,800.0,1100.0,323.5,3,38.67,3,1500.3,5,Structural
+NF 18NCD6 (case-hardened),Carbon Steel,7.86,850.0,1200.0,352.9,3,41.51,3,1543.7,6,Structural
+NF 30CND8 (heat treated),Carbon Steel,7.86,850.0,1030.0,302.9,3,45.75,3,1553.9,6,Structural
+NF Z6C13,Carbon Steel,7.86,225.0,420.0,123.5,4,51.87,2,1530.6,7,General Purpose
+NF Z12C13,Stainless Steel,7.86,440.0,630.0,185.3,8,23.54,3,1516.6,6,Cutting Tools
+NF Z20C13,Carbon Steel,7.86,540.0,730.0,214.7,3,49.6,2,1528.4,7,General Purpose
+NF Z30C13,Carbon Steel,7.86,635.0,830.0,244.1,3,46.26,3,1532.7,7,Structural
+NF Z8C17,Carbon Steel,7.86,245.0,440.0,129.4,3,51.74,2,1513.8,7,General Purpose
+NF Z8CA7,Carbon Steel,7.86,240.0,440.0,129.4,3,48.26,2,1517.0,7,General Purpose
+NF Z45CS9,Carbon Steel,7.86,700.0,900.0,264.7,3,39.86,3,1530.8,6,Structural
+NF Z6CA13,Carbon Steel,7.86,225.0,420.0,123.5,3,49.86,3,1532.1,6,General Purpose
+NF Z10C13,Carbon Steel,7.86,410.0,590.0,173.5,3,50.51,1,1494.0,6,General Purpose
+NF Z85CDMV1802,Carbon Steel,7.86,800.0,1000.0,294.1,3,42.14,3,1543.3,6,Structural
+NF Z6CN1809,Carbon Steel,7.86,195.0,510.0,150.0,3,53.49,2,1511.8,7,General Purpose
+NF Z6CNT1810,Carbon Steel,7.86,205.0,510.0,150.0,4,48.79,3,1498.7,6,General Purpose
+NF Z6CNT1812,Carbon Steel,7.86,205.0,510.0,150.0,3,50.51,2,1507.2,7,General Purpose
+NF Z2CN1810,Carbon Steel,7.86,185.0,450.0,132.4,3,47.15,1,1510.5,7,General Purpose
+NF Z15CN2413,Stainless Steel,7.86,240.0,540.0,158.8,8,16.75,4,1455.9,6,General Purpose
+NF Z12NCS3516,Stainless Steel,7.86,240.0,590.0,173.5,8,25.07,3,1500.8,6,Cutting Tools
+NF Z12CN2520,Stainless Steel,7.86,240.0,540.0,158.8,8,16.02,4,1453.7,5,General Purpose
+NF Z12CNS2520,Stainless Steel,7.86,240.0,540.0,158.8,8,15.47,4,1431.0,6,General Purpose
+NF Z6CND1711,Carbon Steel,7.86,205.0,530.0,155.9,2,44.05,2,1492.8,8,General Purpose
+NF Z6CNDT1712,Carbon Steel,7.86,216.0,490.0,144.1,3,50.34,1,1510.9,7,General Purpose
+NF Z2CND1712,Carbon Steel,7.86,186.0,470.0,138.2,2,48.21,2,1499.9,7,General Purpose
+NF Z2CND1713,Carbon Steel,7.86,195.0,480.0,141.2,3,47.48,1,1520.2,7,General Purpose
+NF Z6CND1712,Carbon Steel,7.86,205.0,530.0,155.9,3,51.88,1,1498.0,7,General Purpose
+NF Z52CMN2109,Carbon Steel,7.86,600.0,950.0,279.4,3,43.12,3,1543.1,5,Structural
+JIS SUM22,Tool Steel,7.86,375.0,460.0,135.3,4,14.72,5,1368.2,5,Die Casting
+JIS SS330,Carbon Steel,7.86,195.0,360.0,105.9,4,51.62,1,1528.1,7,General Purpose
+JIS STKM13B,Carbon Steel,7.86,305.0,440.0,129.4,3,49.38,2,1523.5,7,General Purpose
+JIS STKM12A,Carbon Steel,7.86,175.0,340.0,100.0,3,44.36,2,1508.4,7,General Purpose
+JIS STKM12C,Carbon Steel,7.86,355.0,470.0,138.2,3,46.86,2,1529.9,7,General Purpose
+JIS SS400,Carbon Steel,7.86,235.0,400.0,117.6,3,47.51,2,1536.0,7,General Purpose
+JIS SS490,Carbon Steel,7.86,275.0,490.0,144.1,3,52.21,2,1521.9,7,General Purpose
+JIS SM52OC,Carbon Steel,7.86,335.0,520.0,152.9,3,44.35,2,1526.9,7,General Purpose
+JIS SM52OB,Carbon Steel,7.86,335.0,520.0,152.9,3,47.41,2,1528.0,7,General Purpose
+JIS STKM16A,Carbon Steel,7.86,325.0,510.0,150.0,4,53.98,3,1543.7,7,General Purpose
+JIS STKM16C,Carbon Steel,7.86,460.0,620.0,182.4,3,53.25,2,1521.2,6,General Purpose
+JIS SM570,Carbon Steel,7.86,450.0,570.0,167.6,3,53.78,2,1546.9,7,General Purpose
+JIS S10C,Carbon Steel,7.86,300.0,420.0,123.5,2,49.74,1,1506.2,7,General Purpose
+JIS S15C,Carbon Steel,7.86,340.0,440.0,129.4,2,51.63,2,1523.2,7,General Purpose
+JIS S22C,Carbon Steel,7.86,250.0,420.0,123.5,3,50.74,2,1520.3,7,General Purpose
+JIS S25C,Carbon Steel,7.86,300.0,480.0,141.2,3,51.0,2,1498.1,7,General Purpose
+JIS S30C,Carbon Steel,7.86,340.0,540.0,158.8,2,49.6,2,1506.7,7,General Purpose
+JIS S35C,Carbon Steel,7.86,370.0,600.0,176.5,3,51.74,2,1535.1,7,General Purpose
+JIS S40C,Carbon Steel,7.86,400.0,630.0,185.3,3,50.72,2,1516.9,7,General Purpose
+JIS S45C,Carbon Steel,7.86,430.0,650.0,191.2,2,48.69,2,1524.5,7,General Purpose
+JIS S50C,Carbon Steel,7.86,460.0,700.0,205.9,4,50.2,2,1490.6,6,General Purpose
+JIS S55C,Carbon Steel,7.86,500.0,750.0,220.6,3,52.74,3,1519.0,7,General Purpose
+JIS S58C,Carbon Steel,7.86,510.0,780.0,229.4,3,48.62,3,1506.2,7,General Purpose
+JIS SMn433,Carbon Steel,7.86,490.0,700.0,205.9,4,57.22,1,1528.5,7,General Purpose
+JIS SCr430,Stainless Steel,7.86,570.0,770.0,226.5,8,27.51,3,1496.7,6,Cutting Tools
+JIS SCr435,Carbon Steel,7.86,600.0,800.0,235.3,2,49.82,2,1507.6,7,General Purpose
+JIS SCr440,Carbon Steel,7.86,640.0,880.0,258.8,3,44.95,2,1541.1,5,Structural
+JIS SMnC420,Stainless Steel,7.86,680.0,980.0,288.2,9,12.18,6,1433.8,4,Aerospace
+JIS SUP9 (heat treated),Carbon Steel,7.86,1079.0,1226.0,360.6,3,44.96,3,1553.0,6,Structural
+JIS SCM430,Stainless Steel,7.86,630.0,830.0,244.1,8,25.08,4,1482.1,6,Cutting Tools
+JIS SCM435,Carbon Steel,7.86,660.0,880.0,258.8,3,40.28,3,1534.2,6,Structural
+JIS SCM440,Carbon Steel,7.86,735.0,930.0,273.5,3,46.33,3,1514.8,6,Structural
+JIS SCM445,Carbon Steel,7.86,680.0,860.0,252.9,3,42.34,3,1555.5,6,Structural
+JIS SUP10,Carbon Steel,7.86,1079.0,1226.0,360.6,2,44.19,4,1538.0,6,Structural
+JIS SNC815,Carbon Steel,7.86,680.0,930.0,273.5,3,43.45,4,1520.4,6,Structural
+JIS SNCM815,Carbon Steel,7.86,800.0,1100.0,323.5,3,39.81,3,1550.1,6,Structural
+JIS SNCM447,Carbon Steel,7.86,900.0,1100.0,323.5,3,41.65,3,1536.0,6,Structural
+JIS SNCM630,Stainless Steel,7.86,1000.0,1200.0,352.9,8,12.61,6,1450.0,3,Aerospace
+JIS SUS403,Carbon Steel,7.86,392.0,588.0,172.9,3,51.82,2,1516.9,7,General Purpose
+JIS SUS405,Carbon Steel,7.86,177.0,412.0,121.2,4,42.24,2,1524.9,7,General Purpose
+JIS SUS410,Stainless Steel,7.86,343.0,539.0,158.5,8,16.8,4,1469.5,6,General Purpose
+JIS SUS420J1,Stainless Steel,7.86,441.0,637.0,187.4,8,24.15,3,1515.0,7,Cutting Tools
+JIS SUS420J2,Stainless Steel,7.86,539.0,735.0,216.2,7,23.94,3,1490.7,6,Cutting Tools
+JIS SUS430,Stainless Steel,7.86,205.0,430.0,126.5,6,26.21,3,1503.2,7,Valve Parts
+JIS SUS431,Carbon Steel,7.86,588.0,785.0,230.9,3,49.67,2,1523.0,7,General Purpose
+JIS SUS304,Stainless Steel,7.86,205.0,520.0,152.9,8,17.5,4,1459.9,6,General Purpose
+JIS SUS303,Carbon Steel,7.86,205.0,520.0,152.9,3,52.03,2,1517.6,7,General Purpose
+JIS SUS316,Stainless Steel,7.86,205.0,520.0,152.9,8,15.8,4,1484.8,6,General Purpose
+JIS SUS316L,Stainless Steel,7.86,175.0,480.0,141.2,9,16.46,6,1409.7,5,Marine
+JIS SUS321,Carbon Steel,7.86,205.0,520.0,152.9,3,51.3,2,1510.1,7,General Purpose
+JIS SUS304L,Stainless Steel,7.86,175.0,480.0,141.2,8,16.14,5,1421.6,5,Marine
+JIS SUS3093,Carbon Steel,7.86,205.0,520.0,152.9,3,50.44,2,1514.5,7,General Purpose
+JIS SUH1,Carbon Steel,7.86,685.0,930.0,273.5,3,42.73,2,1514.9,6,Structural
+JIS SUH330,Carbon Steel,7.86,205.0,560.0,164.7,4,51.88,3,1514.3,6,General Purpose
+JIS SUH310,Carbon Steel,7.86,205.0,590.0,173.5,3,48.96,3,1522.9,7,General Purpose
+JIS SUH35,Carbon Steel,7.86,560.0,880.0,258.8,3,43.12,3,1521.2,6,Structural
