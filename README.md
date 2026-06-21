@@ -108,10 +108,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # 4. Run the application
-streamlit run app.py
+python app.py
 ```
 
-The application will open at: **http://localhost:8501**
+The application will open at: **http://127.0.0.1:5050**
 
 ---
 
@@ -161,10 +161,10 @@ python train_model.py
 ### Running the Web Application
 
 ```bash
-streamlit run app.py
+python app.py
 ```
 
-Then navigate to `http://localhost:8501` in your browser.
+Then navigate to `http://127.0.0.1:5050` in your browser.
 
 ### Using the Recommender Engine (Python)
 

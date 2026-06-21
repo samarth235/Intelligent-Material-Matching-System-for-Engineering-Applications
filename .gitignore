@@ -14,4 +14,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Frontend dependencies
+node_modules/
+
 # Model files (optional, but good practice if they are large - here they are small enough, but let's keep them tracked or ignore them? The user said "push all files to this", so we should keep models tracked unless they are too big. 3.8MB is fine.)
