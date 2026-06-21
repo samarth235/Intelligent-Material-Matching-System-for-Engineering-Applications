@@ -556,7 +556,7 @@ PLOTLY_LAYOUT = dict(
         borderwidth=1,
         font=dict(color='#94a3b8', size=11),
     ),
-    margin=dict(l=16, r=16, t=44, b=16),
+    # margin is intentionally excluded here — set per chart to avoid kwarg conflicts
     colorway=['#3b82f6', '#06b6d4', '#8b5cf6', '#10b981', '#f59e0b', '#ef4444'],
 )
 
@@ -744,7 +744,7 @@ if mode_key == "Quick Recommend":
                             tickfont=dict(color='#94a3b8', size=11),
                         ),
                     ),
-                    margin=dict(l=60, r=60, t=30, b=30),
+
                     height=400,
                 )
                 st.plotly_chart(radar_fig, use_container_width=True)
@@ -760,6 +760,7 @@ if mode_key == "Quick Recommend":
                                  color=col, color_continuous_scale=color_scale)
                     fig.update_layout(**PLOTLY_LAYOUT, title_text=title,
                                       showlegend=False, height=280,
+                                      margin=dict(l=16, r=16, t=44, b=16),
                                       coloraxis_showscale=False)
                     fig.update_traces(marker_line_width=0, width=0.45)
                     return fig
@@ -921,7 +922,7 @@ elif mode_key == "Advanced Search":
             title=f"Distribution — {search_type}",
             color_discrete_sequence=['#3b82f6'],
         )
-        hist_fig.update_layout(**PLOTLY_LAYOUT, height=280)
+        hist_fig.update_layout(**PLOTLY_LAYOUT, height=280, margin=dict(l=16, r=16, t=44, b=16))
         hist_fig.update_traces(marker_line_width=0)
         st.plotly_chart(hist_fig, use_container_width=True)
 
@@ -1041,7 +1042,7 @@ elif mode_key == "Compare":
                 gridcolor='rgba(59,130,246,0.1)', linecolor='rgba(59,130,246,0.1)',
                 tickfont=dict(color='#94a3b8', size=11)),
         ),
-        height=420, margin=dict(l=60, r=60, t=30, b=30),
+        height=420, margin=dict(l=60, r=60, t=30, b=30)
     )
     st.plotly_chart(comp_radar, use_container_width=True)
 
@@ -1051,7 +1052,7 @@ elif mode_key == "Compare":
     def cmp_bar(col, title):
         fig = px.bar(comparison, x='Material', y=col, title=title,
                      color='Material', color_discrete_sequence=['#3b82f6', '#06b6d4', '#8b5cf6'])
-        fig.update_layout(**PLOTLY_LAYOUT, height=270, showlegend=False)
+        fig.update_layout(**PLOTLY_LAYOUT, height=270, showlegend=False, margin=dict(l=16, r=16, t=44, b=16))
         fig.update_traces(marker_line_width=0, width=0.45)
         return fig
 
