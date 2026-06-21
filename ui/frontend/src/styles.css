@@ -234,6 +234,39 @@ button {
   letter-spacing: 0;
 }
 
+.ml-banner {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin: -2px 0 16px;
+  padding: 11px 12px;
+  border: 1px solid #b9ded4;
+  border-radius: 8px;
+  background: #f2faf7;
+  color: #16624f;
+}
+
+.ml-banner.muted {
+  border-color: #e1e5eb;
+  background: #f8f9fb;
+  color: #667085;
+}
+
+.ml-banner strong,
+.ml-banner span {
+  display: block;
+}
+
+.ml-banner strong {
+  font-size: 13px;
+}
+
+.ml-banner span {
+  margin-top: 2px;
+  color: #55756d;
+  font-size: 12px;
+}
+
 .field {
   display: grid;
   gap: 7px;
@@ -391,6 +424,27 @@ button {
   font-size: 13px;
 }
 
+.ml-card-row {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 7px 8px;
+  border-radius: 7px;
+  background: #f2faf7;
+  color: #16624f;
+  font-size: 11px;
+}
+
+.ml-card-row span {
+  overflow-wrap: anywhere;
+}
+
+.ml-card-row b {
+  font-size: 11px;
+}
+
 .reason-list {
   display: flex;
   flex-wrap: wrap;
@@ -443,6 +497,34 @@ button {
   margin-top: 3px;
   color: #758094;
   font-size: 12px;
+}
+
+.ml-detail {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 10px;
+  padding: 10px 11px;
+  border: 1px solid #d7ebe5;
+  border-radius: 8px;
+  background: #f5fbf9;
+  color: #16624f;
+}
+
+.ml-detail span,
+.ml-detail strong {
+  display: block;
+}
+
+.ml-detail span {
+  color: #55756d;
+  font-size: 11px;
+}
+
+.ml-detail strong {
+  margin-top: 2px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
 }
 
 .chart-card svg {

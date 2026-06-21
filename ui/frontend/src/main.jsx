@@ -4,6 +4,7 @@ import {
   ArrowDownToLine,
   BarChart3,
   Boxes,
+  BrainCircuit,
   Check,
   ClipboardList,
   Database,
@@ -11,9 +12,9 @@ import {
   Layers3,
   Loader2,
   Search,
-  Settings2,
   SlidersHorizontal,
   Sparkles,
+  Target,
 } from "lucide-react";
 import "./styles.css";
 
@@ -157,18 +158,35 @@ function RecommendView({ meta }) {
   const [weights, setWeights] = useState(initialWeights);
   const [application, setApplication] = useState("All");
   const [recommendations, setRecommendations] = useState([]);
+  const [mlInfo, setMlInfo] = useState(null);
   const [selected, setSelected] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const runRecommendation = async () => {
     setLoading(true);
+    setError("");
     try {
       const data = await api("/api/recommend", {
         method: "POST",
         body: JSON.stringify({ weights, application, topN: 5 }),
       });
-      setRecommendations(data.recommendations);
-      setSelected(data.recommendations[0]?.Material || null);
+      const nextRecommendations = Array.isArray(data.recommendations) ? data.recommendations : [];
+      const hasPredictions = nextRecommendations.every(
+        (item) => item.ML_Predicted_Application && typeof item.ML_Confidence === "number"
+      );
+      setRecommendations(nextRecommendations);
+      setMlInfo({
+        ...(data.ml || {}),
+        active: Boolean(data.ml?.active && hasPredictions),
+        errors:
+          data.ml?.active && !hasPredictions
+            ? ["The API response did not include ML predictions. Restart the backend on port 5050."]
+            : data.ml?.errors || [],
+      });
+      setSelected(nextRecommendations[0]?.Material || null);
+    } catch {
+      setError("Unable to generate recommendations. Confirm that the backend is running on port 5050.");
     } finally {
       setLoading(false);
     }
@@ -206,6 +224,8 @@ function RecommendView({ meta }) {
 
       <div className="content-panel">
         <SectionTitle icon={BarChart3} title="Top recommendations" />
+        <MlBanner info={mlInfo} application={application} />
+        {error && <div className="notice error">{error}</div>}
         {loading && <LoadingState label="Evaluating materials" />}
         {!loading && recommendations.length === 0 && <EmptyCopy title="No materials found" text="Adjust the application filter or priority weights." />}
         {!loading && recommendations.length > 0 && (
@@ -219,11 +239,35 @@ function RecommendView({ meta }) {
               <RadarChart materials={recommendations.slice(0, 3)} />
               {selectedMaterial && <MaterialDetail item={selectedMaterial} />}
             </div>
-            <DataTable rows={recommendations.slice(0, 5)} columns={properties.map(([key, label, unit]) => ({ key, label, unit }))} leadingColumns={["Material", "Alloy_Type"]} />
+            <DataTable
+              rows={recommendations.slice(0, 5)}
+              columns={properties.map(([key, label, unit]) => ({ key, label, unit }))}
+              leadingColumns={["Material", "Alloy_Type", "ML_Predicted_Application", "ML_Confidence"]}
+            />
           </>
         )}
       </div>
     </section>
+  );
+}
+
+function MlBanner({ info, application }) {
+  if (!info) return null;
+
+  return (
+    <div className={info.active ? "ml-banner" : "ml-banner muted"}>
+      <BrainCircuit size={18} />
+      <div>
+        <strong>{info.active ? "ML model active" : "ML model unavailable"}</strong>
+        <span>
+          {info.active && application !== "All"
+            ? `Ranking uses ${info.model} target probability for ${application}.`
+            : info.active
+              ? `Recommendations include ${info.model} predictions and confidence.`
+              : info.errors?.[0] || "Using weighted database scoring only."}
+        </span>
+      </div>
+    </div>
   );
 }
 
@@ -244,10 +288,15 @@ function RecommendationCard({ item, rank, active, onClick }) {
     <button type="button" className={active ? "result-card active" : "result-card"} onClick={onClick}>
       <div className="result-head">
         <span className="rank">#{rank}</span>
-        <span className="score">{formatNumber(item.Recommendation_Score, 1)}</span>
+        <span className="score">{formatNumber(item.ML_Recommendation_Score || item.Recommendation_Score, 1)}</span>
       </div>
       <strong>{item.Material}</strong>
       <p>{item.Alloy_Type}</p>
+      <div className="ml-card-row">
+        <BrainCircuit size={14} />
+        <span>{item.ML_Predicted_Application || "No prediction"}</span>
+        {item.ML_Confidence !== null && item.ML_Confidence !== undefined && <b>{formatNumber(item.ML_Confidence * 100, 0)}%</b>}
+      </div>
       <div className="reason-list">
         {(item.reasons || []).slice(0, 3).map((reason) => (
           <span key={reason}>
@@ -277,6 +326,16 @@ function MaterialDetail({ item }) {
         <div>
           <strong>{item.Material}</strong>
           <span>{item.Primary_Application}</span>
+        </div>
+      </div>
+      <div className="ml-detail">
+        <Target size={16} />
+        <div>
+          <span>ML prediction</span>
+          <strong>
+            {item.ML_Predicted_Application || "Unavailable"}
+            {item.ML_Confidence !== null && item.ML_Confidence !== undefined ? ` (${formatNumber(item.ML_Confidence * 100, 0)}%)` : ""}
+          </strong>
         </div>
       </div>
       <dl className="property-list">
@@ -581,7 +640,11 @@ function DataTable({ rows, leadingColumns, columns }) {
             <tr key={`${row.Material}-${row.Alloy_Type}`}>
               {tableColumns.map((column) => (
                 <td key={column.key}>
-                  {typeof row[column.key] === "number" ? formatNumber(row[column.key], column.unit ? 2 : 1) : row[column.key] || "-"}
+                  {column.key === "ML_Confidence" && typeof row[column.key] === "number"
+                    ? `${formatNumber(row[column.key] * 100, 0)}%`
+                    : typeof row[column.key] === "number"
+                      ? formatNumber(row[column.key], column.unit ? 2 : 1)
+                      : row[column.key] || "-"}
                   {column.unit && typeof row[column.key] === "number" ? <span className="unit"> {column.unit}</span> : null}
                 </td>
               ))}
