@@ -712,14 +712,19 @@ if mode_key == "Quick Recommend":
                         mat['Thermal_Conductivity_W_mK_norm'],
                         mat['Hardness_HB_norm'],
                     ]
-                    color = ['#3b82f6', '#06b6d4', '#8b5cf6'][i]
+                    colors = [
+                        ('rgba(59, 130, 246, 1)', 'rgba(59, 130, 246, 0.15)'),
+                        ('rgba(6, 182, 212, 1)', 'rgba(6, 182, 212, 0.15)'),
+                        ('rgba(139, 92, 246, 1)', 'rgba(139, 92, 246, 0.15)')
+                    ]
+                    color, fillcolor = colors[i % len(colors)]
                     radar_fig.add_trace(go.Scatterpolar(
                         r=vals + [vals[0]],
                         theta=categories + [categories[0]],
                         fill='toself',
                         name=mat['Material'],
                         line=dict(color=color, width=2),
-                        fillcolor=color.replace(')', ', 0.1)').replace('rgb', 'rgba') if 'rgb' in color else color + '1a',
+                        fillcolor=fillcolor,
                         marker=dict(color=color, size=6),
                     ))
 
