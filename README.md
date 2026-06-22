@@ -2,11 +2,19 @@
 
 **A data-driven platform for intelligent engineering material selection and alloy recommendations**
 
+![Python](https://img.shields.io/badge/Python-67%25-3776ab?style=flat-square&logo=python)
+![JavaScript](https://img.shields.io/badge/JavaScript-22.3%25-f7df1e?style=flat-square&logo=javascript)
+![CSS](https://img.shields.io/badge/CSS-10.4%25-1572b6?style=flat-square&logo=css3)
+![HTML](https://img.shields.io/badge/HTML-0.3%25-e34c26?style=flat-square&logo=html5)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=flat-square)
+
 ---
 
 ## 📋 Table of Contents
 
 - [Project Overview](#project-overview)
+- [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Quick Start](#quick-start)
 - [Installation](#installation)
@@ -23,7 +31,7 @@
 
 ## 🎯 Project Overview
 
-Traditional material selection is a complex, time-consuming process that requires engineers to manually compare thousands of materials against conflicting requirements (strength, weight, cost, corrosion resistance, thermal properties, etc.).
+Traditional material selection is a complex, time-consuming process that requires engineers to manually compare thousands of materials against conflicting requirements (strength, weight, cost, corrosion resistance, thermal conductivity, etc.).
 
 This project provides an **intelligent decision-support system** that:
 
@@ -41,6 +49,31 @@ This project provides an **intelligent decision-support system** that:
 - 🚗 Automotive Engineers
 - 🏗️ Manufacturing & Construction Engineers
 - 📊 Researchers
+
+---
+
+## 💻 Tech Stack
+
+### Frontend
+- **Streamlit** - Interactive web application framework
+- **Plotly** - Advanced data visualization and charting
+- **HTML/CSS** - Web interface styling
+
+### Backend
+- **Python 3.8+** - Core programming language
+- **Pandas** - Data manipulation and analysis
+- **NumPy** - Numerical computations
+- **Scikit-learn** - Machine learning models
+
+### Machine Learning
+- **Random Forest Classifier** - Material recommendation model
+- **Gradient Boosting Classifier** - Advanced prediction model
+- **Feature Importance Analysis** - Model interpretability
+
+### Development & Deployment
+- **Git** - Version control
+- **pip** - Package management
+- **Virtual Environment** - Isolated Python environment
 
 ---
 
@@ -120,7 +153,7 @@ The application will open at: **http://127.0.0.1:5050**
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/AI_Material_Assistant.git
+git clone https://github.com/samarth235/Intelligent-Material-Matching-System-for-Engineering-Applications.git
 cd AI_Material_Assistant
 ```
 
@@ -693,9 +726,9 @@ This project is licensed under the **MIT License** - see LICENSE file for detail
 
 ## 📧 Contact
 
-**Project Lead:** [Your Name]
-**Email:** your.email@example.com
-**GitHub:** github.com/yourusername
+**Project Lead:** Samarth235
+**GitHub:** [github.com/samarth235](https://github.com/samarth235)
+**Repository:** [Intelligent-Material-Matching-System-for-Engineering-Applications](https://github.com/samarth235/Intelligent-Material-Matching-System-for-Engineering-Applications)
 
 ---
 
@@ -711,6 +744,7 @@ This project is designed for educational purposes. Use it to:
 
 ---
 
-**Last Updated:** June 2024
-**Version:** 1.0.0
+**Last Updated:** June 2026
+**Version:** 1.1.0
 **Status:** ✅ Production Ready
+**Language Composition:** Python (67%), JavaScript (22.3%), CSS (10.4%), HTML (0.3%)
